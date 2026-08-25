@@ -1,0 +1,3 @@
+pytest>=8.0
+pandas>=2.0,<3.0
+ta>=0.11  # independent cross-check of indicator math (test skips if absent)

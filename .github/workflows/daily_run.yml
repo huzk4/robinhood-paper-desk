@@ -1,0 +1,33 @@
+name: Daily paper run
+on:
+  schedule:
+    # 21:15 UTC ≈ 5:15pm ET during daylight time (shifts to 4:15pm in winter —
+    # still after the close, so fine year-round)
+    - cron: "15 21 * * 1-5"
+  workflow_dispatch: {}   # manual trigger for testing / catch-up runs
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run tests first (never trade on broken code)
+        run: |
+          pip install -r requirements-dev.txt
+          pytest -q
+      - name: Daily cycle — fetch, fill, score, propose
+        run: python run_daily.py
+      - name: Commit data + state back to the repo
+        run: |
+          git config user.name "paper-desk-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data state
+          git diff --cached --quiet || git commit -m "daily run $(date -u +%F)"
+          git push

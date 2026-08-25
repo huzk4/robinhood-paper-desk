@@ -1,0 +1,53 @@
+# robinhood-paper-desk configuration
+# PAPER TRADING ONLY — there is no live-order code path anywhere in this repo.
+
+universe:
+  stocks: [AAPL, MSFT, NVDA, AMZN, GOOGL, META, TSLA, AVGO, JPM, V, UNH, XOM, LLY, HD, COST]
+  etfs:   [SPY, QQQ, IWM, RSP, XLK, XLE, XLF, XLV, XLI, XLP, XLY, XLU, HYG, LQD, TLT, GLD]
+
+# tickers required by the macro pillar (subset of etfs)
+macro_tickers: [SPY, RSP, IWM, HYG, LQD, TLT, XLY, XLP]
+
+# simple sector map for concentration limits (stocks; ETFs bucket by themselves)
+sectors:
+  AAPL: tech      # tech
+  MSFT: tech
+  NVDA: tech
+  AVGO: tech
+  GOOGL: comm
+  META: comm
+  AMZN: cons_disc
+  TSLA: cons_disc
+  HD: cons_disc
+  COST: cons_staples
+  JPM: fin
+  V: fin
+  UNH: health
+  LLY: health
+  XOM: energy
+
+portfolio:
+  start_cash: 100000.0
+
+fill:
+  slippage_bps: 5        # applied against you on every fill
+  commission: 0.0
+
+risk:
+  max_position_pct: 0.08     # of NAV per single position
+  max_sector_pct: 0.25       # of NAV per sector (stocks) / per ETF bucket
+  min_cash_pct: 0.20         # cash floor
+  max_trades_per_day: 5
+  min_holding_days: 2        # bars a position must be held before it can be sold
+  max_drawdown_halt: 0.15    # go flat + halt if NAV falls this far from peak
+
+strategy:
+  # decision bands on the -6..+6 composite score
+  enter_at: 3            # composite >= enter_at and decision is entry-flavored -> buy
+  exit_at: -2            # composite <= exit_at -> sell
+  target_position_pct: 0.05   # size of a new position as % of NAV
+  mode: advisory         # advisory | autonomous
+
+data:
+  lookback_days: 420     # calendar days of history to fetch (need >260 bars for EMA200)
+  cache_dir: data
