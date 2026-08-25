@@ -24,10 +24,12 @@ jobs:
           pytest -q
       - name: Daily cycle — fetch, fill, score, propose
         run: python run_daily.py
-      - name: Commit data + state back to the repo
+      - name: Rebuild dashboard
+        run: python reports/make_dashboard.py
+      - name: Commit data + state + dashboard back to the repo
         run: |
           git config user.name "paper-desk-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data state
+          git add data state docs
           git diff --cached --quiet || git commit -m "daily run $(date -u +%F)"
           git push
