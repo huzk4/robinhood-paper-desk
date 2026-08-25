@@ -40,6 +40,14 @@ def load_config(path: str) -> dict:
         return yaml.safe_load(f)
 
 
+def load_json_file(path: str):
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
 # --------------------------------------------------------------- strategy
 
 ENTRY_ACTIONS = {"RE-ENTRY (new cycle)"}
@@ -74,7 +82,7 @@ def propose_orders(cards: dict[str, dict], ledger: Ledger,
 # --------------------------------------------------------------- pipeline
 
 def run(cfg: dict, state_dir: str, fetch: bool, news: bool,
-        inject_news: str | None = None) -> dict:
+        inject_news: str | None = None, fills_only: bool = False) -> dict:
     cache = cfg["data"]["cache_dir"]
     uni = cfg["universe"]["stocks"] + cfg["universe"]["etfs"]
     need = sorted(set(uni + cfg["macro_tickers"]))
@@ -106,6 +114,26 @@ def run(cfg: dict, state_dir: str, fetch: bool, news: bool,
 
     # 1. fill yesterday's queued orders at today's open
     fills = broker.process_fills(opens, closes, today)
+
+    if fills_only:
+        # Morning run, just after the open: book fills at the real open and
+        # mark NAV intraday. NO scoring/proposing — today's bar is incomplete
+        # and signals computed from a partial close would be contaminated.
+        snap = ledger.mark(closes, today)
+        ledger.save(os.path.join(state_dir, "ledger.json"))
+        packet = load_json_file(os.path.join(state_dir, "signal_packet.json")) or {}
+        packet.update({
+            "date": today, "nav": snap["nav"], "cash": snap["cash"],
+            "drawdown_from_peak": round(ledger.drawdown(closes), 4),
+            "halted": ledger.halted, "positions": ledger.positions,
+            "fills_today": fills,
+            "intraday_mark": True,  # cleared by the close run
+        })
+        if fills:
+            packet["proposed_orders"] = []  # queued orders are now resolved
+        with open(os.path.join(state_dir, "signal_packet.json"), "w") as f:
+            json.dump(packet, f, indent=2, default=str)
+        return packet
 
     # 2. macro pillar (shared by all names)
     macro_in = {"series": {t: series[t] for t in cfg["macro_tickers"] if t in series}}
@@ -218,6 +246,8 @@ def main() -> int:
     ap.add_argument("--no-news", action="store_true")
     ap.add_argument("--inject-news", default=None)
     ap.add_argument("--approve", action="store_true")
+    ap.add_argument("--fills-only", action="store_true",
+                    help="morning mode: book fills at today's open, no scoring")
     ap.add_argument("--synthetic", action="store_true",
                     help="end-to-end demo on synthetic data (no network)")
     args = ap.parse_args()
@@ -233,10 +263,11 @@ def main() -> int:
         args.no_fetch, args.no_news = True, True
 
     packet = run(cfg, args.state_dir, fetch=not args.no_fetch,
-                 news=not args.no_news, inject_news=args.inject_news)
-    print(json.dumps({k: packet[k] for k in
-                      ("date", "nav", "cash", "macro", "proposed_orders")},
-                     indent=2, default=str))
+                 news=not args.no_news, inject_news=args.inject_news,
+                 fills_only=args.fills_only)
+    keys = ("date", "nav", "cash", "fills_today") if args.fills_only else \
+           ("date", "nav", "cash", "macro", "proposed_orders")
+    print(json.dumps({k: packet.get(k) for k in keys}, indent=2, default=str))
     print(f"\nscorecard: {os.path.join(args.state_dir, 'scorecard.md')}")
     return 0
 

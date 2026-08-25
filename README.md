@@ -11,7 +11,7 @@ writes decision memos; a simulator is the only broker.
 ## How it works
 
 ```
-GitHub Actions (daily, 21:15 UTC weekdays)          Claude session (agent)
+GitHub Actions (morning fill ~9:40am ET; close run 4:45pm ET, weekdays)          Claude session (agent)
 ──────────────────────────────────────────          ─────────────────────────
 1. pytest (never trade on broken code)              reads signal_packet.json
 2. fetch daily OHLCV  (yfinance → Stooq)            + scorecard via raw GitHub

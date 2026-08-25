@@ -1,26 +1,25 @@
-name: Daily paper run
+name: Morning fill
 on:
   schedule:
-    # Close run at 4:45pm ET year-round. Cron is UTC, so both DST offsets are
-    # scheduled and the guard step runs only the one where ET hour == 16:
-    # 20:45 UTC = 4:45pm EDT (Mar–Nov), 21:45 UTC = 4:45pm EST (Nov–Mar).
-    # Always ≥45 min after the 4pm close, when daily bars are settled.
-    - cron: "45 20 * * 1-5"
-    - cron: "45 21 * * 1-5"
-  workflow_dispatch: {}   # manual trigger for testing / catch-up runs
+    # Book queued orders at the real 9:30am ET open, ~10 min after it happens.
+    # Both DST offsets scheduled; the guard runs only the one where the ET
+    # hour == 09: 13:40 UTC = 9:40am EDT, 14:40 UTC = 9:40am EST.
+    - cron: "40 13 * * 1-5"
+    - cron: "40 14 * * 1-5"
+  workflow_dispatch: {}
 
 permissions:
   contents: write
 
 jobs:
-  run:
+  fill:
     runs-on: ubuntu-latest
     steps:
-      - name: DST guard — proceed only at 4pm ET hour (or manual dispatch)
+      - name: DST guard — proceed only at 9am ET hour (or manual dispatch)
         id: guard
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] || \
-             [ "$(TZ=America/New_York date +%H)" = "16" ]; then
+             [ "$(TZ=America/New_York date +%H)" = "09" ]; then
             echo "go=true" >> "$GITHUB_OUTPUT"
           else
             echo "go=false" >> "$GITHUB_OUTPUT"; echo "off-DST duplicate — skipping"
@@ -33,23 +32,18 @@ jobs:
           python-version: "3.12"
       - if: steps.guard.outputs.go == 'true'
         run: pip install -r requirements.txt
-      - name: Run tests first (never trade on broken code)
+      - name: Morning cycle — fill queued orders at today's open (no scoring)
         if: steps.guard.outputs.go == 'true'
-        run: |
-          pip install -r requirements-dev.txt
-          pytest -q
-      - name: Close cycle — fetch, fill, score, propose
-        if: steps.guard.outputs.go == 'true'
-        run: python run_daily.py
+        run: python run_daily.py --fills-only --no-news
       - name: Rebuild dashboard
         if: steps.guard.outputs.go == 'true'
         run: python reports/make_dashboard.py
-      - name: Commit data + state + dashboard back to the repo
+      - name: Commit state + dashboard
         if: steps.guard.outputs.go == 'true'
         run: |
           git config user.name "paper-desk-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data state docs
-          git diff --cached --quiet || git commit -m "daily run $(date -u +%F)"
+          git diff --cached --quiet || git commit -m "morning fill $(date -u +%F)"
           git pull --rebase origin main || true
           git push
