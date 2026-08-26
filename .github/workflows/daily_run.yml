@@ -2,8 +2,8 @@ name: Daily paper run
 on:
   schedule:
     # Close run at 4:45pm ET year-round. Cron is UTC, so both DST offsets are
-    # scheduled and the guard step runs only the one where ET hour == 16:
-    # 20:45 UTC = 4:45pm EDT (Mar–Nov), 21:45 UTC = 4:45pm EST (Nov–Mar).
+    # scheduled and the guard step runs only the one matching the current
+    # regime: 20:45 UTC = 4:45pm EDT (Mar–Nov), 21:45 UTC = 4:45pm EST.
     # Always ≥45 min after the 4pm close, when daily bars are settled.
     - cron: "45 20 * * 1-5"
     - cron: "45 21 * * 1-5"
@@ -16,15 +16,23 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - name: DST guard — proceed only at 4pm ET hour (or manual dispatch)
+      - name: DST guard — run each cron only in its own DST regime (delay-proof)
         id: guard
+        # GitHub fires schedules late (30-90 min is common), so never gate on
+        # the hour of day — that skipped real runs. Instead match the cron
+        # that fired (github.event.schedule) to the DST regime it belongs to:
+        # the 20:45 UTC cron is the real 4:45pm only while ET is UTC-4 (EDT),
+        # the 21:45 UTC cron only while ET is UTC-5 (EST).
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || \
-             [ "$(TZ=America/New_York date +%H)" = "16" ]; then
-            echo "go=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "go=false" >> "$GITHUB_OUTPUT"; echo "off-DST duplicate — skipping"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "go=true" >> "$GITHUB_OUTPUT"; exit 0
           fi
+          offset=$(TZ=America/New_York date +%z)
+          case "${{ github.event.schedule }}|$offset" in
+            "45 20 * * 1-5|-0400"|"45 21 * * 1-5|-0500") go=true ;;
+            *) go=false; echo "off-DST duplicate cron (offset $offset) — skipping" ;;
+          esac
+          echo "go=$go" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
         if: steps.guard.outputs.go == 'true'
       - uses: actions/setup-python@v5
