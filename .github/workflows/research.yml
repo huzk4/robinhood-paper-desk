@@ -1,0 +1,47 @@
+name: Research backtests
+on:
+  schedule:
+    # Weekly refresh Saturday ~08:00 UTC (market closed; timing not critical,
+    # so no DST guard needed).
+    - cron: "0 8 * * 6"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-writes          # never race the daily/morning commit steps
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run tests first
+        run: |
+          pip install -r requirements-dev.txt
+          pytest -q
+      - name: Fetch 2014-present history (research cache)
+        run: python research/fetch_history.py
+      - name: Backtests (2016-present, all strategies)
+        run: python research/backtest.py
+      - name: Walk-forward validation (tune/test/holdout)
+        run: python research/walkforward.py
+      - name: Render research page + refresh dashboard link
+        run: |
+          python research/make_research_page.py
+          python reports/make_dashboard.py
+      - name: Commit results + pages
+        run: |
+          git config user.name "paper-desk-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add research/results docs
+          git diff --cached --quiet || git commit -m "research refresh $(date -u +%F)"
+          git pull --rebase origin main || true
+          git push
