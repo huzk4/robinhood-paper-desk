@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "mode": "advisory",
-  "nav": 100000.0,
-  "cash": 100000.0,
-  "drawdown_from_peak": 0.0,
+  "nav": 99976.82,
+  "cash": 90001.24,
+  "drawdown_from_peak": 0.0002,
   "halted": false,
   "macro": {
     "score": 2,
@@ -13,27 +13,50 @@
       "No yield_spread: redistributing the 20% weight of the curve among other components."
     ]
   },
-  "positions": {},
-  "fills_today": [],
-  "proposed_orders": [
-    {
-      "side": "buy",
-      "ticker": "AMZN",
+  "positions": {
+    "AMZN": {
       "shares": 19.1344,
-      "reason": "RE-ENTRY (new cycle) (score +3)"
+      "avg_cost": 261.4056313934326,
+      "opened": "2026-08-26",
+      "last_buy": "2026-08-26"
+    },
+    "XLF": {
+      "shares": 85.7412,
+      "avg_cost": 58.27912499999999,
+      "opened": "2026-08-26",
+      "last_buy": "2026-08-26"
+    }
+  },
+  "fills_today": [
+    {
+      "date": "2026-08-26",
+      "ticker": "AMZN",
+      "side": "buy",
+      "shares": 19.1344,
+      "fill_price": 261.4056,
+      "commission": 0.0,
+      "reason": "RE-ENTRY (new cycle) (score +3) \u2014 approved by user 2026-08-25",
+      "status": "FILLED",
+      "detail": ""
     },
     {
-      "side": "buy",
+      "date": "2026-08-26",
       "ticker": "XLF",
+      "side": "buy",
       "shares": 85.7412,
-      "reason": "RE-ENTRY (new cycle) (score +4)"
+      "fill_price": 58.2791,
+      "commission": 0.0,
+      "reason": "RE-ENTRY (new cycle) (score +4) \u2014 approved by user 2026-08-25",
+      "status": "FILLED",
+      "detail": ""
     }
   ],
+  "proposed_orders": [],
   "scores": {
     "AAPL": {
-      "total": 1,
-      "trend": 1,
-      "momentum": -2,
+      "total": 4,
+      "trend": 2,
+      "momentum": 0,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -45,30 +68,30 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "NVDA": {
-      "total": 3,
+      "total": 2,
       "trend": 1,
-      "momentum": 0,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "AMZN": {
-      "total": 3,
-      "trend": 2,
+      "total": 2,
+      "trend": 1,
       "momentum": -1,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "HOLD / OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "GOOGL": {
-      "total": 1,
+      "total": 0,
       "trend": 0,
-      "momentum": -1,
+      "momentum": -2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "META": {
-      "total": -2,
-      "trend": -2,
-      "momentum": -2,
+      "total": 1,
+      "trend": -1,
+      "momentum": 0,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
@@ -84,7 +107,7 @@
       "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "JPM": {
       "total": 3,
@@ -108,25 +131,25 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XOM": {
-      "total": 6,
-      "trend": 2,
-      "momentum": 2,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "total": 3,
+      "trend": 1,
+      "momentum": 0,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "LLY": {
-      "total": 6,
-      "trend": 2,
-      "momentum": 2,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "total": 3,
+      "trend": 1,
+      "momentum": 0,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "HD": {
       "total": 0,
       "trend": -1,
       "momentum": -1,
       "action": "STAY OUT / AVOID",
-      "rationale": "Negative structure and momentum, no signs of turning."
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "COST": {
       "total": 3,
@@ -136,9 +159,9 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "SPY": {
-      "total": 4,
+      "total": 3,
       "trend": 2,
-      "momentum": 0,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -150,9 +173,9 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "IWM": {
-      "total": 4,
-      "trend": 2,
-      "momentum": 0,
+      "total": 2,
+      "trend": 1,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -181,8 +204,8 @@
       "total": 4,
       "trend": 2,
       "momentum": 0,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "HOLD / OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLV": {
       "total": 6,
@@ -192,9 +215,9 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLI": {
-      "total": 1,
+      "total": 2,
       "trend": 1,
-      "momentum": -2,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -206,8 +229,8 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLY": {
-      "total": 4,
-      "trend": 2,
+      "total": 3,
+      "trend": 1,
       "momentum": 0,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
@@ -227,16 +250,16 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "LQD": {
-      "total": 3,
+      "total": 2,
       "trend": -1,
-      "momentum": 2,
+      "momentum": 1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "TLT": {
-      "total": 3,
+      "total": 2,
       "trend": -1,
-      "momentum": 2,
+      "momentum": 1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -251,129 +274,87 @@
   "headlines": [
     {
       "ticker": "V",
-      "title": "Stocks making big moves yesterday: Funko, Hims & Hers Health, Azenta, Strategy, and RUM Group",
-      "publisher": "StockStory",
-      "published": "2026-08-25T18:30:44Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-yesterday-183044243.html"
+      "title": "Visa Hits $385.57 Record, Then Surrenders the Breakout",
+      "publisher": "GuruFocus.com",
+      "published": "2026-08-26T19:49:55Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-hits-385-57-record-194955987.html"
     },
     {
       "ticker": "V",
-      "title": "Visa's Record Run Pauses as Services Outgrow Swipes",
-      "publisher": "GuruFocus.com",
-      "published": "2026-08-25T17:19:42Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/visas-record-run-pauses-services-171942955.html"
+      "title": "Cathie Wood bets on 'disrupter' stock with bullish analyst call",
+      "publisher": "TheStreet",
+      "published": "2026-08-26T17:15:03Z",
+      "link": "https://www.thestreet.com/crypto/markets/cathie-wood-bets-on-disrupter-stock-with-bullish-analyst-call"
     },
     {
       "ticker": "V",
-      "title": "Visa or Mastercard: One Stock Will Outpace the Other at Record Highs \u2014 Here\u2019s Our Pick",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-08-25T15:10:10Z",
-      "link": "https://247wallst.com/investing/2026/08/25/visa-or-mastercard-one-stock-will-outpace-the-other-at-record-highs-heres-our-pick/"
-    },
-    {
-      "ticker": "XOM",
-      "title": "Exxon Falls as Oil Erases the Iran Premium",
-      "publisher": "GuruFocus.com",
-      "published": "2026-08-25T19:49:26Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exxon-falls-oil-erases-iran-194926639.html"
-    },
-    {
-      "ticker": "XOM",
-      "title": "Shell (LSE:SHEL) Weighs U.S. Chemicals Exit As Industry Bidders Circle",
-      "publisher": "Simply Wall St.",
-      "published": "2026-08-25T17:08:43Z",
-      "link": "https://finance.yahoo.com/energy/articles/shell-lse-shel-weighs-u-170843478.html"
-    },
-    {
-      "ticker": "XOM",
-      "title": "XOM vs EPD: Which Stock Offers the Better Growth Opportunity?",
-      "publisher": "Zacks",
-      "published": "2026-08-25T16:45:00Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/xom-vs-epd-stock-offers-164500335.html"
-    },
-    {
-      "ticker": "LLY",
-      "title": "2 Stocks That Could Capitalize on the GLP-1 Boom",
-      "publisher": "Motley Fool",
-      "published": "2026-08-25T19:38:01Z",
-      "link": "https://www.fool.com/investing/2026/08/25/2-stocks-that-could-capitalize-on-the-glp-1-boom/"
-    },
-    {
-      "ticker": "LLY",
-      "title": "Lilly Gains as Foundayo Crosses the Atlantic Without a Needle",
-      "publisher": "GuruFocus.com",
-      "published": "2026-08-25T19:37:58Z",
-      "link": "https://finance.yahoo.com/healthcare/articles/lilly-gains-foundayo-crosses-atlantic-193758106.html"
-    },
-    {
-      "ticker": "LLY",
-      "title": "Eli Lilly Is Pulling Away From the Rest of Healthcare",
-      "publisher": "GuruFocus.com",
-      "published": "2026-08-25T19:30:10Z",
-      "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-pulling-away-rest-193010576.html"
+      "title": "JPMorgan Weighs Stablecoin as Bank Push Accelerates",
+      "publisher": "Bankless",
+      "published": "2026-08-26T15:53:44Z",
+      "link": "https://www.bankless.com/read/news/jpmorgan-weighs-stablecoin-as-bank-push-accelerates"
     },
     {
       "ticker": "XLE",
-      "title": "Sector Update: Energy Stocks Fall Tuesday Afternoon",
+      "title": "Sector Update: Energy Stocks Rise Wednesday",
       "publisher": "MT Newswires",
-      "published": "2026-08-25T17:50:51Z",
-      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-tuesday-175051761.html"
+      "published": "2026-08-26T20:06:42Z",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-wednesday-200642126.html"
     },
     {
       "ticker": "XLE",
-      "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
+      "title": "Sector Update: Energy Stocks Rise Wednesday Afternoon",
       "publisher": "MT Newswires",
-      "published": "2026-08-25T17:18:01Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171801809.html"
+      "published": "2026-08-26T17:58:22Z",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-wednesday-175822915.html"
     },
     {
       "ticker": "XLE",
-      "title": "Sector Update: Energy Stocks Fall Premarket Tuesday",
+      "title": "Exchange-Traded Funds Fall as US Equities Decline After Midday",
       "publisher": "MT Newswires",
-      "published": "2026-08-25T13:27:58Z",
-      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-premarket-132758591.html"
+      "published": "2026-08-26T17:09:36Z",
+      "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-fall-us-170936910.html"
     },
     {
       "ticker": "XLV",
-      "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as Chip Stocks Recover",
+      "title": "Sector Update: Healthcare Stocks Decline Late Afternoon",
       "publisher": "MT Newswires",
-      "published": "2026-08-25T13:09:24Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130924933.html"
+      "published": "2026-08-26T19:50:11Z",
+      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-195011674.html"
     },
     {
       "ticker": "XLV",
-      "title": "Sector Update: Healthcare Stocks Softer Late Afternoon",
+      "title": "Sector Update: Healthcare Stocks Fall Wednesday Afternoon",
       "publisher": "MT Newswires",
-      "published": "2026-08-24T19:47:21Z",
-      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-194721940.html"
+      "published": "2026-08-26T17:45:59Z",
+      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-wednesday-174559866.html"
     },
     {
       "ticker": "XLV",
-      "title": "Sector Update: Healthcare Stocks Decline in Afternoon Trading",
-      "publisher": "MT Newswires",
-      "published": "2026-08-24T17:50:01Z",
-      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-175001185.html"
+      "title": "Are Wall Street Analysts Bullish on Labcorp Holdings Stock?",
+      "publisher": "Barchart",
+      "published": "2026-08-26T14:41:42Z",
+      "link": "https://www.barchart.com/story/news/4110328/are-wall-street-analysts-bullish-on-labcorp-holdings-stock"
     },
     {
       "ticker": "XLP",
-      "title": "Sector Update: Consumer Stocks Decline Tuesday Afternoon",
+      "title": "Sector Update: Consumer Stocks Softer Late Afternoon",
       "publisher": "MT Newswires",
-      "published": "2026-08-25T17:30:10Z",
-      "link": "https://finance.yahoo.com/economy/articles/sector-consumer-stocks-decline-tuesday-173010514.html"
+      "published": "2026-08-26T19:52:25Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-softer-afternoon-195225415.html"
     },
     {
       "ticker": "XLP",
-      "title": "Stock Market News for Aug 25, 2026",
-      "publisher": "Zacks",
-      "published": "2026-08-25T13:27:00Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-25-132700491.html"
+      "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday Amid Inflation Data Release",
+      "publisher": "MT Newswires",
+      "published": "2026-08-26T13:12:26Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131226701.html"
     },
     {
       "ticker": "XLP",
-      "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as Chip Stocks Recover",
+      "title": "Sector Update: Consumer Stocks Decline Late Afternoon",
       "publisher": "MT Newswires",
-      "published": "2026-08-25T13:09:24Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130924933.html"
+      "published": "2026-08-25T19:52:36Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-195236693.html"
     },
     {
       "ticker": "HYG",
@@ -398,24 +379,66 @@
     },
     {
       "ticker": "GLD",
-      "title": "Gold's rally just hit a wall \u2014 how to play a tactical pullback with limited risk: Alpha Options Playbook",
-      "publisher": "Yahoo Finance",
-      "published": "2026-08-25T16:28:41Z",
-      "link": "https://finance.yahoo.com/markets/options/article/golds-rally-just-hit-a-wall--how-to-play-a-tactical-pullback-with-limited-risk-alpha-options-playbook-162841841.html"
+      "title": "Gold Sends Powerful New Market Signal",
+      "publisher": "GuruFocus.com",
+      "published": "2026-08-26T19:51:08Z",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-sends-powerful-market-signal-195108715.html"
     },
     {
       "ticker": "GLD",
-      "title": "Bitcoin's Correlation With Gold Is Suddenly on the Upswing. Are Investors About to See the Return of Bitcoin as \"Digital Gold\"?",
+      "title": "Gold Makes a Powerful New Move",
+      "publisher": "GuruFocus.com",
+      "published": "2026-08-26T15:40:10Z",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-makes-powerful-move-154010992.html"
+    },
+    {
+      "ticker": "GLD",
+      "title": "Your 60/40 Portfolio May Be 100% Exposed to a Dying Dollar, Bitwise Says",
+      "publisher": "BeInCrypto",
+      "published": "2026-08-26T15:34:42Z",
+      "link": "https://beincrypto.com/60-40-portfolio-dying-dollar/"
+    },
+    {
+      "ticker": "RSP",
+      "title": "Wall Street Is Buying Risk and Momentum, and Not Much Else",
+      "publisher": "Barrons.com",
+      "published": "2026-08-25T17:52:54Z",
+      "link": "https://www.barrons.com/livecoverage/stock-market-news-today-082526/card/wall-street-is-buying-risk-and-momentum-and-not-much-else-2touIecOT84GAvwQr4U3?siteid=yhoof2&yptr=yahoo"
+    },
+    {
+      "ticker": "RSP",
+      "title": "Market Breadth Is Bad, and Chips Are Losing Steam",
+      "publisher": "Barrons.com",
+      "published": "2026-08-25T14:31:13Z",
+      "link": "https://www.barrons.com/livecoverage/stock-market-news-today-082526/card/market-breadth-is-bad-and-chips-are-losing-steam-ZnUbQPlm3VbvJp3pDw3h?siteid=yhoof2&yptr=yahoo"
+    },
+    {
+      "ticker": "RSP",
+      "title": "Why the Dow Is Beating the Nasdaq Again",
+      "publisher": "Barrons.com",
+      "published": "2026-08-21T14:29:39Z",
+      "link": "https://www.barrons.com/livecoverage/stock-market-news-today-082126/card/why-the-dow-is-beating-the-nasdaq-again-jccfuPf66gm4JGpye9s3?siteid=yhoof2&yptr=yahoo"
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Apple Is One of the Most Profitable Businesses in the World. Here's Why the Stock Will Be Worth $366 a Share in 1 Year.",
       "publisher": "Motley Fool",
-      "published": "2026-08-25T18:43:00Z",
-      "link": "https://www.fool.com/investing/2026/08/25/bitcoins-correlation-with-gold-is-on-the-upswing/"
+      "published": "2026-08-26T20:37:00Z",
+      "link": "https://www.fool.com/investing/2026/08/26/apple-profitable-business-stock-price-366-1-year/"
     },
     {
-      "ticker": "GLD",
-      "title": "Is Gold\u2019s Best Month Since 2008 About to End? One Trader Just Bet $202 Million That It Is",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-08-25T17:05:15Z",
-      "link": "https://247wallst.com/investing/2026/08/25/is-golds-best-month-since-2008-about-to-end-one-trader-just-bet-202-million-that-it-is/"
+      "ticker": "AAPL",
+      "title": "Warren Buffett \u201cBlew It\u201d on Alphabet (GOOGL) And Made It Berkshire\u2019s Third-Biggest Bet",
+      "publisher": "Insider Monkey",
+      "published": "2026-08-26T20:23:43Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-blew-alphabet-googl-202343918.html"
+    },
+    {
+      "ticker": "AAPL",
+      "title": "AAPL Stock Gains 1%; Apple Is Expected To Ship 10M Foldable iPhones In The First Year, IDC Predicts",
+      "publisher": "Stocktwits",
+      "published": "2026-08-26T19:50:47Z",
+      "link": "https://stocktwits.com/news-articles/markets/equity/apple-is-expected-to-ship-10-m-foldable-i-phones-in-the-first-year-idc-predicts/cZYVd98RJpc"
     }
   ]
 }

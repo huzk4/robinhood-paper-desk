@@ -1,14 +1,1 @@
-[
-  {
-    "side": "buy",
-    "ticker": "AMZN",
-    "shares": 19.1344,
-    "reason": "RE-ENTRY (new cycle) (score +3)"
-  },
-  {
-    "side": "buy",
-    "ticker": "XLF",
-    "shares": 85.7412,
-    "reason": "RE-ENTRY (new cycle) (score +4)"
-  }
-]
+[]
