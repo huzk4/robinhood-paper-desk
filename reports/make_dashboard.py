@@ -213,6 +213,10 @@ def build():
         f"<div class='kpi'><div class='kpi-l'>{k}</div><div class='kpi-v num'>{v}</div>"
         f"<div class='kpi-s {cls}'>{s}</div></div>" for k, v, s, cls in kpis)
 
+    research_link = (" · <a href='research.html'>research →</a>"
+                     if os.path.exists(os.path.join(ROOT, "docs", "research.html"))
+                     else "")
+
     halted = ("<div class='halt'>⚠ Kill switch active — trading halted pending review.</div>"
               if packet.get("halted") else "")
 
@@ -247,6 +251,7 @@ body {{ margin:0; background:var(--bg); color:var(--ink);
 .wrap {{ max-width:960px; margin:0 auto; padding:28px 18px 64px; }}
 header h1 {{ font-size:1.5rem; margin:0; }}
 .sub {{ color:var(--ink2); font-size:.9rem; margin:4px 0 0; }}
+.sub a {{ color:var(--port); }}
 .mode {{ display:inline-block; margin-left:8px; padding:2px 10px; border:1px solid var(--line);
   border-radius:999px; font-size:.75rem; color:var(--ink2); vertical-align:2px; }}
 .halt {{ background:var(--out); color:var(--out-ink); border-radius:8px; padding:12px 16px; margin-top:14px; font-weight:600; }}
@@ -296,7 +301,7 @@ svg[data-eq] {{ width:100%; height:auto; display:block; }}
 footer {{ color:var(--ink3); font-size:.78rem; margin-top:26px; }}
 </style></head><body><div class="wrap">
 <header><h1>Paper Desk <span class="mode">{packet.get('mode','advisory')} · paper only</span></h1>
-<p class="sub">Simulated portfolio · as of {packet['date']} · updates each trading day after US close</p>{halted}</header>
+<p class="sub">Simulated portfolio · as of {packet['date']} · updates each trading day after US close{research_link}</p>{halted}</header>
 <div class="kpis">{kpi_html}</div>
 <div class="card"><h2>Equity curve — portfolio vs SPY</h2>{equity_chart(nav_hist, spy)}</div>
 <div class="card"><h2>Positions &amp; orders</h2>{positions_block(packet, trades)}</div>
