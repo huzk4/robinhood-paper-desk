@@ -180,6 +180,8 @@ class PillarStrategy(Strategy):
             px = closes.get(t)
             if not px:
                 continue
+            if held and s.get("patient_exits") and action == "EXIT / TRIM":
+                continue  # patient mode: no exhaustion trims (mirrors run_daily)
             if held and (action in ("EXIT", "EXIT / TRIM") or total <= s["exit_at"]):
                 orders.append({"side": "sell", "ticker": t,
                                "shares": ledger.positions[t]["shares"],
