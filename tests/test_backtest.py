@@ -132,3 +132,15 @@ def test_metrics_flat_series():
     nav = [{"date": f"2025-01-{d:02d}", "nav": 100.0} for d in range(1, 21)]
     m = compute_metrics(nav, [])
     assert m["total_return"] == 0 and m["sharpe"] == 0 and m["max_drawdown"] == 0
+
+
+def test_patient_exits_flag_skips_exhaustion_trims(tmp_path):
+    """With patient_exits, no sell carries an EXIT / TRIM reason; hard EXITs
+    and score-based exits still fire."""
+    cfg = _cfg(tmp_path)
+    cfg["strategy"]["patient_exits"] = True
+    dates, bars, closes_full = load_universe(
+        cfg, cfg["data"]["cache_dir"], "2025-05-01", "2099-01-01")
+    r = run_backtest(PillarStrategy(), cfg, dates, bars, Panel(closes_full))
+    assert not any("EXIT / TRIM" in t["reason"] for t in r["trades"]
+                   if t["side"] == "sell")
