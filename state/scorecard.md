@@ -35,8 +35,3 @@ NAV **$99,976.82** · cash $90,001.24 · drawdown 0.0% · macro +2 (Broadening)
 | HD | -1 | -1 | +2 | **+0** | STAY OUT / AVOID |
 | AVGO | -1 | -2 | +2 | **-1** | STAY OUT / AVOID |
 | XLU | -1 | -2 | +2 | **-1** | STAY OUT / AVOID |
-
-## Fills / rejections today
-
-- FILLED buy 19.1344 AMZN @ 261.4056 
-- FILLED buy 85.7412 XLF @ 58.2791 

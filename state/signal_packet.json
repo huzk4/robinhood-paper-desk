@@ -27,30 +27,7 @@
       "last_buy": "2026-08-26"
     }
   },
-  "fills_today": [
-    {
-      "date": "2026-08-26",
-      "ticker": "AMZN",
-      "side": "buy",
-      "shares": 19.1344,
-      "fill_price": 261.4056,
-      "commission": 0.0,
-      "reason": "RE-ENTRY (new cycle) (score +3) \u2014 approved by user 2026-08-25",
-      "status": "FILLED",
-      "detail": ""
-    },
-    {
-      "date": "2026-08-26",
-      "ticker": "XLF",
-      "side": "buy",
-      "shares": 85.7412,
-      "fill_price": 58.2791,
-      "commission": 0.0,
-      "reason": "RE-ENTRY (new cycle) (score +4) \u2014 approved by user 2026-08-25",
-      "status": "FILLED",
-      "detail": ""
-    }
-  ],
+  "fills_today": [],
   "proposed_orders": [],
   "scores": {
     "AAPL": {
@@ -274,6 +251,13 @@
   "headlines": [
     {
       "ticker": "V",
+      "title": "Visa (V) Launches Unified Card Present Payment Platform For Global Merchants",
+      "publisher": "Simply Wall St.",
+      "published": "2026-08-26T21:08:53Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-launches-unified-card-210853903.html"
+    },
+    {
+      "ticker": "V",
       "title": "Visa Hits $385.57 Record, Then Surrenders the Breakout",
       "publisher": "GuruFocus.com",
       "published": "2026-08-26T19:49:55Z",
@@ -285,13 +269,6 @@
       "publisher": "TheStreet",
       "published": "2026-08-26T17:15:03Z",
       "link": "https://www.thestreet.com/crypto/markets/cathie-wood-bets-on-disrupter-stock-with-bullish-analyst-call"
-    },
-    {
-      "ticker": "V",
-      "title": "JPMorgan Weighs Stablecoin as Bank Push Accelerates",
-      "publisher": "Bankless",
-      "published": "2026-08-26T15:53:44Z",
-      "link": "https://www.bankless.com/read/news/jpmorgan-weighs-stablecoin-as-bank-push-accelerates"
     },
     {
       "ticker": "XLE",
@@ -379,6 +356,13 @@
     },
     {
       "ticker": "GLD",
+      "title": "Record ETF flows show the \u2018debasement trade\u2019 is overtaking AI, analyst says",
+      "publisher": "TheStreet",
+      "published": "2026-08-26T21:26:45Z",
+      "link": "https://www.thestreet.com/crypto/markets/record-etf-flows-show-the-debasement-trade-is-overtaking-ai-analyst-says"
+    },
+    {
+      "ticker": "GLD",
       "title": "Gold Sends Powerful New Market Signal",
       "publisher": "GuruFocus.com",
       "published": "2026-08-26T19:51:08Z",
@@ -390,13 +374,6 @@
       "publisher": "GuruFocus.com",
       "published": "2026-08-26T15:40:10Z",
       "link": "https://finance.yahoo.com/markets/commodities/articles/gold-makes-powerful-move-154010992.html"
-    },
-    {
-      "ticker": "GLD",
-      "title": "Your 60/40 Portfolio May Be 100% Exposed to a Dying Dollar, Bitwise Says",
-      "publisher": "BeInCrypto",
-      "published": "2026-08-26T15:34:42Z",
-      "link": "https://beincrypto.com/60-40-portfolio-dying-dollar/"
     },
     {
       "ticker": "RSP",
@@ -421,6 +398,13 @@
     },
     {
       "ticker": "AAPL",
+      "title": "Nvidia, Meta, Revolution Medicines, Abercrombie, Intuit, Salesforce, Moderna, and More Stocks That Explain Today\u2019s Market",
+      "publisher": "Barrons.com",
+      "published": "2026-08-26T21:43:00Z",
+      "link": "https://www.barrons.com/articles/stock-movers-6a7eb3fe?siteid=yhoof2&yptr=yahoo"
+    },
+    {
+      "ticker": "AAPL",
       "title": "Apple Is One of the Most Profitable Businesses in the World. Here's Why the Stock Will Be Worth $366 a Share in 1 Year.",
       "publisher": "Motley Fool",
       "published": "2026-08-26T20:37:00Z",
@@ -432,13 +416,6 @@
       "publisher": "Insider Monkey",
       "published": "2026-08-26T20:23:43Z",
       "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-blew-alphabet-googl-202343918.html"
-    },
-    {
-      "ticker": "AAPL",
-      "title": "AAPL Stock Gains 1%; Apple Is Expected To Ship 10M Foldable iPhones In The First Year, IDC Predicts",
-      "publisher": "Stocktwits",
-      "published": "2026-08-26T19:50:47Z",
-      "link": "https://stocktwits.com/news-articles/markets/equity/apple-is-expected-to-ship-10-m-foldable-i-phones-in-the-first-year-idc-predicts/cZYVd98RJpc"
     }
   ]
 }
