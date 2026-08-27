@@ -34,18 +34,22 @@ fill:
   commission: 0.0
 
 risk:
-  max_position_pct: 0.08     # of NAV per single position
+  max_position_pct: 0.10     # of NAV per single position
   max_sector_pct: 0.25       # of NAV per sector (stocks) / per ETF bucket
-  min_cash_pct: 0.20         # cash floor
+  min_cash_pct: 0.05         # cash floor
   max_trades_per_day: 5
   min_holding_days: 2        # bars a position must be held before it can be sold
   max_drawdown_halt: 0.15    # go flat + halt if NAV falls this far from peak
 
 strategy:
+  # Tuned "patient pillar" config, deployed 2026-08-26 after walk-forward
+  # validation (tuned on 2016-21, beat SPY +7.0%/yr on 2022-24 test window).
+  # Known weakness: trails SPY in dip-less melt-ups (2025+ holdout).
   # decision bands on the -6..+6 composite score
-  enter_at: 3            # composite >= enter_at and decision is entry-flavored -> buy
+  enter_at: 2            # composite >= enter_at and decision is entry-flavored -> buy
   exit_at: -2            # composite <= exit_at -> sell
-  target_position_pct: 0.05   # size of a new position as % of NAV
+  target_position_pct: 0.08   # size of a new position as % of NAV
+  patient_exits: true    # let winners run: no exhaustion trims (hard EXIT / score / kill switch still sell)
   mode: advisory         # advisory | autonomous
 
 data:
