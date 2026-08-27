@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "mode": "advisory",
-  "nav": 99976.82,
+  "nav": 99867.32,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0002,
+  "drawdown_from_peak": 0.0013,
   "halted": false,
   "macro": {
     "score": 2,
@@ -417,5 +417,6 @@
       "published": "2026-08-26T20:23:43Z",
       "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-blew-alphabet-googl-202343918.html"
     }
-  ]
+  ],
+  "intraday_mark": true
 }
