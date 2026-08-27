@@ -67,6 +67,11 @@ def propose_orders(cards: dict[str, dict], ledger: Ledger,
         px = closes.get(t)
         if not px:
             continue
+        if held and s.get("patient_exits") and action == "EXIT / TRIM":
+            # Patient mode (validated 2026-08-26): let winners run — no
+            # exhaustion trims. Hard EXITs, score exits, and the -15% kill
+            # switch still protect the downside.
+            continue
         if held and (action in EXIT_ACTIONS or total <= s["exit_at"]):
             orders.append({"side": "sell", "ticker": t,
                            "shares": ledger.positions[t]["shares"],
