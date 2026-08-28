@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "side": "buy",
+    "ticker": "SPY",
+    "shares": 10.361,
+    "reason": "RE-ENTRY (new cycle) (score +4)"
+  }
+]
