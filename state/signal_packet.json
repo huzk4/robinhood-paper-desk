@@ -31,18 +31,30 @@
   "proposed_orders": [
     {
       "side": "buy",
+      "ticker": "JPM",
+      "shares": 22.3882,
+      "reason": "RE-ENTRY (new cycle) (score +4)"
+    },
+    {
+      "side": "buy",
       "ticker": "SPY",
-      "shares": 10.361,
+      "shares": 10.4068,
+      "reason": "RE-ENTRY (new cycle) (score +4)"
+    },
+    {
+      "side": "buy",
+      "ticker": "XLY",
+      "shares": 68.3087,
       "reason": "RE-ENTRY (new cycle) (score +4)"
     }
   ],
   "scores": {
     "AAPL": {
-      "total": 4,
+      "total": 5,
       "trend": 2,
-      "momentum": 0,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "momentum": 1,
+      "action": "WAIT (do not chase)",
+      "rationale": "Healthy trend but no fresh entry trigger."
     },
     "MSFT": {
       "total": 4,
@@ -52,29 +64,29 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "NVDA": {
-      "total": 4,
+      "total": 3,
       "trend": 2,
-      "momentum": 0,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "AMZN": {
-      "total": 2,
-      "trend": 1,
-      "momentum": -1,
+      "total": 4,
+      "trend": 2,
+      "momentum": 0,
       "action": "HOLD / OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "GOOGL": {
-      "total": 0,
-      "trend": 0,
+      "total": 1,
+      "trend": 1,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "META": {
-      "total": 0,
-      "trend": -2,
+      "total": 1,
+      "trend": -1,
       "momentum": 0,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
@@ -90,15 +102,15 @@
       "total": -1,
       "trend": -1,
       "momentum": -2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "JPM": {
-      "total": 2,
-      "trend": 1,
-      "momentum": -1,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "total": 4,
+      "trend": 2,
+      "momentum": 0,
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "V": {
       "total": 6,
@@ -115,9 +127,9 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XOM": {
-      "total": 3,
+      "total": 2,
       "trend": 1,
-      "momentum": 0,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -136,9 +148,9 @@
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "COST": {
-      "total": -1,
+      "total": 0,
       "trend": -2,
-      "momentum": -1,
+      "momentum": 0,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
@@ -157,8 +169,8 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "IWM": {
-      "total": 3,
-      "trend": 2,
+      "total": 2,
+      "trend": 1,
       "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
@@ -171,11 +183,11 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLK": {
-      "total": 5,
+      "total": 4,
       "trend": 2,
-      "momentum": 1,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "momentum": 0,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLE": {
       "total": 5,
@@ -192,9 +204,9 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLV": {
-      "total": 6,
+      "total": 5,
       "trend": 2,
-      "momentum": 2,
+      "momentum": 1,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
@@ -213,11 +225,11 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLY": {
-      "total": 3,
-      "trend": 1,
+      "total": 4,
+      "trend": 2,
       "momentum": 0,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "XLU": {
       "total": -1,
@@ -234,8 +246,8 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "LQD": {
-      "total": 2,
-      "trend": -1,
+      "total": 1,
+      "trend": -2,
       "momentum": 1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
@@ -258,45 +270,31 @@
   "headlines": [
     {
       "ticker": "V",
-      "title": "Analysts' Top S&P 500 Stocks to Buy Now",
-      "publisher": "Kiplinger",
-      "published": "2026-08-27T21:47:29Z",
-      "link": "https://www.kiplinger.com/investing/analysts-top-sandp-500-stocks-to-buy-now"
+      "title": "Is Visa\u2019s AI Cybersecurity and New Markets Push Reshaping the Investment Case for Visa (V)?",
+      "publisher": "Simply Wall St.",
+      "published": "2026-08-29T01:07:47Z",
+      "link": "https://finance.yahoo.com/technology/ai/articles/visa-ai-cybersecurity-markets-push-010747642.html"
     },
     {
       "ticker": "V",
-      "title": "Mastercard Restarts Syrian Payments After 15 Years--and Visa Arrives Too",
-      "publisher": "GuruFocus.com",
-      "published": "2026-08-27T19:28:59Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-restarts-syrian-payments-15-192859110.html"
+      "title": "Bill Ackman Just Bought Visa, Mastercard, and S&P Global Stock. Each One Collects a Toll on Somebody Else's Sale.",
+      "publisher": "Motley Fool",
+      "published": "2026-08-29T00:54:01Z",
+      "link": "https://www.fool.com/investing/2026/08/28/bill-ackman-just-bought-visa-mastercard-and-s-and-p-global-stock-each-one-collects-a-toll-on-somebody-else-s-sale/"
     },
     {
       "ticker": "V",
-      "title": "Warren Buffett Gets Praise for Chairman\u2019s Role, but Berkshire Stock Lags",
-      "publisher": "Barrons.com",
-      "published": "2026-08-27T19:25:00Z",
-      "link": "https://www.barrons.com/articles/warren-buffett-birthday-berkshire-hathaway-stock-25eb4035?siteid=yhoof2&yptr=yahoo"
+      "title": "Solana Neobank Avici Hacked for $650,000. Token Crashes 40%",
+      "publisher": "BeInCrypto",
+      "published": "2026-08-28T21:07:40Z",
+      "link": "https://beincrypto.com/avici-exploit-solana-card-vaults-drained/"
     },
     {
-      "ticker": "XLV",
-      "title": "FDA Nods Lilly-Roche's Alzheimer's Blood Test: Healthcare ETFs to Track Now",
-      "publisher": "Zacks",
-      "published": "2026-08-27T14:29:00Z",
-      "link": "https://finance.yahoo.com/healthcare/articles/fda-nods-lilly-roches-alzheimers-142900628.html"
-    },
-    {
-      "ticker": "XLV",
-      "title": "Are Wall Street Analysts Bullish on Align Technology Stock?",
-      "publisher": "Barchart",
-      "published": "2026-08-27T13:56:37Z",
-      "link": "https://www.barchart.com/story/news/4212979/are-wall-street-analysts-bullish-on-align-technology-stock"
-    },
-    {
-      "ticker": "XLV",
-      "title": "Stock Market News for Aug 27, 2026",
-      "publisher": "Zacks",
-      "published": "2026-08-27T13:35:00Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-27-133500962.html"
+      "ticker": "HYG",
+      "title": "These 3 High-Yield ETFs Cost You Thousands If You Hold Them in the Wrong Account",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-08-28T21:15:59Z",
+      "link": "https://247wallst.com/investing/etf/2026/08/28/these-3-high-yield-etfs-cost-you-thousands-if-you-hold-them-in-the-wrong-account/"
     },
     {
       "ticker": "HYG",
@@ -313,11 +311,18 @@
       "link": "https://247wallst.com/investing/2026/08/01/the-fallen-angel-bond-fund-pays-6-5-and-has-beaten-the-biggest-junk-fund-for-a-decade/"
     },
     {
-      "ticker": "HYG",
-      "title": "Want 6% Monthly Yield Without Touching the Riskiest Junk? This ETF Has a Clever Trick",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-07-19T15:32:39Z",
-      "link": "https://247wallst.com/investing/etf/2026/07/19/want-6-monthly-yield-without-touching-the-riskiest-junk-this-etf-has-a-clever-trick/"
+      "ticker": "GLD",
+      "title": "Fed Chair Warsh Turns Hawkish At Jackson Hole; Gold, Bitcoin Fall",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-08-28T16:53:17Z",
+      "link": "https://www.investors.com/news/federal-reserve-chairman-kevin-warsh-jackson-hole-treasury-yields-sp-500/?src=A00220&yptr=yahoo"
+    },
+    {
+      "ticker": "GLD",
+      "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of Warsh Speech",
+      "publisher": "MT Newswires",
+      "published": "2026-08-28T12:43:48Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-124348595.html"
     },
     {
       "ticker": "GLD",
@@ -327,103 +332,109 @@
       "link": "https://finance.yahoo.com/markets/commodities/articles/invest-gold-stocks-etfs-now-213000892.html"
     },
     {
-      "ticker": "GLD",
-      "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday Ahead of Fed's Jackson Hole Symposium",
-      "publisher": "MT Newswires",
-      "published": "2026-08-27T13:16:00Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131600514.html"
+      "ticker": "AAPL",
+      "title": "Trending: Take-Two Interactive price ascends as 'Grand Theft Auto VI' is teased",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-08-28T16:07:29Z",
+      "link": "https://finance.yahoo.com/video/trending-take-two-interactive-price-ascends-as-grand-theft-auto-vi-is-teased-160729740.html"
     },
     {
-      "ticker": "GLD",
-      "title": "The Best Way to Own Gold in a Retirement Account\u2014and Why You Should",
-      "publisher": "Barrons.com",
-      "published": "2026-08-27T12:49:00Z",
-      "link": "https://www.barrons.com/articles/how-to-invest-in-gold-for-retirement-etfs-taxes-7ef20769?siteid=yhoof2&yptr=yahoo"
+      "ticker": "AAPL",
+      "title": "End of the 'Lag 7'? What Nvidia's earnings mean for the rest of tech.",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-08-28T15:28:37Z",
+      "link": "https://finance.yahoo.com/video/end-lag-7-nvidias-earnings-152837709.html"
     },
     {
-      "ticker": "XLK",
-      "title": "Sector Update: Tech Stocks Gain Late Afternoon",
-      "publisher": "MT Newswires",
-      "published": "2026-08-27T19:39:38Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-afternoon-193938008.html"
+      "ticker": "AAPL",
+      "title": "Apple CEO Tim Cook Pays Tribute to Yayoi Kusama, the Legendary Artist Behind Iconic Pumpkin Sculptures and Polka-Dots",
+      "publisher": "Benzinga",
+      "published": "2026-08-28T23:31:05Z",
+      "link": "https://www.yahoo.com/entertainment/celebrity/articles/apple-ceo-tim-cook-pays-233105418.html"
     },
     {
-      "ticker": "XLK",
-      "title": "Sector Update: Tech Stocks Gain Thursday Afternoon",
-      "publisher": "MT Newswires",
-      "published": "2026-08-27T17:30:03Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-thursday-173003838.html"
-    },
-    {
-      "ticker": "XLK",
-      "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
-      "publisher": "MT Newswires",
-      "published": "2026-08-27T17:09:23Z",
-      "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170923206.html"
+      "ticker": "XLE",
+      "title": "Daily ETF Flows: XLE Sees Inflows",
+      "publisher": "etf.com",
+      "published": "2026-08-28T21:00:05Z",
+      "link": "http://www.etf.com/sections/daily-etf-flows/daily-etf-flows-xle-sees-inflows?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
     },
     {
       "ticker": "XLE",
       "title": "Sector Update: Energy Stocks Mixed Late Afternoon",
       "publisher": "MT Newswires",
-      "published": "2026-08-27T19:46:19Z",
-      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-afternoon-194619383.html"
+      "published": "2026-08-28T20:04:38Z",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-afternoon-200438758.html"
     },
     {
       "ticker": "XLE",
-      "title": "Sector Update: Energy Stocks Lower in Afternoon Trading",
+      "title": "Sector Update: Energy Stocks Mixed Friday Afternoon",
       "publisher": "MT Newswires",
-      "published": "2026-08-27T17:44:22Z",
-      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-lower-afternoon-174422852.html"
+      "published": "2026-08-28T17:56:26Z",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-friday-175626717.html"
     },
     {
-      "ticker": "XLE",
-      "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
+      "ticker": "XLV",
+      "title": "Sector Update: Healthcare Stocks Decline Late Afternoon",
       "publisher": "MT Newswires",
-      "published": "2026-08-27T17:09:23Z",
-      "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170923206.html"
+      "published": "2026-08-28T20:06:11Z",
+      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-200611139.html"
     },
     {
-      "ticker": "AAPL",
-      "title": "Wearable AI devices are creating a whole new generation of privacy concerns",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-08-27T21:28:35Z",
-      "link": "https://finance.yahoo.com/video/wearable-ai-devices-creating-whole-212835059.html"
+      "ticker": "XLV",
+      "title": "Sector Update: Healthcare Stocks Decline Friday Afternoon",
+      "publisher": "MT Newswires",
+      "published": "2026-08-28T17:34:29Z",
+      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-friday-173429571.html"
     },
     {
-      "ticker": "AAPL",
-      "title": "Dividends could be the next big Nvidia stock catalyst, just like they were for Apple",
-      "publisher": "Yahoo Finance",
-      "published": "2026-08-27T11:08:50Z",
-      "link": "https://finance.yahoo.com/markets/stocks/article/dividends-could-be-the-next-big-nvidia-stock-catalyst-just-like-they-were-for-apple-110850043.html"
+      "ticker": "XLV",
+      "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of Warsh Speech",
+      "publisher": "MT Newswires",
+      "published": "2026-08-28T12:43:48Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-124348595.html"
     },
     {
-      "ticker": "AAPL",
-      "title": "Why Is Wall Street Doubting Google Stock?",
+      "ticker": "MSFT",
+      "title": "Why ZM Stock Prints So Much Cash Right Now",
       "publisher": "Trefis",
-      "published": "2026-08-27T23:39:51Z",
-      "link": "https://www.trefis.com/articles/613260/why-is-wall-street-doubting-google-stock/2026-08-27"
+      "published": "2026-08-28T22:17:34Z",
+      "link": "https://www.trefis.com/articles/613490/why-zm-stock-prints-so-much-cash-right-now/2026-08-28"
     },
     {
       "ticker": "MSFT",
-      "title": "Why Nvidia probably just lit a new fire under these once-hot trades",
-      "publisher": "Yahoo Finance",
-      "published": "2026-08-27T10:36:45Z",
-      "link": "https://finance.yahoo.com/markets/stocks/article/why-nvidia-probably-just-lit-a-new-fire-under-these-once-hot-trades-103645649.html"
+      "title": "Has Microsoft Stock Run Ahead Of Its AI Payoff?",
+      "publisher": "Trefis",
+      "published": "2026-08-28T22:10:55Z",
+      "link": "https://www.trefis.com/articles/613494/has-microsoft-stock-run-ahead-of-its-ai-payoff/2026-08-28"
     },
     {
       "ticker": "MSFT",
-      "title": "Dow Jones Futures Rise With Fed Chief Warsh Due; Nvidia, These 7 Stocks Are In Buy Zones",
-      "publisher": "Investor's Business Daily",
-      "published": "2026-08-28T03:57:01Z",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-chief-warsh-speech-nvidia-jumps-software-sector-on-fire/?src=A00220&yptr=yahoo"
+      "title": "Is BlackBerry Stock Pricing In A Turnaround That Hasn't Arrived?",
+      "publisher": "Trefis",
+      "published": "2026-08-28T22:06:09Z",
+      "link": "https://www.trefis.com/articles/613492/is-blackberry-stock-pricing-in-a-turnaround-that-hasnt-arrived/2026-08-28"
     },
     {
-      "ticker": "MSFT",
-      "title": "Michael Burry Thanks Tech Columnist\u2019s Praise For Making \u2018A Killing\u2019 On NVDA, MSFT Calls Into Earnings",
-      "publisher": "Stocktwits",
-      "published": "2026-08-28T03:13:18Z",
-      "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-tech-columnist-killing-nvda-msft-calls-earnings/cZYquCyRJqw"
+      "ticker": "AMZN",
+      "title": "Has Microsoft Stock Run Ahead Of Its AI Payoff?",
+      "publisher": "Trefis",
+      "published": "2026-08-28T22:10:55Z",
+      "link": "https://www.trefis.com/articles/613494/has-microsoft-stock-run-ahead-of-its-ai-payoff/2026-08-28"
+    },
+    {
+      "ticker": "AMZN",
+      "title": "How Much Upside Can AAPL Stock's Growth Deliver?",
+      "publisher": "Trefis",
+      "published": "2026-08-28T21:53:54Z",
+      "link": "https://www.trefis.com/articles/613496/how-much-upside-can-aapl-stocks-growth-deliver/2026-08-28"
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Can PLTR Stock Live Up To Its Multiple?",
+      "publisher": "Trefis",
+      "published": "2026-08-28T21:48:50Z",
+      "link": "https://www.trefis.com/articles/613491/can-pltr-stock-live-up-to-its-multiple-4/2026-08-28"
     }
-  ],
-  "intraday_mark": true
+  ]
 }
