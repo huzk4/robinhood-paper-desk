@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-31",
   "mode": "advisory",
-  "nav": 100080.78,
+  "nav": 99911.86,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0,
+  "drawdown_from_peak": 0.0017,
   "halted": false,
   "macro": {
     "score": 2,
@@ -436,5 +436,6 @@
       "published": "2026-08-28T21:48:50Z",
       "link": "https://www.trefis.com/articles/613491/can-pltr-stock-live-up-to-its-multiple-4/2026-08-28"
     }
-  ]
+  ],
+  "intraday_mark": true
 }
