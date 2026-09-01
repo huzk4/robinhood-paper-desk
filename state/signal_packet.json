@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "mode": "advisory",
-  "nav": 99919.91,
+  "nav": 99772.89,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0016,
+  "drawdown_from_peak": 0.0031,
   "halted": false,
   "macro": {
     "score": 2,
@@ -442,5 +442,6 @@
       "published": "2026-08-31T18:04:47Z",
       "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-spots-surprise-p-180447367.html"
     }
-  ]
+  ],
+  "intraday_mark": true
 }
