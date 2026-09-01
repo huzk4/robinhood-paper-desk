@@ -1,14 +1,14 @@
 {
   "date": "2026-09-01",
   "mode": "advisory",
-  "nav": 99772.89,
+  "nav": 99783.38,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0031,
+  "drawdown_from_peak": 0.003,
   "halted": false,
   "macro": {
     "score": 2,
-    "regime": "Broadening",
-    "composite": 0.75,
+    "regime": "Transitional",
+    "composite": 0.562,
     "notes": [
       "No yield_spread: redistributing the 20% weight of the curve among other components."
     ]
@@ -31,36 +31,24 @@
   "proposed_orders": [
     {
       "side": "buy",
-      "ticker": "NVDA",
-      "shares": 36.2061,
-      "reason": "RE-ENTRY (new cycle) (score +3)"
+      "ticker": "AAPL",
+      "shares": 24.5522,
+      "reason": "RE-ENTRY (new cycle) (score +6)"
     },
     {
       "side": "buy",
-      "ticker": "JPM",
-      "shares": 22.4527,
-      "reason": "RE-ENTRY (new cycle) (score +3)"
-    },
-    {
-      "side": "buy",
-      "ticker": "QQQ",
-      "shares": 11.1524,
-      "reason": "RE-ENTRY (new cycle) (score +4)"
-    },
-    {
-      "side": "buy",
-      "ticker": "XLK",
-      "shares": 42.8611,
+      "ticker": "XOM",
+      "shares": 48.5121,
       "reason": "RE-ENTRY (new cycle) (score +4)"
     }
   ],
   "scores": {
     "AAPL": {
-      "total": 4,
+      "total": 6,
       "trend": 2,
-      "momentum": 0,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "momentum": 2,
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "MSFT": {
       "total": 4,
@@ -73,8 +61,8 @@
       "total": 3,
       "trend": 2,
       "momentum": -1,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "AMZN": {
       "total": 2,
@@ -91,16 +79,16 @@
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "META": {
-      "total": 0,
-      "trend": -2,
+      "total": 1,
+      "trend": -1,
       "momentum": 0,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "TSLA": {
-      "total": 3,
+      "total": 2,
       "trend": -1,
-      "momentum": 2,
+      "momentum": 1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -112,11 +100,11 @@
       "rationale": "Negative structure and momentum, no signs of turning."
     },
     "JPM": {
-      "total": 3,
-      "trend": 2,
+      "total": 2,
+      "trend": 1,
       "momentum": -1,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "V": {
       "total": 6,
@@ -126,18 +114,18 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "UNH": {
-      "total": 0,
+      "total": 2,
       "trend": 0,
-      "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "momentum": 0,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XOM": {
       "total": 4,
       "trend": 2,
       "momentum": 0,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "LLY": {
       "total": 1,
@@ -147,8 +135,8 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "HD": {
-      "total": -1,
-      "trend": -1,
+      "total": -2,
+      "trend": -2,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
@@ -161,18 +149,18 @@
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "SPY": {
-      "total": 3,
-      "trend": 2,
+      "total": 2,
+      "trend": 1,
       "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "QQQ": {
-      "total": 4,
-      "trend": 2,
+      "total": 3,
+      "trend": 1,
       "momentum": 0,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "IWM": {
       "total": 1,
@@ -182,29 +170,29 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "RSP": {
+      "total": 1,
+      "trend": 1,
+      "momentum": -2,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+    },
+    "XLK": {
       "total": 2,
       "trend": 1,
       "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
-    "XLK": {
-      "total": 4,
-      "trend": 2,
-      "momentum": 0,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
-    },
     "XLE": {
-      "total": 5,
+      "total": 6,
       "trend": 2,
-      "momentum": 1,
+      "momentum": 2,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLF": {
-      "total": 3,
-      "trend": 2,
+      "total": 2,
+      "trend": 1,
       "momentum": -1,
       "action": "HOLD / OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
@@ -217,8 +205,8 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLI": {
-      "total": 1,
-      "trend": 1,
+      "total": 0,
+      "trend": 0,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
@@ -231,9 +219,9 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLY": {
-      "total": 2,
-      "trend": 1,
-      "momentum": -1,
+      "total": 0,
+      "trend": 0,
+      "momentum": -2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -241,33 +229,33 @@
       "total": -1,
       "trend": -1,
       "momentum": -2,
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+    },
+    "HYG": {
+      "total": 2,
+      "trend": 1,
+      "momentum": -1,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+    },
+    "LQD": {
+      "total": -2,
+      "trend": -2,
+      "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
-    "HYG": {
-      "total": 6,
-      "trend": 2,
-      "momentum": 2,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
-    },
-    "LQD": {
-      "total": 1,
-      "trend": -2,
-      "momentum": 1,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
-    },
     "TLT": {
-      "total": 1,
+      "total": 0,
       "trend": -2,
-      "momentum": 1,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "momentum": 0,
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "GLD": {
-      "total": 4,
-      "trend": 2,
+      "total": 3,
+      "trend": 1,
       "momentum": 0,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
@@ -275,11 +263,25 @@
   },
   "headlines": [
     {
-      "ticker": "V",
-      "title": "Bank of England governor warns AI could trigger global downturn",
+      "ticker": "AAPL",
+      "title": "Are you willing to pay $2,000 for an iPhone? These customers may.",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-08-31T20:42:00Z",
-      "link": "https://finance.yahoo.com/video/bank-england-governor-warns-ai-204200256.html"
+      "published": "2026-09-01T20:33:11Z",
+      "link": "https://finance.yahoo.com/video/willing-pay-2-000-iphone-203311978.html"
+    },
+    {
+      "ticker": "AAPL",
+      "title": "John Ternus's first day as Apple CEO, JOLTS data, Dell earnings: What to Watch",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-09-01T12:00:00Z",
+      "link": "https://finance.yahoo.com/video/john-ternuss-first-day-apple-120000777.html"
+    },
+    {
+      "ticker": "AAPL",
+      "title": "What Tim Cook told employees on his last day at Apple",
+      "publisher": "Yahoo Finance",
+      "published": "2026-08-31T17:15:06Z",
+      "link": "https://finance.yahoo.com/technology/article/what-tim-cook-told-employees-on-his-last-day-at-apple-171506698.html"
     },
     {
       "ticker": "V",
@@ -290,158 +292,143 @@
     },
     {
       "ticker": "V",
-      "title": "PayPal Stock's Real Risk Is Not How Far It Falls",
-      "publisher": "Trefis",
-      "published": "2026-08-31T23:44:17Z",
-      "link": "https://www.trefis.com/articles/613727/paypal-stocks-real-risk-is-not-how-far-it-falls/2026-08-31"
+      "title": "Ethena Launches Neobank App on Avalanche",
+      "publisher": "Bankless",
+      "published": "2026-09-01T18:11:27Z",
+      "link": "https://www.bankless.com/read/news/ethena-launches-neobank-app-on-avalanche"
     },
     {
-      "ticker": "HYG",
-      "title": "These 3 High-Yield ETFs Cost You Thousands If You Hold Them in the Wrong Account",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-08-28T21:15:59Z",
-      "link": "https://247wallst.com/investing/etf/2026/08/28/these-3-high-yield-etfs-cost-you-thousands-if-you-hold-them-in-the-wrong-account/"
-    },
-    {
-      "ticker": "HYG",
-      "title": "JEPQ and HYG Both Pay Monthly Income, but Only One Survives When Credit Markets Crack",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-08-20T13:20:32Z",
-      "link": "https://247wallst.com/investing/etf/2026/08/20/jepq-and-hyg-both-pay-monthly-income-but-only-one-survives-when-credit-markets-crack/"
-    },
-    {
-      "ticker": "HYG",
-      "title": "The \u2018Fallen Angel\u2019 Bond Fund Pays 6.5% and Has Beaten the Biggest Junk Fund for a Decade",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-08-01T17:07:54Z",
-      "link": "https://247wallst.com/investing/2026/08/01/the-fallen-angel-bond-fund-pays-6-5-and-has-beaten-the-biggest-junk-fund-for-a-decade/"
+      "ticker": "V",
+      "title": "Visa (V) Hands Over 6 Million Documents As DOJ Debit Card Case Drags On",
+      "publisher": "Simply Wall St.",
+      "published": "2026-09-01T14:11:12Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-hands-over-6-141112763.html"
     },
     {
       "ticker": "XLE",
-      "title": "Sector Update: Energy Stocks Gain Monday",
+      "title": "Sector Update: Energy Stocks Rise Late Afternoon",
       "publisher": "MT Newswires",
-      "published": "2026-08-31T20:10:50Z",
-      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-monday-201050077.html"
+      "published": "2026-09-01T19:56:55Z",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195655132.html"
     },
     {
       "ticker": "XLE",
-      "title": "Sector Update: Energy Stocks Rise Monday Afternoon",
-      "publisher": "MT Newswires",
-      "published": "2026-08-31T17:56:22Z",
-      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-monday-175622634.html"
+      "title": "Energy ETFs to Watch as US-Venezuela Sign Historic Oil Deal",
+      "publisher": "Zacks",
+      "published": "2026-09-01T18:30:00Z",
+      "link": "https://finance.yahoo.com/energy/articles/energy-etfs-watch-us-venezuela-183000885.html"
     },
     {
       "ticker": "XLE",
-      "title": "Exchange-Traded Funds Lower as US Equities Fall After Midday",
+      "title": "Sector Update: Energy Stocks Rise Tuesday Afternoon",
       "publisher": "MT Newswires",
-      "published": "2026-08-31T17:20:48Z",
-      "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-us-172048137.html"
+      "published": "2026-09-01T17:51:37Z",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-tuesday-175137526.html"
     },
     {
       "ticker": "XLV",
-      "title": "Sector Update: Healthcare Stocks Decline Late Afternoon",
+      "title": "Sector Update: Healthcare Stocks Advance Late Afternoon",
       "publisher": "MT Newswires",
-      "published": "2026-08-31T19:56:17Z",
-      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-195617417.html"
+      "published": "2026-09-01T19:46:53Z",
+      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-194653614.html"
     },
     {
       "ticker": "XLV",
-      "title": "This Popular Healthcare ETF Is Diluting Your Dividend Income",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-08-31T18:02:08Z",
-      "link": "https://247wallst.com/investing/2026/08/31/this-popular-healthcare-etf-is-diluting-your-dividend-income/"
+      "title": "Sector Update: Healthcare Stocks Rise Tuesday Afternoon",
+      "publisher": "MT Newswires",
+      "published": "2026-09-01T17:41:46Z",
+      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-tuesday-174146205.html"
     },
     {
       "ticker": "XLV",
-      "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as US, Iran Exchange Attacks",
+      "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance",
       "publisher": "MT Newswires",
-      "published": "2026-08-31T13:28:01Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132801663.html"
+      "published": "2026-09-01T12:59:41Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html"
     },
     {
-      "ticker": "AAPL",
-      "title": "Rewind to 2011: Tim Cook's first Apple product launch as CEO",
+      "ticker": "MSFT",
+      "title": "Nvidia makes its biggest investment abroad with Mediatek: Why it's a uniquely important deal",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-08-31T21:26:32Z",
-      "link": "https://finance.yahoo.com/video/rewind-2011-tim-cooks-first-212632931.html"
-    },
-    {
-      "ticker": "AAPL",
-      "title": "What Tim Cook told employees on his last day at Apple",
-      "publisher": "Yahoo Finance",
-      "published": "2026-08-31T17:15:06Z",
-      "link": "https://finance.yahoo.com/technology/article/what-tim-cook-told-employees-on-his-last-day-at-apple-171506698.html"
-    },
-    {
-      "ticker": "AAPL",
-      "title": "Apple's big handoff and a jobs report: What to watch this week",
-      "publisher": "Yahoo Finance",
-      "published": "2026-08-30T10:00:00Z",
-      "link": "https://finance.yahoo.com/markets/article/apples-big-handoff-and-a-jobs-report-what-to-watch-this-week-100000786.html"
+      "published": "2026-09-01T15:05:20Z",
+      "link": "https://finance.yahoo.com/video/nvidia-makes-its-biggest-investment-abroad-with-mediatek-why-its-a-uniquely-important-deal-150520120.html"
     },
     {
       "ticker": "MSFT",
-      "title": "Here comes the AI capex shocker, Goldman Sachs says",
-      "publisher": "Yahoo Finance",
-      "published": "2026-08-31T17:10:26Z",
-      "link": "https://finance.yahoo.com/markets/article/here-comes-the-ai-capex-shocker-goldman-sachs-says-171026577.html"
+      "title": "MongoDB Earnings Beat Estimates But Stock Tumbles",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-09-01T20:56:06Z",
+      "link": "https://www.investors.com/news/technology/mongodb-stock-q2-2026-earnings-report/?src=A00220&yptr=yahoo"
     },
     {
       "ticker": "MSFT",
-      "title": "Jensen Huang Told Investors in June to 'Buy at a Discount' During Nvidia's Sell-Off. Nearly Three Months Later, Nvidia Is Up 4%, and a Broader AI Basket Gained 8%. Did His Call Pay Off?",
-      "publisher": "Motley Fool",
-      "published": "2026-08-31T23:35:00Z",
-      "link": "https://www.fool.com/investing/2026/08/31/jensen-huang-told-investors-in-june-to-buy-at-a-di/"
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft (MSFT) Brings Arabic Language AI Models To Its Ecosystem",
-      "publisher": "Simply Wall St.",
-      "published": "2026-08-31T21:05:36Z",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-brings-arabic-language-210536821.html"
+      "title": "REZOLVE AI PLC Q2 2026 Earnings Call Summary",
+      "publisher": "Moby",
+      "published": "2026-09-01T20:50:50Z",
+      "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-rezolve-ai-plc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
     },
     {
       "ticker": "XOM",
-      "title": "Energy stocks lead in subdued final trading day of August, utilities under pressure: AlphaCheck",
+      "title": "Trump to meet with oil executives on lowering gas prices \u2014 and Exxon isn't invited",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-09-01T15:27:22Z",
+      "link": "https://finance.yahoo.com/video/trump-meet-oil-executives-lowering-152722397.html"
+    },
+    {
+      "ticker": "XOM",
+      "title": "Sector Update: Energy Stocks Rise Late Afternoon",
+      "publisher": "MT Newswires",
+      "published": "2026-09-01T19:56:55Z",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-195655132.html"
+    },
+    {
+      "ticker": "XOM",
+      "title": "Energy ETFs to Watch as US-Venezuela Sign Historic Oil Deal",
+      "publisher": "Zacks",
+      "published": "2026-09-01T18:30:00Z",
+      "link": "https://finance.yahoo.com/energy/articles/energy-etfs-watch-us-venezuela-183000885.html"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Two deals, one Nvidia strategy: What's behind the chip giant's recent partnerships",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-09-01T19:32:13Z",
+      "link": "https://finance.yahoo.com/video/two-deals-one-nvidia-strategy-193213308.html"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Stocks slip as 10-year Treasury yield hits highest level since January 2025: AlphaCheck",
       "publisher": "Yahoo Finance",
-      "published": "2026-08-31T14:20:14Z",
-      "link": "https://finance.yahoo.com/markets/article/energy-stocks-lead-in-subdued-final-trading-day-of-august-utilities-under-pressure-alphacheck-142014111.html"
+      "published": "2026-09-01T13:41:50Z",
+      "link": "https://finance.yahoo.com/markets/article/stocks-slip-as-10-year-treasury-yield-hits-highest-level-since-january-2025-alphacheck-134150677.html"
     },
     {
-      "ticker": "XOM",
-      "title": "Trump Says Exxon Will Enter Venezuela as Oil Investment Ramps Up",
-      "publisher": "Insider Monkey",
-      "published": "2026-08-31T23:54:47Z",
-      "link": "https://finance.yahoo.com/energy/articles/trump-says-exxon-enter-venezuela-235447576.html"
-    },
-    {
-      "ticker": "XOM",
-      "title": "How ExxonMobil\u2019s Bid for Shell\u2019s U.S. Chemicals Assets Could Reshape the XOM Investment Story",
-      "publisher": "Simply Wall St.",
-      "published": "2026-08-31T22:26:47Z",
-      "link": "https://finance.yahoo.com/energy/articles/exxonmobil-bid-shell-u-chemicals-222647131.html"
+      "ticker": "NVDA",
+      "title": "Hut 8 stock is a winner in a new deal between Anthropic and Nvidia-backed Lambda",
+      "publisher": "Yahoo Finance",
+      "published": "2026-09-01T12:25:11Z",
+      "link": "https://finance.yahoo.com/markets/stocks/article/hut-8-stock-is-a-winner-in-a-new-deal-between-anthropic-and-nvidia-backed-lambda-122511171.html"
     },
     {
       "ticker": "QQQ",
-      "title": "S&P500, Dow End Lower On US-Iran Flare-Up, While Dow Records Fifth Straight Month Of Gains \u2014 NVDA, META, AON, MSTR, TSLA In Focus",
-      "publisher": "Stocktwits",
-      "published": "2026-08-31T21:44:35Z",
-      "link": "https://stocktwits.com/news-articles/markets/equity/dow-records-fifth-straight-month-of-gains/cZYzITkRJsC"
+      "title": "These ETFs Generate the Most Revenue",
+      "publisher": "etf.com",
+      "published": "2026-09-01T22:24:15Z",
+      "link": "http://www.etf.com/sections/features/these-etfs-generate-most-revenue?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
     },
     {
       "ticker": "QQQ",
-      "title": "Goldman Sachs Is Buying Into High Income ETFs, but What Are Nasdaq Investors Giving Up for Those Payouts?",
+      "title": "JEPQ\u2019s Monthly Check Can Push a Retiree Into the 85% Social Security Tax Zone: The Hidden Cost of Ordinary Income",
       "publisher": "24/7 Wall St.",
-      "published": "2026-08-31T19:58:12Z",
-      "link": "https://247wallst.com/investing/etf/2026/08/31/goldman-sachs-is-buying-into-high-income-etfs-but-what-are-nasdaq-investors-giving-up-for-those-payouts/"
+      "published": "2026-09-01T21:45:58Z",
+      "link": "https://247wallst.com/investing/etf/2026/09/01/jepqs-monthly-check-can-push-a-retiree-into-the-85-social-security-tax-zone-the-hidden-cost-of-ordinary-income/"
     },
     {
       "ticker": "QQQ",
-      "title": "Bank of America Spots Surprise S&P 500 Setup",
-      "publisher": "GuruFocus.com",
-      "published": "2026-08-31T18:04:47Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-spots-surprise-p-180447367.html"
+      "title": "ETF League Tables: Invesco Inflows Jump",
+      "publisher": "etf.com",
+      "published": "2026-09-01T21:00:04Z",
+      "link": "http://www.etf.com/sections/etf-league-tables/etf-league-tables-invesco-inflows-jump?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
     }
-  ],
-  "intraday_mark": true
+  ]
 }
