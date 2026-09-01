@@ -1,20 +1,26 @@
 [
   {
     "side": "buy",
+    "ticker": "NVDA",
+    "shares": 36.2061,
+    "reason": "RE-ENTRY (new cycle) (score +3)"
+  },
+  {
+    "side": "buy",
     "ticker": "JPM",
-    "shares": 22.3882,
+    "shares": 22.4527,
+    "reason": "RE-ENTRY (new cycle) (score +3)"
+  },
+  {
+    "side": "buy",
+    "ticker": "QQQ",
+    "shares": 11.1524,
     "reason": "RE-ENTRY (new cycle) (score +4)"
   },
   {
     "side": "buy",
-    "ticker": "SPY",
-    "shares": 10.4068,
-    "reason": "RE-ENTRY (new cycle) (score +4)"
-  },
-  {
-    "side": "buy",
-    "ticker": "XLY",
-    "shares": 68.3087,
+    "ticker": "XLK",
+    "shares": 42.8611,
     "reason": "RE-ENTRY (new cycle) (score +4)"
   }
 ]
