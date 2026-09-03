@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "mode": "advisory",
-  "nav": 99823.96,
+  "nav": 99951.56,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0026,
+  "drawdown_from_peak": 0.0013,
   "halted": false,
   "macro": {
     "score": 2,
@@ -448,5 +448,6 @@
       "published": "2026-09-02T19:46:10Z",
       "link": "https://finance.yahoo.com/media-advertising/articles/us-judge-rejects-bid-break-161532322.html"
     }
-  ]
+  ],
+  "intraday_mark": true
 }
