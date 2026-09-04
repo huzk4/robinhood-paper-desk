@@ -1,14 +1,14 @@
 {
   "date": "2026-09-04",
   "mode": "advisory",
-  "nav": 99909.77,
+  "nav": 99929.24,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0017,
+  "drawdown_from_peak": 0.0015,
   "halted": false,
   "macro": {
     "score": 1,
-    "regime": "Transitional",
-    "composite": 0.25,
+    "regime": "Broadening",
+    "composite": 0.437,
     "notes": [
       "No yield_spread: redistributing the 20% weight of the curve among other components."
     ]
@@ -32,20 +32,26 @@
     {
       "side": "buy",
       "ticker": "JPM",
-      "shares": 22.0905,
+      "shares": 22.2907,
       "reason": "RE-ENTRY (new cycle) (score +3)"
     },
     {
       "side": "buy",
       "ticker": "SPY",
-      "shares": 10.3445,
+      "shares": 10.3797,
       "reason": "RE-ENTRY (new cycle) (score +3)"
     },
     {
       "side": "buy",
-      "ticker": "XLK",
-      "shares": 43.0074,
+      "ticker": "QQQ",
+      "shares": 11.1193,
       "reason": "RE-ENTRY (new cycle) (score +2)"
+    },
+    {
+      "side": "buy",
+      "ticker": "XLK",
+      "shares": 42.6866,
+      "reason": "RE-ENTRY (new cycle) (score +3)"
     }
   ],
   "scores": {
@@ -103,7 +109,7 @@
       "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "JPM": {
       "total": 3,
@@ -121,15 +127,15 @@
     },
     "UNH": {
       "total": 2,
-      "trend": 1,
-      "momentum": 0,
+      "trend": 0,
+      "momentum": 1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XOM": {
-      "total": 3,
-      "trend": 2,
-      "momentum": 0,
+      "total": 1,
+      "trend": 1,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -165,8 +171,8 @@
       "total": 2,
       "trend": 2,
       "momentum": -1,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "IWM": {
       "total": 1,
@@ -176,16 +182,16 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "RSP": {
-      "total": 2,
-      "trend": 2,
+      "total": 1,
+      "trend": 1,
       "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLK": {
-      "total": 2,
+      "total": 3,
       "trend": 2,
-      "momentum": -1,
+      "momentum": 0,
       "action": "RE-ENTRY (new cycle)",
       "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
@@ -214,8 +220,8 @@
       "total": -1,
       "trend": 0,
       "momentum": -2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLP": {
       "total": 1,
@@ -225,22 +231,22 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLY": {
-      "total": 0,
+      "total": -1,
       "trend": 0,
-      "momentum": -1,
+      "momentum": -2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLU": {
-      "total": -2,
+      "total": -1,
       "trend": -1,
-      "momentum": -2,
+      "momentum": -1,
       "action": "STAY OUT / AVOID",
       "rationale": "Negative structure and momentum, no signs of turning."
     },
     "HYG": {
-      "total": 2,
-      "trend": 2,
+      "total": 1,
+      "trend": 1,
       "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
@@ -260,9 +266,9 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "GLD": {
-      "total": 3,
+      "total": 2,
       "trend": 2,
-      "momentum": 0,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     }
@@ -270,150 +276,143 @@
   "headlines": [
     {
       "ticker": "AAPL",
-      "title": "How Apple's John Ternus inherited a 'reckoning' with China",
+      "title": "Apple's John Ternus needs to be his own type of CEO and 'not Tim Cook 2'",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-09-03T12:00:00Z",
-      "link": "https://finance.yahoo.com/video/apples-john-ternus-inherited-reckoning-120000967.html"
+      "published": "2026-09-04T20:38:47Z",
+      "link": "https://finance.yahoo.com/video/apples-john-ternus-needs-own-203847038.html"
     },
     {
       "ticker": "AAPL",
-      "title": "Tim Cook Grew Apple From a $350 Billion Company Into a Multi-Trillion-Dollar Giant Over Nearly 15 Years as CEO. Can John Ternus' Product-First Approach Extend That Compounding?",
-      "publisher": "Motley Fool",
-      "published": "2026-09-03T21:35:00Z",
-      "link": "https://www.fool.com/investing/2026/09/03/tim-cook-grew-apple-from-a-350-billion-company-int/"
+      "title": "Jim Cramer flagged one stock quietly concentrating portfolios",
+      "publisher": "TheStreet",
+      "published": "2026-09-04T22:07:00Z",
+      "link": "https://www.thestreet.com/investing/jim-cramer-caterpillar-data-center-ai-concentration-risk"
     },
     {
       "ticker": "AAPL",
-      "title": "Apple's Privacy Shield Now Carries a $2.7 Billion Price Tag",
-      "publisher": "GuruFocus.com",
-      "published": "2026-09-03T21:31:18Z",
-      "link": "https://finance.yahoo.com/technology/articles/apples-privacy-shield-now-carries-213118939.html"
+      "title": "The Only Account the IRS Never Taxes Going In, Growing, or Coming Out: 3 ETFs That Belong Inside It",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-04T22:05:06Z",
+      "link": "https://247wallst.com/investing/etf/2026/09/04/the-only-account-the-irs-never-taxes-going-in-growing-or-coming-out-3-etfs-that-belong-inside-it/"
     },
     {
       "ticker": "NVDA",
-      "title": "Tech stocks today: Tesla stock pops ahead of Cybercab event, Nvidia acquires Hugging Face",
+      "title": "Apple's John Ternus needs to be his own type of CEO and 'not Tim Cook 2'",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-09-04T20:38:47Z",
+      "link": "https://finance.yahoo.com/video/apples-john-ternus-needs-own-203847038.html"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Tech stocks today: Tesla's Cybercab event fails to impress, Feds launch investigation into the robotaxi",
       "publisher": "Yahoo Finance",
       "published": "2026-08-31T14:56:23Z",
       "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-apple-ceo-steps-down-nvidia-mag-7-145623375.html"
     },
     {
       "ticker": "NVDA",
-      "title": "AI demand is 'exceptional,' but the supply chain is not: HPE CEO",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-09-03T20:10:52Z",
-      "link": "https://finance.yahoo.com/video/ai-demand-exceptional-supply-chain-201052714.html"
-    },
-    {
-      "ticker": "NVDA",
-      "title": "How Nvidia's latest deal continues to target all points of the AI trade",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-09-03T14:37:17Z",
-      "link": "https://finance.yahoo.com/video/nvidias-latest-deal-continues-target-143717372.html"
+      "title": "Broadcom (AVGO) Stock Is Down After Q3 Earnings: Is It Too Soon to Buy the Dip?",
+      "publisher": "Zacks",
+      "published": "2026-09-04T22:20:00Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-stock-down-q3-222000523.html"
     },
     {
       "ticker": "XLE",
-      "title": "Sector Update: Energy Stocks Decline Late Afternoon",
+      "title": "Sector Update: Energy Stocks Softer Late Afternoon",
       "publisher": "MT Newswires",
-      "published": "2026-09-03T19:53:50Z",
-      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-195350875.html"
+      "published": "2026-09-04T19:57:37Z",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-softer-afternoon-195737210.html"
     },
     {
       "ticker": "XLE",
-      "title": "Sector Update: Energy Stocks Decline Thursday Afternoon",
+      "title": "Sector Update: Energy Stocks Lower in Afternoon Trading",
       "publisher": "MT Newswires",
-      "published": "2026-09-03T17:58:51Z",
-      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-thursday-175851840.html"
+      "published": "2026-09-04T17:55:10Z",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-lower-afternoon-175510988.html"
     },
     {
       "ticker": "XLE",
-      "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
+      "title": "Exchange-Traded Funds Mixed, US Equities Lower After Midday",
       "publisher": "MT Newswires",
-      "published": "2026-09-03T17:08:17Z",
-      "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-rise-us-170817464.html"
+      "published": "2026-09-04T17:09:37Z",
+      "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-170937609.html"
     },
     {
       "ticker": "V",
-      "title": "What Are You Actually Buying In PayPal Stock?",
-      "publisher": "Trefis",
-      "published": "2026-09-03T21:27:11Z",
-      "link": "https://www.trefis.com/articles/614229/what-are-you-actually-buying-in-paypal-stock/2026-09-03"
+      "title": "CRCL's Arc Mainnet Launch Could Expand Its Institutional Revenue Mix",
+      "publisher": "Zacks",
+      "published": "2026-09-04T17:52:00Z",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/crcls-arc-mainnet-launch-could-175200402.html"
     },
     {
       "ticker": "V",
-      "title": "Why Is Fidelity National (FIS) Down 2.3% Since Last Earnings Report?",
+      "title": "Is CRCL Stock Worth Buying as Growth Collides With Premium Valuation?",
       "publisher": "Zacks",
-      "published": "2026-09-03T15:30:13Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-fidelity-national-fis-down-153013976.html"
+      "published": "2026-09-04T17:40:00Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/crcl-stock-worth-buying-growth-174000378.html"
     },
     {
       "ticker": "V",
-      "title": "Visa (V) Could Be 92% Above Fair Value Following Its AI Fraud Detection Upgrade",
-      "publisher": "Simply Wall St.",
-      "published": "2026-09-03T15:06:46Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-could-92-above-150646720.html"
+      "title": "Academy Moves Forward With Lee, Wolski-David",
+      "publisher": "MediaPost",
+      "published": "2026-09-04T15:00:00Z",
+      "link": "https://www.mediapost.com/publications/article/417633/academy-moves-forward-with-lee-wolski-david.html"
     },
     {
       "ticker": "MSFT",
-      "title": "Dow Jones Futures: Stocks Jump On Fed's Waller; Tesla Cybercab Event Private, Jobs Report Looms",
-      "publisher": "Investor's Business Daily",
-      "published": "2026-09-03T22:25:32Z",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/?src=A00220&yptr=yahoo"
-    },
-    {
-      "ticker": "MSFT",
-      "title": "S&P 500, Dow End Best Day In A Month On Calmer Yields As Rate Hike Bets Wane \u2014 SPCX, VSXY, NVDA, TSLA In Focus",
-      "publisher": "Stocktwits",
-      "published": "2026-09-03T22:24:58Z",
-      "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-best-day-in-a-month/cZsufnBRJvu"
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Finally Reveals Azure's $29.4 Billion Core",
-      "publisher": "GuruFocus.com",
-      "published": "2026-09-03T21:34:43Z",
-      "link": "https://finance.yahoo.com/technology/articles/microsoft-finally-reveals-azures-29-213443350.html"
-    },
-    {
-      "ticker": "JPM",
-      "title": "JPMorgan Chase & Co. (JPM) Outperforms Broader Market: What You Need to Know",
-      "publisher": "Zacks",
-      "published": "2026-09-03T21:45:03Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-co-jpm-outperforms-214503497.html"
-    },
-    {
-      "ticker": "JPM",
-      "title": "3 Sector Stocks to Gain From as Oil, Rates and Jobs Shape September",
-      "publisher": "Zacks",
-      "published": "2026-09-03T19:00:00Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-sector-stocks-gain-oil-190000500.html"
-    },
-    {
-      "ticker": "JPM",
-      "title": "Rivian Announced That Its CFO Is Stepping Down. How Investors Should View the Departure.",
-      "publisher": "Barchart",
-      "published": "2026-09-03T16:20:15Z",
-      "link": "https://www.barchart.com/story/news/4428564/rivian-announced-that-its-cfo-is-stepping-down-how-investors-should-view-the-departure"
-    },
-    {
-      "ticker": "XOM",
-      "title": "Chevron CEO Says Patience Paid Off in Venezuela",
-      "publisher": "GuruFocus.com",
-      "published": "2026-09-03T15:52:12Z",
-      "link": "https://finance.yahoo.com/energy/articles/chevron-ceo-says-patience-paid-155212140.html"
-    },
-    {
-      "ticker": "XOM",
-      "title": "2 Energy Dividend Stocks With Growing Payouts, Led by ExxonMobil",
-      "publisher": "Motley Fool",
-      "published": "2026-09-03T13:50:00Z",
-      "link": "https://www.fool.com/investing/2026/09/03/2-energy-dividend-stocks-with-growing-payouts-led/"
-    },
-    {
-      "ticker": "XOM",
-      "title": "Exxon\u2019s Dividend Looks Safe Today\u2014But What If Oil Prices Tumble?",
+      "title": "The Only Account the IRS Never Taxes Going In, Growing, or Coming Out: 3 ETFs That Belong Inside It",
       "publisher": "24/7 Wall St.",
-      "published": "2026-09-03T13:36:09Z",
-      "link": "https://247wallst.com/investing/2026/09/03/exxon-dividend-scorecard-how-an-oil-major-holds-up-when-crude-falls/"
+      "published": "2026-09-04T22:05:06Z",
+      "link": "https://247wallst.com/investing/etf/2026/09/04/the-only-account-the-irs-never-taxes-going-in-growing-or-coming-out-3-etfs-that-belong-inside-it/"
+    },
+    {
+      "ticker": "MSFT",
+      "title": "The Gap Between CRWD Stock And Its Own Numbers",
+      "publisher": "Trefis",
+      "published": "2026-09-04T21:39:22Z",
+      "link": "https://www.trefis.com/articles/614384/the-gap-between-crwd-stock-and-its-own-numbers/2026-09-04"
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Own Oracle For The AI Boom? PTC's Story Looks Cleaner",
+      "publisher": "Trefis",
+      "published": "2026-09-04T21:23:29Z",
+      "link": "https://www.trefis.com/articles/614377/own-oracle-for-the-ai-boom-ptcs-story-looks-cleaner/2026-09-04"
+    },
+    {
+      "ticker": "JPM",
+      "title": "Market Chatter: Anthropic May Give Morgan Stanley, Goldman Sachs Key Roles in $2 Trillion IPO",
+      "publisher": "MT Newswires",
+      "published": "2026-09-04T20:39:14Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-anthropic-may-morgan-203914549.html"
+    },
+    {
+      "ticker": "JPM",
+      "title": "SoFi Technologies Teams Up With Payward: Will SoFiUSD Gain Traction?",
+      "publisher": "Zacks",
+      "published": "2026-09-04T17:22:00Z",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/sofi-technologies-teams-payward-sofiusd-172200819.html"
+    },
+    {
+      "ticker": "JPM",
+      "title": "JPMorgan Falls Even as 162,000 Jobs Revive Higher Rates",
+      "publisher": "GuruFocus.com",
+      "published": "2026-09-04T17:05:42Z",
+      "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-falls-even-162-000-170542650.html"
+    },
+    {
+      "ticker": "HD",
+      "title": "Why Cheap LOW Stock Fails Part Of The Value Test",
+      "publisher": "Trefis",
+      "published": "2026-09-04T21:02:11Z",
+      "link": "https://www.trefis.com/articles/614387/why-cheap-low-stock-fails-part-of-the-value-test/2026-09-04"
+    },
+    {
+      "ticker": "HD",
+      "title": "Uneven Investor Sentiment Toward Hardline Retailers Could Persist Amid Macro Headwinds, UBS Says",
+      "publisher": "MT Newswires",
+      "published": "2026-09-04T18:19:21Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/uneven-investor-sentiment-toward-hardline-181921990.html"
     },
     {
       "ticker": "HD",
@@ -423,19 +422,25 @@
       "link": "https://www.trefis.com/articles/614228/costco-stock-is-priced-for-two-good-years-is-that-a-safe-bet/2026-09-03"
     },
     {
-      "ticker": "HD",
-      "title": "The \"Untouchable\" List: Stocks That Short Sellers Won't Dare Bet Against",
-      "publisher": "GuruFocus.com",
-      "published": "2026-09-03T21:19:32Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/untouchable-list-stocks-short-sellers-211932353.html"
+      "ticker": "COST",
+      "title": "Is Lululemon a warning sign for retail stocks? What investors should know.",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-09-04T14:41:35Z",
+      "link": "https://finance.yahoo.com/video/is-lululemon-a-warning-sign-for-retail-stocks-what-investors-should-know-144135968.html"
     },
     {
-      "ticker": "HD",
-      "title": "Mortgage Rates Just Hit a 1-Year High. Here\u2019s What That Means for Lowe\u2019s and Home Depot Investors.",
-      "publisher": "Motley Fool",
-      "published": "2026-09-03T21:03:01Z",
-      "link": "https://www.fool.com/investing/2026/09/03/mortgage-rates-just-hit-a-1-year-high-heres-what-that-means-for-lowes-and-home-depot-investors/"
+      "ticker": "COST",
+      "title": "Cramer Says Costco at 49 Times Earnings Is the Mistake Loyal Shoppers Keep Making",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-04T19:41:56Z",
+      "link": "https://247wallst.com/investing/2026/09/04/cramer-says-costco-at-49-times-earnings-is-the-mistake-loyal-shoppers-keep-making/"
+    },
+    {
+      "ticker": "COST",
+      "title": "Costco Slips 1%--Then Drops a 17.9% Digital Surprise",
+      "publisher": "GuruFocus.com",
+      "published": "2026-09-04T19:28:39Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/costco-slips-1-then-drops-192839307.html"
     }
-  ],
-  "intraday_mark": true
+  ]
 }
