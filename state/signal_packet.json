@@ -442,5 +442,6 @@
       "published": "2026-09-04T19:28:39Z",
       "link": "https://finance.yahoo.com/markets/stocks/articles/costco-slips-1-then-drops-192839307.html"
     }
-  ]
+  ],
+  "intraday_mark": true
 }
