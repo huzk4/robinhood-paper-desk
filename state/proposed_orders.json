@@ -1,26 +1,14 @@
 [
   {
     "side": "buy",
-    "ticker": "JPM",
-    "shares": 22.2907,
-    "reason": "RE-ENTRY (new cycle) (score +3)"
-  },
-  {
-    "side": "buy",
-    "ticker": "SPY",
-    "shares": 10.3797,
-    "reason": "RE-ENTRY (new cycle) (score +3)"
-  },
-  {
-    "side": "buy",
     "ticker": "QQQ",
-    "shares": 11.1193,
+    "shares": 11.1177,
     "reason": "RE-ENTRY (new cycle) (score +2)"
   },
   {
     "side": "buy",
     "ticker": "XLK",
-    "shares": 42.6866,
-    "reason": "RE-ENTRY (new cycle) (score +3)"
+    "shares": 42.5107,
+    "reason": "RE-ENTRY (new cycle) (score +5)"
   }
 ]
