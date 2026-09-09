@@ -1,14 +1,8 @@
 [
   {
     "side": "buy",
-    "ticker": "QQQ",
-    "shares": 11.1177,
-    "reason": "RE-ENTRY (new cycle) (score +2)"
-  },
-  {
-    "side": "buy",
-    "ticker": "XLK",
-    "shares": 42.5107,
-    "reason": "RE-ENTRY (new cycle) (score +5)"
+    "ticker": "XOM",
+    "shares": 48.5773,
+    "reason": "RE-ENTRY (new cycle) (score +3)"
   }
 ]
