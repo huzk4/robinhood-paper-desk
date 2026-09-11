@@ -1,9 +1,9 @@
 {
   "date": "2026-09-11",
   "mode": "advisory",
-  "nav": 99809.44,
+  "nav": 99823.25,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0027,
+  "drawdown_from_peak": 0.0026,
   "halted": false,
   "macro": {
     "score": 1,
@@ -32,8 +32,14 @@
     {
       "side": "buy",
       "ticker": "XOM",
-      "shares": 48.2707,
+      "shares": 48.1105,
       "reason": "RE-ENTRY (new cycle) (score +3)"
+    },
+    {
+      "side": "buy",
+      "ticker": "QQQ",
+      "shares": 11.1709,
+      "reason": "RE-ENTRY (new cycle) (score +2)"
     }
   ],
   "scores": {
@@ -52,16 +58,16 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "NVDA": {
-      "total": 2,
+      "total": 1,
       "trend": 1,
-      "momentum": 0,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "AMZN": {
-      "total": 0,
+      "total": 1,
       "trend": 1,
-      "momentum": -2,
+      "momentum": -1,
       "action": "HOLD / OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -73,11 +79,11 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "META": {
-      "total": 3,
-      "trend": 0,
+      "total": 4,
+      "trend": 1,
       "momentum": 2,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "WAIT (do not chase)",
+      "rationale": "Healthy trend but no fresh entry trigger."
     },
     "TSLA": {
       "total": 2,
@@ -87,15 +93,15 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "AVGO": {
-      "total": -2,
+      "total": -1,
       "trend": -1,
-      "momentum": -2,
+      "momentum": -1,
       "action": "STAY OUT / AVOID",
       "rationale": "Negative structure and momentum, no signs of turning."
     },
     "JPM": {
-      "total": 1,
-      "trend": 1,
+      "total": 2,
+      "trend": 2,
       "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
@@ -108,9 +114,9 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "UNH": {
-      "total": 1,
+      "total": -1,
       "trend": 0,
-      "momentum": 0,
+      "momentum": -2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -132,62 +138,62 @@
       "total": -3,
       "trend": -2,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "TACTICAL REBOUND (counter-trend)",
+      "rationale": "Rebound signals within a death-cross: tactical trade, NOT a new cycle."
     },
     "COST": {
       "total": -3,
       "trend": -2,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "TACTICAL REBOUND (counter-trend)",
+      "rationale": "Rebound signals within a death-cross: tactical trade, NOT a new cycle."
     },
     "SPY": {
-      "total": 0,
-      "trend": 1,
-      "momentum": -2,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
-    },
-    "QQQ": {
       "total": 1,
       "trend": 1,
       "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
-    "IWM": {
-      "total": 0,
-      "trend": 1,
-      "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+    "QQQ": {
+      "total": 2,
+      "trend": 2,
+      "momentum": -1,
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
-    "RSP": {
+    "IWM": {
       "total": 0,
       "trend": 1,
       "momentum": -2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
-    "XLK": {
-      "total": 3,
+    "RSP": {
+      "total": 0,
       "trend": 1,
-      "momentum": 1,
+      "momentum": -2,
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+    },
+    "XLK": {
+      "total": 5,
+      "trend": 2,
+      "momentum": 2,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLE": {
-      "total": 4,
+      "total": 3,
       "trend": 2,
-      "momentum": 1,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "momentum": 0,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLF": {
-      "total": 0,
+      "total": 1,
       "trend": 1,
-      "momentum": -2,
+      "momentum": -1,
       "action": "HOLD / OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -202,12 +208,12 @@
       "total": -1,
       "trend": 0,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "XLP": {
-      "total": 0,
-      "trend": 1,
+      "total": -1,
+      "trend": 0,
       "momentum": -2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
@@ -258,172 +264,171 @@
   "headlines": [
     {
       "ticker": "AAPL",
-      "title": "Why hardware will attract buyers to Apple's new lineup over AI features",
+      "title": "What a Republican 'wipeout' in the midterm elections means for investors",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-09-10T19:29:06Z",
-      "link": "https://finance.yahoo.com/video/why-hardware-attract-buyers-apples-192906871.html"
+      "published": "2026-09-11T12:00:00Z",
+      "link": "https://finance.yahoo.com/video/republican-wipeout-midterm-elections-means-120000609.html"
     },
     {
       "ticker": "AAPL",
-      "title": "Apple's iPhone leasing program: How it works, what to consider as prices increase",
-      "publisher": "Yahoo Personal Finance",
-      "published": "2026-07-31T14:31:05Z",
-      "link": "https://finance.yahoo.com/personal-finance/banking/article/apples-iphone-leasing-program-how-it-works-what-to-consider-as-prices-increase-143105471.html"
+      "title": "Benchmark Assigns Buy Rating to SiTime (SITM) Amid Timing Technology Market Expansion",
+      "publisher": "Insider Monkey",
+      "published": "2026-09-11T22:26:30Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/benchmark-assigns-buy-rating-sitime-222630544.html"
     },
     {
       "ticker": "AAPL",
-      "title": "Apple iPhone Duo has 2 problems: Small hands and next-gen expectations",
-      "publisher": "Yahoo Finance",
-      "published": "2026-09-10T11:11:02Z",
-      "link": "https://finance.yahoo.com/markets/stocks/article/apple-iphone-duo-has-2-problems-small-hands-and-next-gen-expectations-111102429.html"
+      "title": "Xiaomi and Huawei Launch Foldable Smartphones Ahead of Apple\u2019s Latest Product Launch",
+      "publisher": "Insider Monkey",
+      "published": "2026-09-11T22:24:34Z",
+      "link": "https://finance.yahoo.com/technology/articles/xiaomi-huawei-launch-foldable-smartphones-222434198.html"
+    },
+    {
+      "ticker": "XLK",
+      "title": "Sector Update: Tech Stocks Gain Late Afternoon",
+      "publisher": "MT Newswires",
+      "published": "2026-09-11T19:58:56Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-afternoon-195856760.html"
+    },
+    {
+      "ticker": "XLK",
+      "title": "Sector Update: Tech Stocks Rise Friday Afternoon",
+      "publisher": "MT Newswires",
+      "published": "2026-09-11T17:38:48Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-friday-173848739.html"
+    },
+    {
+      "ticker": "XLK",
+      "title": "Exchange-Traded Funds, US Equities Rise After Midday",
+      "publisher": "MT Newswires",
+      "published": "2026-09-11T17:13:29Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-171329001.html"
+    },
+    {
+      "ticker": "META",
+      "title": "What a Republican 'wipeout' in the midterm elections means for investors",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-09-11T12:00:00Z",
+      "link": "https://finance.yahoo.com/video/republican-wipeout-midterm-elections-means-120000609.html"
+    },
+    {
+      "ticker": "META",
+      "title": "2 Nasdaq 100 Stocks with Exciting Potential and 1 We Brush Off",
+      "publisher": "StockStory",
+      "published": "2026-09-11T22:11:05Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/2-nasdaq-100-stocks-exciting-221105481.html"
+    },
+    {
+      "ticker": "META",
+      "title": "2 Stocks Cathie Wood Is Snapping Up at a Discount Right Now",
+      "publisher": "Motley Fool",
+      "published": "2026-09-11T21:53:00Z",
+      "link": "https://www.fool.com/investing/2026/09/11/2-stocks-cathie-wood-snapping-up-discount/"
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Oracle is the most attractive AI cloud, analyst says",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-09-11T14:45:00Z",
+      "link": "https://finance.yahoo.com/video/oracle-most-attractive-ai-cloud-144500691.html"
+    },
+    {
+      "ticker": "MSFT",
+      "title": "How a 66-Year-Old\u2019s $800,000 in JEPQ and QQQI Pays $8,200 a Month, and the IRS Only Sees Half of It",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-11T21:45:35Z",
+      "link": "https://247wallst.com/investing/etf/2026/09/11/how-a-66-year-olds-800000-in-jepq-and-qqqi-pays-8200-a-month-and-the-irs-only-sees-half-of-it/"
+    },
+    {
+      "ticker": "MSFT",
+      "title": "How Far Could Take-Two Stock Fall In A Market Shock, With Grand Theft Auto VI Still To Come?",
+      "publisher": "Trefis",
+      "published": "2026-09-11T21:17:43Z",
+      "link": "https://www.trefis.com/articles/615057/how-far-could-take-two-stock-fall-in-a-market-shock-with-grand-theft-auto-vi-still-to-come/2026-09-11"
+    },
+    {
+      "ticker": "XOM",
+      "title": "Forget VYM: HDV\u2019s 3.42% Yield and 8-Point Year-to-Date Lead Deserve a Hard Look",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-11T22:15:15Z",
+      "link": "https://247wallst.com/investing/etf/2026/09/11/forget-vym-hdvs-3-42-yield-and-8-point-year-to-date-lead-deserve-a-hard-look/"
+    },
+    {
+      "ticker": "XOM",
+      "title": "Exxon Edged Higher as IEA Sees a 5.7 Million-Barrel Supply Drop",
+      "publisher": "GuruFocus.com",
+      "published": "2026-09-11T21:09:57Z",
+      "link": "https://finance.yahoo.com/energy/articles/exxon-edged-higher-iea-sees-210957746.html"
+    },
+    {
+      "ticker": "XOM",
+      "title": "Update: Market Chatter: White House Looking to Expand US Oil Refining Capacity",
+      "publisher": "MT Newswires",
+      "published": "2026-09-11T18:11:41Z",
+      "link": "https://finance.yahoo.com/energy/articles/market-chatter-white-house-looking-181141019.html"
+    },
+    {
+      "ticker": "HD",
+      "title": "Home Depot adds its own answer to Costco's food court",
+      "publisher": "TheStreet",
+      "published": "2026-09-11T16:03:12Z",
+      "link": "https://www.thestreet.com/retail/home-depot-tries-to-copy-major-costco-perk"
+    },
+    {
+      "ticker": "HD",
+      "title": "Tesla\u2019s Drag on XLY Was Softened by Amazon\u2019s Gain; QQQ Felt Almost Nothing",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-11T12:05:37Z",
+      "link": "https://247wallst.com/investing/etf/2026/09/11/teslas-drag-on-xly-was-softened-by-amazons-gain-qqq-felt-almost-nothing/"
+    },
+    {
+      "ticker": "HD",
+      "title": "1 Mega-Cap Stock Worth Investigating and 2 We Turn Down",
+      "publisher": "StockStory",
+      "published": "2026-09-10T23:37:04Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/1-mega-cap-stock-worth-233704312.html"
+    },
+    {
+      "ticker": "COST",
+      "title": "Consumers are already on their holiday shopping grind, set to outspend 2025",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-09-11T21:30:00Z",
+      "link": "https://finance.yahoo.com/video/consumers-already-holiday-shopping-grind-213000391.html"
+    },
+    {
+      "ticker": "COST",
+      "title": "Kia\u2019s redesigned Telluride gets a bold new look",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-09-11T20:36:00Z",
+      "link": "https://finance.yahoo.com/video/kia-redesigned-telluride-gets-bold-203600608.html"
+    },
+    {
+      "ticker": "COST",
+      "title": "1 Consumer Stock to Target This Week and 2 Facing Headwinds",
+      "publisher": "StockStory",
+      "published": "2026-09-11T18:35:05Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/1-consumer-stock-target-week-183505485.html"
     },
     {
       "ticker": "XLE",
-      "title": "Sector Update: Energy Stocks Decline Late Afternoon",
+      "title": "Sector Update: Energy Stocks Mixed Late Afternoon",
       "publisher": "MT Newswires",
-      "published": "2026-09-10T19:58:29Z",
-      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-195829985.html"
+      "published": "2026-09-11T19:49:20Z",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-afternoon-194920218.html"
     },
     {
       "ticker": "XLE",
       "title": "Sector Update: Energy",
       "publisher": "MT Newswires",
-      "published": "2026-09-10T19:34:51Z",
-      "link": "https://finance.yahoo.com/energy/articles/sector-energy-193451548.html"
+      "published": "2026-09-11T19:25:29Z",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-192529392.html"
     },
     {
       "ticker": "XLE",
-      "title": "Carnival Just Dropped 20% in a Month. Is It Time to Sell?",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-09-10T19:09:21Z",
-      "link": "https://247wallst.com/investing/2026/09/10/carnival-just-dropped-20-in-a-month-is-it-time-to-sell/"
-    },
-    {
-      "ticker": "MSFT",
-      "title": "People Inc. CEO on rebranding, AI challenges",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-09-10T20:57:00Z",
-      "link": "https://finance.yahoo.com/video/people-inc-ceo-rebranding-ai-205700002.html"
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
-      "publisher": "TechCrunch",
-      "published": "2026-09-10T21:51:59Z",
-      "link": "https://finance.yahoo.com/technology/ai/articles/jensen-huang-explains-why-nvidia-215159365.html"
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Nvidia stock edges higher on Microsoft data center expansion report",
-      "publisher": "Investing.com",
-      "published": "2026-09-10T21:36:55Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-edges-higher-microsoft-213655977.html"
-    },
-    {
-      "ticker": "META",
-      "title": "People Inc. CEO on rebranding, AI challenges",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-09-10T20:57:00Z",
-      "link": "https://finance.yahoo.com/video/people-inc-ceo-rebranding-ai-205700002.html"
-    },
-    {
-      "ticker": "META",
-      "title": "Here's Why Meta Platforms (META) Fell More Than Broader Market",
-      "publisher": "Zacks",
-      "published": "2026-09-10T21:45:03Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-meta-platforms-meta-214503674.html"
-    },
-    {
-      "ticker": "META",
-      "title": "Meta Added $100 Billion in One Day. A 350-Ad Scandal Arrived Hours Later.",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-09-10T19:00:53Z",
-      "link": "https://247wallst.com/investing/2026/09/10/meta-added-100-billion-in-one-day-a-350-ad-scandal-arrived-hours-later/"
-    },
-    {
-      "ticker": "XOM",
-      "title": "ExxonMobil Holdings Corporation (XOM): Can a $14B Budget Unlock Papua LNG?",
-      "publisher": "Insider Monkey",
-      "published": "2026-09-10T20:39:14Z",
-      "link": "https://finance.yahoo.com/energy/articles/exxonmobil-holdings-corporation-xom-14b-203914029.html"
-    },
-    {
-      "ticker": "XOM",
-      "title": "Exxon Rally Fades as Brent Crude Jumps 4% Above $105",
-      "publisher": "GuruFocus.com",
-      "published": "2026-09-10T17:46:51Z",
-      "link": "https://finance.yahoo.com/energy/articles/exxon-rally-fades-brent-crude-174651272.html"
-    },
-    {
-      "ticker": "XOM",
-      "title": "12 Energy Stocks for Dividend Investors as Oil Prices Rise",
-      "publisher": "Barrons.com",
-      "published": "2026-09-10T17:01:00Z",
-      "link": "https://www.barrons.com/articles/oil-energy-stocks-dividends-10a8c73e?siteid=yhoof2&yptr=yahoo"
-    },
-    {
-      "ticker": "HD",
-      "title": "What Happens To Home Depot Stock If Shoppers Keep Visiting Less?",
-      "publisher": "Trefis",
-      "published": "2026-09-10T19:29:25Z",
-      "link": "https://www.trefis.com/articles/614889/what-happens-to-home-depot-stock-if-shoppers-keep-visiting-less/2026-09-10"
-    },
-    {
-      "ticker": "HD",
-      "title": "5 Stocks That Keep Raising Their Dividend Regardless Of The Market",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-09-10T16:59:59Z",
-      "link": "https://247wallst.com/investing/2026/09/10/5-stocks-that-keep-raising-their-dividend-regardless-of-the-market/"
-    },
-    {
-      "ticker": "HD",
-      "title": "Is LOW Stock A Buy As EPS Grows While Sales Shrink?",
-      "publisher": "Trefis",
-      "published": "2026-09-10T14:55:24Z",
-      "link": "https://www.trefis.com/articles/614893/is-low-stock-a-buy-as-eps-grows-while-sales-shrink/2026-09-10"
-    },
-    {
-      "ticker": "COST",
-      "title": "Costco fixed the one thing members hated about shopping there",
-      "publisher": "TheStreet",
-      "published": "2026-09-10T19:56:21Z",
-      "link": "https://www.thestreet.com/retail/costco-is-winning-a-fight-walmart-and-amazon-thought-theyd-won"
-    },
-    {
-      "ticker": "COST",
-      "title": "What Happens To Home Depot Stock If Shoppers Keep Visiting Less?",
-      "publisher": "Trefis",
-      "published": "2026-09-10T19:29:25Z",
-      "link": "https://www.trefis.com/articles/614889/what-happens-to-home-depot-stock-if-shoppers-keep-visiting-less/2026-09-10"
-    },
-    {
-      "ticker": "COST",
-      "title": "Pump.fun Launches Custom Pairs for Tokenized Stocks",
-      "publisher": "Bankless",
-      "published": "2026-09-10T18:19:40Z",
-      "link": "https://www.bankless.com/read/news/pump-fun-launches-custom-pairs-for-tokenized-stocks"
-    },
-    {
-      "ticker": "XLK",
-      "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+      "title": "Sector Update: Energy Stocks Advance Friday Afternoon",
       "publisher": "MT Newswires",
-      "published": "2026-09-10T19:55:45Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-195545130.html"
-    },
-    {
-      "ticker": "XLK",
-      "title": "Sector Update: Tech Stocks Decline Thursday Afternoon",
-      "publisher": "MT Newswires",
-      "published": "2026-09-10T17:35:44Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-decline-thursday-173544461.html"
-    },
-    {
-      "ticker": "XLK",
-      "title": "Exchange-Traded Funds, US Equities Fall After Midday",
-      "publisher": "MT Newswires",
-      "published": "2026-09-10T17:08:34Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-170834448.html"
+      "published": "2026-09-11T18:01:02Z",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-friday-180102714.html"
     }
-  ],
-  "intraday_mark": true
+  ]
 }
