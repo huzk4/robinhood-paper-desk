@@ -314,19 +314,19 @@
     "years": 6.0
    },
    "spy_hold": {
-    "total_return": 1.6307,
-    "cagr": 0.1751,
-    "ann_vol": 0.1801,
-    "sharpe": 0.987,
-    "max_drawdown": 0.3372,
-    "turnover_x_per_year": 0.11,
+    "total_return": 1.6462,
+    "cagr": 0.1762,
+    "ann_vol": 0.1782,
+    "sharpe": 1.001,
+    "max_drawdown": 0.3344,
+    "turnover_x_per_year": 0.1,
     "n_trades": 1,
     "closed_round_trips": 0,
     "hit_rate": null,
     "bars": 1511,
     "years": 6.0
    },
-   "excess_cagr": -0.0322
+   "excess_cagr": -0.0333
   },
   "test": {
    "range": [
@@ -364,35 +364,35 @@
   "holdout": {
    "range": [
     "2025-01-02",
-    "2026-09-04"
+    "2026-09-11"
    ],
    "pillar": {
-    "total_return": -0.0211,
-    "cagr": -0.0127,
+    "total_return": -0.0226,
+    "cagr": -0.0135,
     "ann_vol": 0.0947,
-    "sharpe": -0.088,
+    "sharpe": -0.097,
     "max_drawdown": 0.1179,
-    "turnover_x_per_year": 7.44,
-    "n_trades": 155,
+    "turnover_x_per_year": 7.32,
+    "n_trades": 154,
     "closed_round_trips": 72,
-    "hit_rate": 0.264,
-    "bars": 420,
-    "years": 1.67
+    "hit_rate": 0.278,
+    "bars": 424,
+    "years": 1.68
    },
    "spy_hold": {
-    "total_return": 0.3327,
-    "cagr": 0.188,
-    "ann_vol": 0.1727,
-    "sharpe": 1.086,
+    "total_return": 0.3225,
+    "cagr": 0.1807,
+    "ann_vol": 0.1721,
+    "sharpe": 1.053,
     "max_drawdown": 0.1876,
-    "turnover_x_per_year": 0.53,
+    "turnover_x_per_year": 0.52,
     "n_trades": 1,
     "closed_round_trips": 0,
     "hit_rate": null,
-    "bars": 420,
-    "years": 1.67
+    "bars": 424,
+    "years": 1.68
    },
-   "excess_cagr": -0.2007
+   "excess_cagr": -0.1942
   }
  },
  "honesty": [
