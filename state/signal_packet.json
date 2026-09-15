@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "mode": "advisory",
-  "nav": 99742.39,
+  "nav": 99611.56,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0034,
+  "drawdown_from_peak": 0.0047,
   "halted": false,
   "macro": {
     "score": 1,
@@ -424,5 +424,6 @@
       "published": "2026-09-14T19:10:09Z",
       "link": "https://www.usatoday.com/story/money/retail/2026/09/14/costco-motor-oil-20-dollar-price-hike/91691498007/"
     }
-  ]
+  ],
+  "intraday_mark": true
 }
