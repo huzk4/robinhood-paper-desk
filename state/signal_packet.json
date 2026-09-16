@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "mode": "advisory",
-  "nav": 99628.99,
+  "nav": 99586.57,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0045,
+  "drawdown_from_peak": 0.0049,
   "halted": false,
   "macro": {
     "score": 1,
@@ -424,5 +424,6 @@
       "published": "2026-09-15T19:42:05Z",
       "link": "https://finance.yahoo.com/energy/articles/sector-energy-194205924.html"
     }
-  ]
+  ],
+  "intraday_mark": true
 }
