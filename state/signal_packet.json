@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "mode": "advisory",
-  "nav": 99503.04,
+  "nav": 99609.82,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0058,
+  "drawdown_from_peak": 0.0047,
   "halted": false,
   "macro": {
     "score": 1,
@@ -430,5 +430,6 @@
       "published": "2026-08-07T19:46:09Z",
       "link": "http://www.etf.com/sections/features/20-most-actively-traded-etfs?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
     }
-  ]
+  ],
+  "intraday_mark": true
 }
