@@ -1,14 +1,20 @@
 [
   {
-    "side": "sell",
-    "ticker": "AMZN",
-    "shares": 19.1344,
-    "reason": "EXIT (score +0)"
+    "side": "buy",
+    "ticker": "MSFT",
+    "shares": 16.0078,
+    "reason": "RE-ENTRY (new cycle) (score +3)"
   },
   {
     "side": "buy",
-    "ticker": "GOOGL",
-    "shares": 23.2165,
+    "ticker": "TSLA",
+    "shares": 21.7583,
+    "reason": "RE-ENTRY (new cycle) (score +2)"
+  },
+  {
+    "side": "buy",
+    "ticker": "XLK",
+    "shares": 42.369,
     "reason": "RE-ENTRY (new cycle) (score +3)"
   }
 ]
