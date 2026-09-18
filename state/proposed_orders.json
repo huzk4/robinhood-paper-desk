@@ -2,19 +2,19 @@
   {
     "side": "buy",
     "ticker": "MSFT",
-    "shares": 16.0078,
-    "reason": "RE-ENTRY (new cycle) (score +3)"
-  },
-  {
-    "side": "buy",
-    "ticker": "TSLA",
-    "shares": 21.7583,
+    "shares": 16.1441,
     "reason": "RE-ENTRY (new cycle) (score +2)"
   },
   {
     "side": "buy",
     "ticker": "XLK",
-    "shares": 42.369,
-    "reason": "RE-ENTRY (new cycle) (score +3)"
+    "shares": 42.0444,
+    "reason": "RE-ENTRY (new cycle) (score +5)"
+  },
+  {
+    "side": "sell",
+    "ticker": "XLF",
+    "shares": 85.7412,
+    "reason": "EXIT (score +0)"
   }
 ]
