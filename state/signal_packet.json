@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "mode": "advisory",
-  "nav": 99598.83,
+  "nav": 99631.0,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0048,
+  "drawdown_from_peak": 0.0045,
   "halted": false,
   "macro": {
     "score": 1,
@@ -436,5 +436,6 @@
       "published": "2026-09-17T17:08:03Z",
       "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-170803853.html"
     }
-  ]
+  ],
+  "intraday_mark": true
 }
