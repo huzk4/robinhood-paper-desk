@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-21",
   "mode": "advisory",
-  "nav": 99645.33,
+  "nav": 99749.24,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0044,
+  "drawdown_from_peak": 0.0033,
   "halted": false,
   "macro": {
     "score": 1,
@@ -436,5 +436,6 @@
       "published": "2026-09-18T17:18:26Z",
       "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-171826497.html"
     }
-  ]
+  ],
+  "intraday_mark": true
 }
