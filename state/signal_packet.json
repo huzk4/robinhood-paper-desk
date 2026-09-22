@@ -1,7 +1,7 @@
 {
   "date": "2026-09-22",
   "mode": "advisory",
-  "nav": 99578.84,
+  "nav": 99578.74,
   "cash": 90001.24,
   "drawdown_from_peak": 0.005,
   "halted": false,
@@ -32,13 +32,25 @@
     {
       "side": "buy",
       "ticker": "MSFT",
-      "shares": 15.9071,
-      "reason": "RE-ENTRY (new cycle) (score +3)"
+      "shares": 15.9966,
+      "reason": "RE-ENTRY (new cycle) (score +2)"
     },
     {
       "side": "buy",
       "ticker": "NVDA",
-      "shares": 35.0917,
+      "shares": 34.8071,
+      "reason": "RE-ENTRY (new cycle) (score +5)"
+    },
+    {
+      "side": "sell",
+      "ticker": "XLF",
+      "shares": 85.7412,
+      "reason": "EXIT (score +0)"
+    },
+    {
+      "side": "buy",
+      "ticker": "XLV",
+      "shares": 46.8909,
       "reason": "RE-ENTRY (new cycle) (score +3)"
     }
   ],
@@ -51,22 +63,22 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "MSFT": {
-      "total": 3,
+      "total": 2,
       "trend": 2,
-      "momentum": 0,
+      "momentum": -1,
       "action": "RE-ENTRY (new cycle)",
       "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "NVDA": {
-      "total": 3,
+      "total": 5,
       "trend": 2,
-      "momentum": 0,
+      "momentum": 2,
       "action": "RE-ENTRY (new cycle)",
       "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "AMZN": {
-      "total": 1,
-      "trend": 2,
+      "total": 0,
+      "trend": 1,
       "momentum": -2,
       "action": "HOLD / OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
@@ -86,8 +98,8 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "TSLA": {
-      "total": 2,
-      "trend": -1,
+      "total": 3,
+      "trend": 0,
       "momentum": 2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
@@ -103,13 +115,13 @@
       "total": 0,
       "trend": 1,
       "momentum": -2,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "V": {
-      "total": 1,
+      "total": 0,
       "trend": 1,
-      "momentum": -1,
+      "momentum": -2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -117,13 +129,13 @@
       "total": -1,
       "trend": 0,
       "momentum": -2,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "XOM": {
-      "total": 0,
+      "total": 1,
       "trend": 1,
-      "momentum": -2,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -138,8 +150,8 @@
       "total": -3,
       "trend": -2,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "TACTICAL REBOUND (counter-trend)",
+      "rationale": "Rebound signals within a death-cross: tactical trade, NOT a new cycle."
     },
     "COST": {
       "total": -3,
@@ -184,9 +196,9 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLE": {
-      "total": 1,
+      "total": 0,
       "trend": 1,
-      "momentum": -1,
+      "momentum": -2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -194,29 +206,29 @@
       "total": 0,
       "trend": 1,
       "momentum": -2,
-      "action": "HOLD / OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "EXIT",
+      "rationale": "Bearish momentum RELENTLESS."
     },
     "XLV": {
-      "total": 2,
+      "total": 3,
       "trend": 2,
-      "momentum": -1,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "momentum": 0,
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "XLI": {
       "total": -2,
       "trend": -1,
       "momentum": -2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "XLP": {
       "total": -1,
       "trend": 0,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLY": {
       "total": -3,
@@ -264,172 +276,171 @@
   "headlines": [
     {
       "ticker": "AAPL",
-      "title": "Meta stock jumps as Wells Fargo raises price target",
+      "title": "Meta\u2019s new AI agent just got me $250 in flight credits",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-09-21T19:52:00Z",
-      "link": "https://finance.yahoo.com/video/meta-stock-jumps-wells-fargo-195200224.html"
+      "published": "2026-09-22T21:45:56Z",
+      "link": "https://finance.yahoo.com/video/meta-ai-agent-just-got-214556275.html"
     },
     {
       "ticker": "AAPL",
-      "title": "Apple\u2019s new iPhone Duo: Will consumers bite?",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-09-21T17:41:00Z",
-      "link": "https://finance.yahoo.com/video/apple-iphone-duo-consumers-bite-174100022.html"
+      "title": "Why Muse just added billions to Meta's market cap",
+      "publisher": "Yahoo Finance",
+      "published": "2026-09-22T09:48:53Z",
+      "link": "https://finance.yahoo.com/markets/stocks/article/why-muse-just-added-billions-to-metas-market-cap-094853229.html"
     },
     {
       "ticker": "AAPL",
-      "title": "Here Are Morgan Stanley's New Top Stock Picks For The Next 12-Months",
-      "publisher": "Stocktwits",
-      "published": "2026-09-21T23:18:38Z",
-      "link": "https://stocktwits.com/news-articles/markets/equity/here-are-morgan-stanley-s-new-top-stock-picks-for-the-next-12-months/cZMRDYdRBIV"
-    },
-    {
-      "ticker": "SPY",
-      "title": "Nasdaq Ends Nearly 3% Higher As AI Stocks Pop, AMD Enters $1 Trillion Club \u2014  AMD, ARM, META, AMZN, PSKY In Focus",
-      "publisher": "Stocktwits",
-      "published": "2026-09-21T22:04:54Z",
-      "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-ends-nearly-3-higher-as-ai-stocks-pop/cZMRHqjRBIm"
-    },
-    {
-      "ticker": "SPY",
-      "title": "Opendoor Gains 5% but Is Still Down 24% in a Month. Will the Bulls or Bears Win?",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-09-21T19:06:31Z",
-      "link": "https://247wallst.com/investing/2026/09/21/opendoor-gains-5-but-is-still-down-24-in-a-month-will-the-bulls-or-bears-win/"
-    },
-    {
-      "ticker": "SPY",
-      "title": "AMC Spikes 7% as Refinancing Pushes Maturities From 2029 to 2031; Cinemark and IMAX Edge Higher",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-09-21T18:09:12Z",
-      "link": "https://247wallst.com/investing/2026/09/21/amc-spikes-7-as-refinancing-pushes-maturities-from-2029-to-2031-cinemark-and-imax-edge-higher/"
-    },
-    {
-      "ticker": "QQQ",
-      "title": "Fastly Soars 14% on AI Firewall Launch; Cloudflare Climbs 7%, Datadog Rises 5%",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-09-21T18:04:07Z",
-      "link": "https://247wallst.com/investing/2026/09/21/fastly-soars-14-on-ai-firewall-launch-cloudflare-climbs-7-datadog-rises-5/"
-    },
-    {
-      "ticker": "QQQ",
-      "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
-      "publisher": "MT Newswires",
-      "published": "2026-09-21T17:07:53Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170753028.html"
-    },
-    {
-      "ticker": "QQQ",
-      "title": "Cybersecurity Stocks Extend Gains on AI Safety Warnings: CrowdStrike and Okta Rise 4%, Palo Alto Ticks Up",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-09-21T17:03:46Z",
-      "link": "https://247wallst.com/investing/2026/09/21/cybersecurity-stocks-extend-gains-on-ai-safety-warnings-crowdstrike-and-okta-rise-4-palo-alto-ticks-up/"
-    },
-    {
-      "ticker": "XLK",
-      "title": "Sector Update: Tech Stocks Gain Late Afternoon",
-      "publisher": "MT Newswires",
-      "published": "2026-09-21T19:52:06Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-afternoon-195206814.html"
-    },
-    {
-      "ticker": "XLK",
-      "title": "Sector Update: Tech Stocks Gain Monday Afternoon",
-      "publisher": "MT Newswires",
-      "published": "2026-09-21T17:56:58Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-monday-175658801.html"
-    },
-    {
-      "ticker": "XLK",
-      "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
-      "publisher": "MT Newswires",
-      "published": "2026-09-21T17:07:53Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-170753028.html"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Warren Buffett will go down as the 'greatest investor of all time'",
+      "title": "The Magnificent 7 are back: Meta\u2019s AI bet leads the charge",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-09-21T20:31:00Z",
-      "link": "https://finance.yahoo.com/video/warren-buffett-down-greatest-investor-203100448.html"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Meta stock jumps as Wells Fargo raises price target",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-09-21T19:52:00Z",
-      "link": "https://finance.yahoo.com/video/meta-stock-jumps-wells-fargo-195200224.html"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Here Are Morgan Stanley's New Top Stock Picks For The Next 12-Months",
-      "publisher": "Stocktwits",
-      "published": "2026-09-21T23:18:38Z",
-      "link": "https://stocktwits.com/news-articles/markets/equity/here-are-morgan-stanley-s-new-top-stock-picks-for-the-next-12-months/cZMRDYdRBIV"
-    },
-    {
-      "ticker": "META",
-      "title": "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally, oil  falls",
-      "publisher": "Yahoo Finance",
-      "published": "2026-09-21T08:02:14Z",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html"
-    },
-    {
-      "ticker": "META",
-      "title": "Trump and Xi dine with AI titans and Meta takes the stage: What to watch this week",
-      "publisher": "Yahoo Finance",
-      "published": "2026-09-21T10:00:00Z",
-      "link": "https://finance.yahoo.com/markets/article/trump-and-xi-dine-with-ai-titans-and-meta-takes-the-stage-what-to-watch-this-week-100000383.html"
-    },
-    {
-      "ticker": "META",
-      "title": "Decibel hits $7 billion in total trading volume on Aptos",
-      "publisher": "TheStreet",
-      "published": "2026-09-21T22:43:13Z",
-      "link": "https://www.thestreet.com/crypto/markets/decibel-hits-7-billion-in-total-trading-volume-on-aptos"
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Meta stock jumps as Wells Fargo raises price target",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-09-21T19:52:00Z",
-      "link": "https://finance.yahoo.com/video/meta-stock-jumps-wells-fargo-195200224.html"
-    },
-    {
-      "ticker": "MSFT",
-      "title": "SCHD\u2019s 0.06% Fee Hides $413,350 in Decade-Long Underperformance on a $500,000 Position",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-09-21T22:25:29Z",
-      "link": "https://247wallst.com/investing/etf/2026/09/21/schds-0-06-fee-hides-413350-in-decade-long-underperformance-on-a-500000-position/"
-    },
-    {
-      "ticker": "MSFT",
-      "title": "3 U.S. Growth Stocks Facing The Biggest AI Spending Test Right Now",
-      "publisher": "Simply Wall St.",
-      "published": "2026-09-21T22:18:05Z",
-      "link": "https://finance.yahoo.com/technology/ai/articles/3-u-growth-stocks-facing-221805235.html"
+      "published": "2026-09-22T14:03:00Z",
+      "link": "https://finance.yahoo.com/video/magnificent-7-back-meta-ai-140300865.html"
     },
     {
       "ticker": "NVDA",
-      "title": "Could Nvidia's prospects in China shift following the Trump and Xi's meeting?",
+      "title": "Should investors play AI bottlenecks over social media stocks?",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-09-21T18:35:17Z",
-      "link": "https://finance.yahoo.com/video/could-nvidias-prospects-china-shift-183517435.html"
+      "published": "2026-09-22T17:39:22Z",
+      "link": "https://finance.yahoo.com/video/investors-play-ai-bottlenecks-over-173922161.html"
     },
     {
       "ticker": "NVDA",
-      "title": "Bitcoin prices, Logan & Jake Paul, Jensen Huang talks human survival: 3 crazy market movers",
+      "title": "Alibaba rolls out what it's touting as China's most powerful AI chip",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-09-21T14:41:53Z",
-      "link": "https://finance.yahoo.com/video/bitcoin-prices-logan-jake-paul-144153828.html"
+      "published": "2026-09-22T13:23:29Z",
+      "link": "https://finance.yahoo.com/video/alibaba-rolls-touting-chinas-most-132329685.html"
     },
     {
       "ticker": "NVDA",
-      "title": "Why Strategy Stock Surged Today",
+      "title": "2 Beaten-Down Stocks to Buy Before They Bounce Back",
       "publisher": "Motley Fool",
-      "published": "2026-09-21T23:23:42Z",
-      "link": "https://www.fool.com/investing/2026/09/21/why-strategy-stock-surged-today/"
+      "published": "2026-09-22T22:53:01Z",
+      "link": "https://www.fool.com/investing/2026/09/22/2-beaten-down-stocks-to-buy-before-they-bounce-back/"
+    },
+    {
+      "ticker": "SPY",
+      "title": "The Market Is Near Another All-Time High and You\u2019re 66 With Cash to Invest. Buying Now Feels Like the Top. These 3 ETFs Are How You Get In Anyway",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-22T22:25:53Z",
+      "link": "https://247wallst.com/investing/etf/2026/09/22/the-market-is-near-another-all-time-high-and-youre-66-with-cash-to-invest-buying-now-feels-like-the-top-these-3-etfs-are-how-you-get-in-anyway/"
+    },
+    {
+      "ticker": "SPY",
+      "title": "VGT Holders Bought \u2018Tech\u2019 and Own No Google, Meta, or Amazon: The Sector Rule That Decides What\u2019s Inside",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-22T22:15:04Z",
+      "link": "https://247wallst.com/investing/etf/2026/09/22/vgt-holders-bought-tech-and-own-no-google-meta-or-amazon-the-sector-rule-that-decides-whats-inside/"
+    },
+    {
+      "ticker": "SPY",
+      "title": "Nasdaq Jumps To Close At Record As Chipmakers Climb, Oil Prices Cool \u2014 AAPL, META, SPCX, MSFT, VKTX In Focus",
+      "publisher": "Stocktwits",
+      "published": "2026-09-22T21:26:09Z",
+      "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-jumps-to-close-at-record-as-chipmakers-climb-oil-prices-cool-aapl-meta-spcx-msft-vktx-in-focus/cZM5GHbRB7L"
+    },
+    {
+      "ticker": "QQQ",
+      "title": "Nasdaq Jumps To Close At Record As Chipmakers Climb, Oil Prices Cool \u2014 AAPL, META, SPCX, MSFT, VKTX In Focus",
+      "publisher": "Stocktwits",
+      "published": "2026-09-22T21:26:09Z",
+      "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-jumps-to-close-at-record-as-chipmakers-climb-oil-prices-cool-aapl-meta-spcx-msft-vktx-in-focus/cZM5GHbRB7L"
+    },
+    {
+      "ticker": "QQQ",
+      "title": "S&P 500 Nears Record as Breadth Sends Rare Warning",
+      "publisher": "GuruFocus.com",
+      "published": "2026-09-22T21:13:59Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nears-record-breadth-211359123.html"
+    },
+    {
+      "ticker": "QQQ",
+      "title": "A Retired Couple Can Sell $98,900 of Gains This Year and Owe the IRS Nothing. These 3 ETFs Are Built for the 0% Bracket",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-22T21:10:41Z",
+      "link": "https://247wallst.com/investing/etf/2026/09/22/a-retired-couple-can-sell-98900-of-gains-this-year-and-owe-the-irs-nothing-these-3-etfs-are-built-for-the-0-bracket/"
+    },
+    {
+      "ticker": "XLK",
+      "title": "VGT Holders Bought \u2018Tech\u2019 and Own No Google, Meta, or Amazon: The Sector Rule That Decides What\u2019s Inside",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-22T22:15:04Z",
+      "link": "https://247wallst.com/investing/etf/2026/09/22/vgt-holders-bought-tech-and-own-no-google-meta-or-amazon-the-sector-rule-that-decides-whats-inside/"
+    },
+    {
+      "ticker": "XLK",
+      "title": "Sector Update: Tech Stocks Higher in Afternoon Trading",
+      "publisher": "MT Newswires",
+      "published": "2026-09-22T17:39:12Z",
+      "link": "https://finance.yahoo.com/technology/articles/sector-tech-stocks-higher-afternoon-173912528.html"
+    },
+    {
+      "ticker": "XLK",
+      "title": "Exchange-Traded Funds Rise, US Equities Mixed After Midday",
+      "publisher": "MT Newswires",
+      "published": "2026-09-22T17:10:35Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171035923.html"
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Meta's Muse AI teams up with Shopify, lifting its stock",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-09-22T19:50:26Z",
+      "link": "https://finance.yahoo.com/video/metas-muse-ai-teams-up-with-shopify-lifting-its-stock-195026601.html"
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "The Magnificent 7 are back: Meta\u2019s AI bet leads the charge",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-09-22T14:03:00Z",
+      "link": "https://finance.yahoo.com/video/magnificent-7-back-meta-ai-140300865.html"
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "VGT Holders Bought \u2018Tech\u2019 and Own No Google, Meta, or Amazon: The Sector Rule That Decides What\u2019s Inside",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-22T22:15:04Z",
+      "link": "https://247wallst.com/investing/etf/2026/09/22/vgt-holders-bought-tech-and-own-no-google-meta-or-amazon-the-sector-rule-that-decides-whats-inside/"
+    },
+    {
+      "ticker": "META",
+      "title": "Meta\u2019s new AI agent just got me $250 in flight credits",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-09-22T21:45:56Z",
+      "link": "https://finance.yahoo.com/video/meta-ai-agent-just-got-214556275.html"
+    },
+    {
+      "ticker": "META",
+      "title": "Should investors play AI bottlenecks over social media stocks?",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-09-22T17:39:22Z",
+      "link": "https://finance.yahoo.com/video/investors-play-ai-bottlenecks-over-173922161.html"
+    },
+    {
+      "ticker": "META",
+      "title": "Why Muse just added billions to Meta's market cap",
+      "publisher": "Yahoo Finance",
+      "published": "2026-09-22T09:48:53Z",
+      "link": "https://finance.yahoo.com/markets/stocks/article/why-muse-just-added-billions-to-metas-market-cap-094853229.html"
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Is Tesla's evaluation based on pure faith or on hoping for the best?",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-09-22T18:16:59Z",
+      "link": "https://finance.yahoo.com/video/teslas-evaluation-based-pure-faith-181659153.html"
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Tesla, Waymo, and Zoox are driving a nightmarish year for these 2 stocks",
+      "publisher": "Yahoo Finance",
+      "published": "2026-09-22T14:23:00Z",
+      "link": "https://finance.yahoo.com/markets/stocks/article/tesla-waymo-and-zoox-are-driving-a-nightmarish-year-for-these-2-stocks-142300670.html"
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Maye Musk: Elon really wants to live on Mars in the coming decades",
+      "publisher": "Yahoo Finance",
+      "published": "2026-09-21T19:34:21Z",
+      "link": "https://finance.yahoo.com/markets/article/maye-musk-elon-really-wants-to-live-on-mars-in-the-coming-decades-193421298.html"
     }
-  ],
-  "intraday_mark": true
+  ]
 }
