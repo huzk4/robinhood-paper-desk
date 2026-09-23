@@ -2,14 +2,14 @@
   {
     "side": "buy",
     "ticker": "MSFT",
-    "shares": 15.9966,
-    "reason": "RE-ENTRY (new cycle) (score +2)"
+    "shares": 15.8928,
+    "reason": "RE-ENTRY (new cycle) (score +3)"
   },
   {
-    "side": "buy",
-    "ticker": "NVDA",
-    "shares": 34.8071,
-    "reason": "RE-ENTRY (new cycle) (score +5)"
+    "side": "sell",
+    "ticker": "AMZN",
+    "shares": 19.1344,
+    "reason": "EXIT (score -1)"
   },
   {
     "side": "sell",
@@ -20,7 +20,7 @@
   {
     "side": "buy",
     "ticker": "XLV",
-    "shares": 46.8909,
-    "reason": "RE-ENTRY (new cycle) (score +3)"
+    "shares": 47.1314,
+    "reason": "RE-ENTRY (new cycle) (score +2)"
   }
 ]
