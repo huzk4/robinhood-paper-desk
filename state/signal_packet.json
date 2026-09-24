@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "mode": "advisory",
-  "nav": 99447.2,
+  "nav": 99437.61,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0063,
+  "drawdown_from_peak": 0.0064,
   "halted": false,
   "macro": {
     "score": 1,
@@ -442,5 +442,6 @@
       "published": "2026-09-23T20:05:00Z",
       "link": "https://www.thestreet.com/crypto/investing/shiba-inu-investors-eye-highest-ever-q3-return"
     }
-  ]
+  ],
+  "intraday_mark": true
 }
