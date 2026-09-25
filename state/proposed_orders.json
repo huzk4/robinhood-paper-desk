@@ -1,8 +1,14 @@
 [
   {
     "side": "buy",
+    "ticker": "LLY",
+    "shares": 6.7247,
+    "reason": "RE-ENTRY (new cycle) (score +5)"
+  },
+  {
+    "side": "buy",
     "ticker": "XLV",
-    "shares": 46.8351,
-    "reason": "RE-ENTRY (new cycle) (score +3)"
+    "shares": 46.6224,
+    "reason": "RE-ENTRY (new cycle) (score +5)"
   }
 ]
