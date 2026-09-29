@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "mode": "advisory",
-  "nav": 99358.34,
+  "nav": 99381.75,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0072,
+  "drawdown_from_peak": 0.007,
   "halted": false,
   "macro": {
     "score": 1,
