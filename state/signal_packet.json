@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "mode": "advisory",
-  "nav": 99352.0,
+  "nav": 99376.79,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0073,
+  "drawdown_from_peak": 0.007,
   "halted": false,
   "macro": {
     "score": 1,
@@ -417,5 +417,6 @@
       "published": "Tue, 29 Sep 2026 13:30:03 +0000",
       "link": "https://247wallst.com/investing/2026/09/29/home-depot-vs-lowes-1-stock-wins/?.tsrc=rss"
     }
-  ]
+  ],
+  "intraday_mark": true
 }
