@@ -1,9 +1,9 @@
 {
   "date": "2026-10-13",
   "mode": "advisory",
-  "nav": 99657.7,
+  "nav": 99649.34,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0042,
+  "drawdown_from_peak": 0.0043,
   "halted": false,
   "macro": {
     "score": -1,
@@ -28,14 +28,7 @@
     }
   },
   "fills_today": [],
-  "proposed_orders": [
-    {
-      "side": "buy",
-      "ticker": "XLP",
-      "shares": 94.4791,
-      "reason": "RE-ENTRY (new cycle) (score +2)"
-    }
-  ],
+  "proposed_orders": [],
   "scores": {
     "AAPL": {
       "total": 1,
@@ -52,16 +45,16 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "NVDA": {
-      "total": 0,
-      "trend": 1,
+      "total": 1,
+      "trend": 2,
       "momentum": 0,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "AMZN": {
-      "total": 3,
+      "total": 2,
       "trend": 2,
-      "momentum": 2,
+      "momentum": 1,
       "action": "HOLD (ride the cycle)",
       "rationale": "Bullish cycle intact (Trend and Momentum positive)."
     },
@@ -87,8 +80,8 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "AVGO": {
-      "total": 0,
-      "trend": 0,
+      "total": -1,
+      "trend": -1,
       "momentum": 1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
@@ -122,18 +115,18 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "LLY": {
-      "total": 3,
-      "trend": 2,
-      "momentum": 2,
+      "total": 1,
+      "trend": 1,
+      "momentum": 1,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "HD": {
-      "total": -3,
+      "total": -2,
       "trend": -2,
-      "momentum": 0,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "momentum": 1,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "COST": {
       "total": 1,
@@ -150,11 +143,11 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "QQQ": {
-      "total": 3,
+      "total": 1,
       "trend": 2,
-      "momentum": 2,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "momentum": 0,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "IWM": {
       "total": -2,
@@ -192,9 +185,9 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLV": {
-      "total": 3,
+      "total": 2,
       "trend": 2,
-      "momentum": 2,
+      "momentum": 1,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
@@ -209,8 +202,8 @@
       "total": 2,
       "trend": 1,
       "momentum": 2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "WAIT (do not chase)",
+      "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLY": {
       "total": -1,
@@ -248,35 +241,14 @@
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "GLD": {
-      "total": -5,
+      "total": -4,
       "trend": -2,
-      "momentum": -2,
+      "momentum": -1,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     }
   },
   "headlines": [
-    {
-      "ticker": "GLD",
-      "title": "Gold ETF Down 13% in Six Months: 4 Bullish Reasons for Long Term",
-      "publisher": "Yahoo RSS",
-      "published": "Thu, 08 Oct 2026 12:00:00 +0000",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-etf-down-13-six-120000828.html?.tsrc=rss"
-    },
-    {
-      "ticker": "GLD",
-      "title": "Gold Just Had Its Worst Day in Over Two Months. GLD Is Now 26% Off Its High",
-      "publisher": "Yahoo RSS",
-      "published": "Wed, 30 Sep 2026 11:15:54 +0000",
-      "link": "https://247wallst.com/investing/2026/09/30/gold-just-had-its-worst-day-in-over-two-months-gld-is-now-26-off-its-high/?.tsrc=rss"
-    },
-    {
-      "ticker": "GLD",
-      "title": "GLD Sells Your Gold Every Month to Pay Itself, and the IRS Can Tax Those Sales at Up to 28%",
-      "publisher": "Yahoo RSS",
-      "published": "Tue, 29 Sep 2026 20:01:37 +0000",
-      "link": "https://247wallst.com/investing/etf/2026/09/29/gld-sells-your-gold-every-month-to-pay-itself-and-the-irs-can-tax-those-sales-at-up-to-28/?.tsrc=rss"
-    },
     {
       "ticker": "LQD",
       "title": "Which Corporate Bond ETF Is the Better Buy: iShares\u2019 LQD or State Street\u2019s SPLB?",
@@ -314,116 +286,136 @@
     },
     {
       "ticker": "TLT",
-      "title": "Treasury Rout Is Bringing Some Investors In",
+      "title": "The Case for Buying the Long Bond\u2014and What to Know Before You Do",
       "publisher": "Yahoo RSS",
-      "published": "Mon, 05 Oct 2026 15:09:51 +0000",
-      "link": "https://finance.yahoo.com/m/eb0d7c1c-bd9a-3644-bcbb-9f0e03a5c957/treasury-rout-is-bringing.html?.tsrc=rss"
+      "published": "Tue, 06 Oct 2026 21:03:00 +0000",
+      "link": "https://finance.yahoo.com/m/7581667d-3274-3d10-9bfc-ef16663e2c29/the-case-for-buying-the-long.html?.tsrc=rss"
+    },
+    {
+      "ticker": "GLD",
+      "title": "Gold ETF Down 13% in Six Months: 4 Bullish Reasons for Long Term",
+      "publisher": "Yahoo RSS",
+      "published": "Thu, 08 Oct 2026 12:00:00 +0000",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-etf-down-13-six-120000828.html?.tsrc=rss"
+    },
+    {
+      "ticker": "GLD",
+      "title": "Gold Just Had Its Worst Day in Over Two Months. GLD Is Now 26% Off Its High",
+      "publisher": "Yahoo RSS",
+      "published": "Wed, 30 Sep 2026 11:15:54 +0000",
+      "link": "https://247wallst.com/investing/2026/09/30/gold-just-had-its-worst-day-in-over-two-months-gld-is-now-26-off-its-high/?.tsrc=rss"
+    },
+    {
+      "ticker": "GLD",
+      "title": "GLD Sells Your Gold Every Month to Pay Itself, and the IRS Can Tax Those Sales at Up to 28%",
+      "publisher": "Yahoo RSS",
+      "published": "Tue, 29 Sep 2026 20:01:37 +0000",
+      "link": "https://247wallst.com/investing/etf/2026/09/29/gld-sells-your-gold-every-month-to-pay-itself-and-the-irs-can-tax-those-sales-at-up-to-28/?.tsrc=rss"
     },
     {
       "ticker": "MSFT",
-      "title": "Microsoft's AI chief on whether Maia 300 cuts its Nvidia dependence: 'Competition is good'",
+      "title": "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report",
       "publisher": "Yahoo RSS",
-      "published": "Mon, 12 Oct 2026 22:03:31 +0000",
-      "link": "https://finance.yahoo.com/video/microsofts-ai-chief-on-whether-maia-300-cuts-its-nvidia-dependence-competition-is-good-221114572.html?.tsrc=rss"
+      "published": "Tue, 13 Oct 2026 23:40:48 +0000",
+      "link": "https://stocktwits.com/news-articles/markets/equity/microsoft-weighs-20-cost-cuts/cZxBU8ARBYt?.tsrc=rss"
     },
     {
       "ticker": "MSFT",
-      "title": "Microsoft just reclaimed its $4T market cap, thanks to its Maia 300 AI chip",
+      "title": "How much MSFT stock does Microsoft founder Bill Gates actually own?",
       "publisher": "Yahoo RSS",
-      "published": "Mon, 12 Oct 2026 19:47:08 +0000",
-      "link": "https://finance.yahoo.com/video/microsoft-just-reclaimed-its-4t-market-cap-thanks-to-its-maia-300-ai-chip-194708647.html?.tsrc=rss"
+      "published": "Tue, 13 Oct 2026 23:24:57 +0000",
+      "link": "https://www.thestreet.com/personalities/how-much-msft-stock-does-microsoft-founder-bill-gates-own?.tsrc=rss"
     },
     {
       "ticker": "MSFT",
-      "title": "Microsoft Sues JLL For Protection Against Lawsuit At NYC Office Project",
+      "title": "Franklin Templeton CEO says AI is hiding a bigger tech story",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 00:43:47 +0000",
-      "link": "https://www.bisnow.com/news/new-york/office/microsoft-sues-jll-over-forklift-accident-inside-fifth-avenue-office?.tsrc=rss"
-    },
-    {
-      "ticker": "AMZN",
-      "title": "/C O R R E C T I O N - Duracell/",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 12 Oct 2026 23:23:00 +0000",
-      "link": "https://finance.yahoo.com/media-advertising/articles/partnership-amazon-duracell-powers-austin-130000926.html?.tsrc=rss"
-    },
-    {
-      "ticker": "AMZN",
-      "title": "The Staggering Costs of a Single Data Center, From Land to Chips",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 12 Oct 2026 20:17:12 +0000",
-      "link": "https://finance.yahoo.com/video/staggering-costs-single-data-center-201712396.html?.tsrc=rss"
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Better High-Yield Dividend Stock: UPS vs. Energy Transfer",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 12 Oct 2026 20:08:44 +0000",
-      "link": "https://www.tikr.com/blog/better-high-yield-dividend-stock-ups-vs-energy-transfer?ref=yahoofinance&.tsrc=rss"
+      "published": "Tue, 13 Oct 2026 22:33:00 +0000",
+      "link": "https://www.thestreet.com/technology/franklin-templeton-ceo-johnson-ai-hiding-bigger-tech-story?.tsrc=rss"
     },
     {
       "ticker": "GOOGL",
-      "title": "Alphabet vs. Meta Platforms: Which Stock Is a Better Buy in 2026?",
+      "title": "Franklin Templeton CEO says AI is hiding a bigger tech story",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 00:31:41 +0000",
-      "link": "https://www.fool.com/coverage/better-buy/2026/10/12/alphabet-vs-meta-platforms-which-stock-is-a-better-buy-in-2026/?.tsrc=rss"
+      "published": "Tue, 13 Oct 2026 22:33:00 +0000",
+      "link": "https://www.thestreet.com/technology/franklin-templeton-ceo-johnson-ai-hiding-bigger-tech-story?.tsrc=rss"
     },
     {
       "ticker": "GOOGL",
-      "title": "Is Meta's Next Big Thing Already Here?",
+      "title": "Disney strikes $20-million deal for Character.ai's assets as AI startup files for bankruptcy",
       "publisher": "Yahoo RSS",
-      "published": "Mon, 12 Oct 2026 22:38:40 +0000",
-      "link": "https://www.trefis.com/articles/618323/is-metas-next-big-thing-already-here/2026-10-12?.tsrc=rss"
+      "published": "Tue, 13 Oct 2026 21:34:51 +0000",
+      "link": "https://finance.yahoo.com/technology/ai/articles/disney-strikes-20-million-deal-213451465.html?.tsrc=rss"
     },
     {
       "ticker": "GOOGL",
-      "title": "Is Reddit Stock a Good Fit For Your Portfolio Risk?",
+      "title": "Does the Risk-Reward Profile Still Favor Alphabet (GOOGL) Investors?",
       "publisher": "Yahoo RSS",
-      "published": "Mon, 12 Oct 2026 22:28:14 +0000",
-      "link": "https://www.trefis.com/articles/618327/is-reddit-stock-a-good-fit-for-your-portfolio-risk/2026-10-12?.tsrc=rss"
+      "published": "Tue, 13 Oct 2026 21:14:00 +0000",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/does-risk-reward-profile-still-211400880.html?.tsrc=rss"
     },
     {
       "ticker": "V",
-      "title": "Visa returns as title sponsor for 2026 MAMA AWARDS; Visa Presale registration begins 13 October",
+      "title": "2 Financial Stocks to Buy That Berkshire Hathaway Kept While Selling Visa and Mastercard",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 02:00:00 +0000",
-      "link": "https://finance.yahoo.com/media-advertising/articles/visa-returns-title-sponsor-2026-020000365.html?.tsrc=rss"
+      "published": "Tue, 13 Oct 2026 21:50:00 +0000",
+      "link": "https://www.fool.com/investing/2026/10/13/2-financial-stocks-to-buy-that-berkshire-hathaway/?.tsrc=rss"
     },
     {
       "ticker": "V",
-      "title": "2 Payment Stocks to Buy and Hold That Raised Their Dividends 14% in Their Latest Increases",
+      "title": "Top Analyst Reports for Walmart, Visa & Novo Nordisk",
       "publisher": "Yahoo RSS",
-      "published": "Mon, 12 Oct 2026 18:35:00 +0000",
-      "link": "https://www.fool.com/investing/2026/10/12/2-payment-stocks-to-buy-and-hold-that-raised-their/?.tsrc=rss"
+      "published": "Tue, 13 Oct 2026 19:38:00 +0000",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-walmart-visa-193800024.html?.tsrc=rss"
     },
     {
       "ticker": "V",
-      "title": "Will Visa (V) Beat Estimates Again in Its Next Earnings Report?",
+      "title": "Is Visa Stock Increasing Your Market Risk?",
       "publisher": "Yahoo RSS",
-      "published": "Mon, 12 Oct 2026 15:10:01 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-beat-estimates-again-151001031.html?.tsrc=rss"
+      "published": "Tue, 13 Oct 2026 19:31:31 +0000",
+      "link": "https://www.trefis.com/articles/618501/is-visa-stock-increasing-your-market-risk/2026-10-13?.tsrc=rss"
     },
     {
       "ticker": "XOM",
-      "title": "Exxon, Oil Giants Top Buy Points After Deadly Saudi Airport Attacks",
+      "title": "ExxonMobil to Receive Port Houston\u2019s 4th Annual Lone Star Award at HIMC",
       "publisher": "Yahoo RSS",
-      "published": "Mon, 12 Oct 2026 20:17:37 +0000",
-      "link": "https://finance.yahoo.com/m/74b3cc80-b63c-34db-8188-25b254ce30d7/exxon%2C-oil-giants-top-buy.html?.tsrc=rss"
+      "published": "Tue, 13 Oct 2026 20:16:00 +0000",
+      "link": "https://finance.yahoo.com/energy/articles/exxonmobil-receive-port-houston-4th-201600492.html?.tsrc=rss"
     },
     {
       "ticker": "XOM",
-      "title": "ExxonMobil (XOM) Blocks $5.2 Billion Kashagan Fine Settlement",
+      "title": "Will Elevated Crude Prices Enhance ExxonMobil's Cash Flows?",
       "publisher": "Yahoo RSS",
-      "published": "Mon, 12 Oct 2026 17:08:59 +0000",
-      "link": "https://finance.yahoo.com/energy/articles/exxonmobil-xom-blocks-5-2-170859710.html?.tsrc=rss"
+      "published": "Tue, 13 Oct 2026 14:02:00 +0000",
+      "link": "https://finance.yahoo.com/energy/articles/elevated-crude-prices-enhance-exxonmobils-140200620.html?.tsrc=rss"
     },
     {
       "ticker": "XOM",
-      "title": "How Surging Guyana and Permian Output Will Impact ExxonMobil (XOM) Investors",
+      "title": "ExxonMobil (XOM) Trades at a Premium Yet Earnings Are Expected to Shrink",
       "publisher": "Yahoo RSS",
-      "published": "Mon, 12 Oct 2026 16:11:12 +0000",
-      "link": "https://finance.yahoo.com/energy/articles/surging-guyana-permian-output-impact-161112766.html?.tsrc=rss"
+      "published": "Tue, 13 Oct 2026 12:12:39 +0000",
+      "link": "https://finance.yahoo.com/energy/articles/exxonmobil-xom-trades-premium-yet-121239208.html?.tsrc=rss"
+    },
+    {
+      "ticker": "SPY",
+      "title": "If You Own SPY, This Lower-Cost Fund Tracks Identical Holdings for Less Than Half the Fee",
+      "publisher": "Yahoo RSS",
+      "published": "Tue, 13 Oct 2026 23:33:53 +0000",
+      "link": "https://247wallst.com/investing/etf/2026/10/13/if-you-own-spy-this-lower-cost-fund-tracks-identical-holdings-for-less-than-half-the-fee/?.tsrc=rss"
+    },
+    {
+      "ticker": "SPY",
+      "title": "Is Spotify (SPOT) a Good or Bad Investment at Today\u2019s Price?",
+      "publisher": "Yahoo RSS",
+      "published": "Tue, 13 Oct 2026 23:10:59 +0000",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spotify-spot-good-bad-investment-231059679.html?.tsrc=rss"
+    },
+    {
+      "ticker": "SPY",
+      "title": "Humana (HUM) Will Have 95% of Its Members in Four-Star Plans, Up From 20%. What Changed?",
+      "publisher": "Yahoo RSS",
+      "published": "Tue, 13 Oct 2026 22:35:33 +0000",
+      "link": "https://finance.yahoo.com/healthcare/articles/humana-hum-95-members-four-223533680.html?.tsrc=rss"
     }
-  ],
-  "intraday_mark": true
+  ]
 }
