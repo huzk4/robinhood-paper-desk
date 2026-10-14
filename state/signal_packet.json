@@ -1,9 +1,9 @@
 {
   "date": "2026-10-14",
   "mode": "advisory",
-  "nav": 99497.5,
+  "nav": 99537.52,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0058,
+  "drawdown_from_peak": 0.0054,
   "halted": false,
   "macro": {
     "score": -1,
@@ -31,11 +31,11 @@
   "proposed_orders": [],
   "scores": {
     "AAPL": {
-      "total": 1,
+      "total": 3,
       "trend": 2,
-      "momentum": 0,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "momentum": 2,
+      "action": "WAIT (do not chase)",
+      "rationale": "Healthy trend but no fresh entry trigger."
     },
     "MSFT": {
       "total": 3,
@@ -45,15 +45,15 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "NVDA": {
-      "total": 1,
-      "trend": 2,
-      "momentum": 0,
+      "total": -1,
+      "trend": 1,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "AMZN": {
-      "total": 2,
-      "trend": 2,
+      "total": 1,
+      "trend": 1,
       "momentum": 1,
       "action": "HOLD (ride the cycle)",
       "rationale": "Bullish cycle intact (Trend and Momentum positive)."
@@ -73,23 +73,23 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "TSLA": {
-      "total": 1,
-      "trend": 0,
-      "momentum": 2,
+      "total": -2,
+      "trend": -1,
+      "momentum": 0,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "AVGO": {
-      "total": -1,
+      "total": -2,
       "trend": -1,
-      "momentum": 1,
+      "momentum": 0,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "JPM": {
-      "total": -2,
+      "total": -1,
       "trend": 0,
-      "momentum": -1,
+      "momentum": 0,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -101,9 +101,9 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "UNH": {
-      "total": 1,
+      "total": 2,
       "trend": 1,
-      "momentum": 1,
+      "momentum": 2,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
@@ -115,60 +115,60 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "LLY": {
-      "total": 1,
-      "trend": 1,
-      "momentum": 1,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
-    },
-    "HD": {
-      "total": -2,
-      "trend": -2,
-      "momentum": 1,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
-    },
-    "COST": {
-      "total": 1,
-      "trend": 0,
-      "momentum": 2,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
-    },
-    "SPY": {
       "total": 3,
       "trend": 2,
       "momentum": 2,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
-    "QQQ": {
-      "total": 1,
-      "trend": 2,
-      "momentum": 0,
+    "HD": {
+      "total": -1,
+      "trend": -1,
+      "momentum": 1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
-    "IWM": {
-      "total": -2,
-      "trend": 0,
+    "COST": {
+      "total": 2,
+      "trend": 1,
+      "momentum": 2,
+      "action": "WAIT (do not chase)",
+      "rationale": "Healthy trend but no fresh entry trigger."
+    },
+    "SPY": {
+      "total": 2,
+      "trend": 1,
+      "momentum": 2,
+      "action": "WAIT (do not chase)",
+      "rationale": "Healthy trend but no fresh entry trigger."
+    },
+    "QQQ": {
+      "total": -1,
+      "trend": 1,
       "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
+    "IWM": {
+      "total": -3,
+      "trend": 0,
+      "momentum": -2,
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+    },
     "RSP": {
-      "total": 1,
-      "trend": 1,
+      "total": 0,
+      "trend": 0,
       "momentum": 1,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLK": {
-      "total": 2,
-      "trend": 2,
-      "momentum": 1,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "total": -1,
+      "trend": 1,
+      "momentum": -1,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLE": {
       "total": 3,
@@ -178,16 +178,16 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLF": {
-      "total": 0,
-      "trend": 1,
+      "total": -1,
+      "trend": 0,
       "momentum": 0,
       "action": "HOLD / OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLV": {
-      "total": 2,
+      "total": 3,
       "trend": 2,
-      "momentum": 1,
+      "momentum": 2,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
@@ -206,8 +206,8 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLY": {
-      "total": -1,
-      "trend": -1,
+      "total": -2,
+      "trend": -2,
       "momentum": 1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
@@ -234,63 +234,21 @@
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "TLT": {
-      "total": -4,
-      "trend": -2,
-      "momentum": -1,
+      "total": -2,
+      "trend": -1,
+      "momentum": 0,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "GLD": {
-      "total": -4,
+      "total": -5,
       "trend": -2,
-      "momentum": -1,
+      "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     }
   },
   "headlines": [
-    {
-      "ticker": "LQD",
-      "title": "Which Corporate Bond ETF Is the Better Buy: iShares\u2019 LQD or State Street\u2019s SPLB?",
-      "publisher": "Yahoo RSS",
-      "published": "Sun, 11 Oct 2026 23:52:38 +0000",
-      "link": "https://www.fool.com/coverage/etfs/2026/10/11/which-corporate-bond-etf-is-the-better-buy-ishares-lqd-or-state-street-s-splb/?.tsrc=rss"
-    },
-    {
-      "ticker": "LQD",
-      "title": "Schwab Treasury ETF vs iShares Corporate Bond Fund",
-      "publisher": "Yahoo RSS",
-      "published": "Tue, 06 Oct 2026 14:35:02 +0000",
-      "link": "https://www.fool.com/coverage/etfs/2026/10/06/schwab-treasury-etf-vs-ishares-corporate-bond-fund/?.tsrc=rss"
-    },
-    {
-      "ticker": "LQD",
-      "title": "4 ETFs Seeing Unusual Options Volume Today",
-      "publisher": "Yahoo RSS",
-      "published": "Tue, 29 Sep 2026 16:57:46 +0000",
-      "link": "https://finance.yahoo.com/markets/options/articles/4-etfs-seeing-unusual-options-165746961.html?.tsrc=rss"
-    },
-    {
-      "ticker": "TLT",
-      "title": "Too Many Investors Don\u2019t Understand How Bonds Work",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 12 Oct 2026 16:48:36 +0000",
-      "link": "https://www.barchart.com/story/news/6214558/too-many-investors-dont-understand-how-bonds-work?.tsrc=rss"
-    },
-    {
-      "ticker": "TLT",
-      "title": "Options traders are betting on a dramatic drop in interest rates",
-      "publisher": "Yahoo RSS",
-      "published": "Wed, 07 Oct 2026 20:36:00 +0000",
-      "link": "https://www.marketwatch.com/story/options-traders-are-betting-on-a-dramatic-drop-in-interest-rates-141066fb?.tsrc=rss"
-    },
-    {
-      "ticker": "TLT",
-      "title": "The Case for Buying the Long Bond\u2014and What to Know Before You Do",
-      "publisher": "Yahoo RSS",
-      "published": "Tue, 06 Oct 2026 21:03:00 +0000",
-      "link": "https://finance.yahoo.com/m/7581667d-3274-3d10-9bfc-ef16663e2c29/the-case-for-buying-the-long.html?.tsrc=rss"
-    },
     {
       "ticker": "GLD",
       "title": "Gold ETF Down 13% in Six Months: 4 Bullish Reasons for Long Term",
@@ -313,110 +271,151 @@
       "link": "https://247wallst.com/investing/etf/2026/09/29/gld-sells-your-gold-every-month-to-pay-itself-and-the-irs-can-tax-those-sales-at-up-to-28/?.tsrc=rss"
     },
     {
-      "ticker": "MSFT",
-      "title": "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report",
+      "ticker": "LQD",
+      "title": "Which Corporate Bond ETF Is the Better Buy: iShares\u2019 LQD or State Street\u2019s SPLB?",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 23:40:48 +0000",
-      "link": "https://stocktwits.com/news-articles/markets/equity/microsoft-weighs-20-cost-cuts/cZxBU8ARBYt?.tsrc=rss"
+      "published": "Sun, 11 Oct 2026 23:52:38 +0000",
+      "link": "https://www.fool.com/coverage/etfs/2026/10/11/which-corporate-bond-etf-is-the-better-buy-ishares-lqd-or-state-street-s-splb/?.tsrc=rss"
+    },
+    {
+      "ticker": "LQD",
+      "title": "Schwab Treasury ETF vs iShares Corporate Bond Fund",
+      "publisher": "Yahoo RSS",
+      "published": "Tue, 06 Oct 2026 14:35:02 +0000",
+      "link": "https://www.fool.com/coverage/etfs/2026/10/06/schwab-treasury-etf-vs-ishares-corporate-bond-fund/?.tsrc=rss"
+    },
+    {
+      "ticker": "LQD",
+      "title": "4 ETFs Seeing Unusual Options Volume Today",
+      "publisher": "Yahoo RSS",
+      "published": "Tue, 29 Sep 2026 16:57:46 +0000",
+      "link": "https://finance.yahoo.com/markets/options/articles/4-etfs-seeing-unusual-options-165746961.html?.tsrc=rss"
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Apple doubled the price of its TV streaming box from $150 to $300, and even the company's hardcore fans are furious",
+      "publisher": "Yahoo RSS",
+      "published": "Wed, 14 Oct 2026 22:00:00 +0000",
+      "link": "https://finance.yahoo.com/technology/articles/apple-doubled-price-tv-streaming-220000338.html?.tsrc=rss"
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Here's What a $10,000 Investment in Apple Stock Could Be Worth in 5 Years",
+      "publisher": "Yahoo RSS",
+      "published": "Wed, 14 Oct 2026 21:22:00 +0000",
+      "link": "https://www.fool.com/investing/2026/10/14/what-10k-investment-apple-stock-worth/?.tsrc=rss"
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Apple Hits $5 Trillion Milestone as Rest of Tech Trade Falters. Can It Hold?",
+      "publisher": "Yahoo RSS",
+      "published": "Wed, 14 Oct 2026 21:00:00 +0000",
+      "link": "https://finance.yahoo.com/m/97ececc7-ac05-34e2-ac07-5319c731f534/apple-hits-%245-trillion.html?.tsrc=rss"
     },
     {
       "ticker": "MSFT",
-      "title": "How much MSFT stock does Microsoft founder Bill Gates actually own?",
+      "title": "Microsoft Just Unveiled a Brand-New AI Chip. Could It Be the \"Nvidia Killer\" Everyone's Been Looking For?",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 23:24:57 +0000",
-      "link": "https://www.thestreet.com/personalities/how-much-msft-stock-does-microsoft-founder-bill-gates-own?.tsrc=rss"
+      "published": "Wed, 14 Oct 2026 21:17:06 +0000",
+      "link": "https://www.fool.com/investing/2026/10/14/microsoft-unveil-new-ai-chip-nvidia-killer/?.tsrc=rss"
     },
     {
       "ticker": "MSFT",
-      "title": "Franklin Templeton CEO says AI is hiding a bigger tech story",
+      "title": "Sara Eisen Went on Bill Maher and Said What Wall Street Will Not About the AI Race",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 22:33:00 +0000",
-      "link": "https://www.thestreet.com/technology/franklin-templeton-ceo-johnson-ai-hiding-bigger-tech-story?.tsrc=rss"
+      "published": "Wed, 14 Oct 2026 19:50:10 +0000",
+      "link": "https://247wallst.com/investing/2026/10/14/sara-eisen-went-on-bill-maher-and-said-what-wall-street-will-not-about-the-ai-race/?.tsrc=rss"
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Citi Says the S&P 500 Hits 8,100. Half the Market Has to Cooperate First.",
+      "publisher": "Yahoo RSS",
+      "published": "Wed, 14 Oct 2026 18:48:11 +0000",
+      "link": "https://247wallst.com/investing/2026/10/14/citi-says-the-sp-500-hits-8100-half-the-market-has-to-cooperate-first/?.tsrc=rss"
     },
     {
       "ticker": "GOOGL",
-      "title": "Franklin Templeton CEO says AI is hiding a bigger tech story",
+      "title": "Ambani\u2019s Jio seeks to raise $3.2B in what could be India\u2019s biggest IPO",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 22:33:00 +0000",
-      "link": "https://www.thestreet.com/technology/franklin-templeton-ceo-johnson-ai-hiding-bigger-tech-story?.tsrc=rss"
+      "published": "Wed, 14 Oct 2026 21:48:20 +0000",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ambani-jio-seeks-raise-3-214820449.html?.tsrc=rss"
     },
     {
       "ticker": "GOOGL",
-      "title": "Disney strikes $20-million deal for Character.ai's assets as AI startup files for bankruptcy",
+      "title": "Gene Munster Flags Meta\u2019s Muse As A Bigger Risk To Google Search Than ChatGPT",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 21:34:51 +0000",
-      "link": "https://finance.yahoo.com/technology/ai/articles/disney-strikes-20-million-deal-213451465.html?.tsrc=rss"
+      "published": "Wed, 14 Oct 2026 21:33:59 +0000",
+      "link": "https://stocktwits.com/news-articles/markets/equity/gene-munster-flags-meta-s-muse-as-a-bigger-risk-to-google-search-than-chat-gpt/cZxQRi2RBqo?.tsrc=rss"
     },
     {
       "ticker": "GOOGL",
-      "title": "Does the Risk-Reward Profile Still Favor Alphabet (GOOGL) Investors?",
+      "title": "Global X Investments Canada Inc. Closes the Market",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 21:14:00 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/does-risk-reward-profile-still-211400880.html?.tsrc=rss"
+      "published": "Wed, 14 Oct 2026 21:15:00 +0000",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/global-x-investments-canada-inc-211500784.html?.tsrc=rss"
     },
     {
       "ticker": "V",
-      "title": "2 Financial Stocks to Buy That Berkshire Hathaway Kept While Selling Visa and Mastercard",
+      "title": "Visa (V) Benefits from High Margins with Minimal Credit Exposure",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 21:50:00 +0000",
-      "link": "https://www.fool.com/investing/2026/10/13/2-financial-stocks-to-buy-that-berkshire-hathaway/?.tsrc=rss"
+      "published": "Wed, 14 Oct 2026 14:28:45 +0000",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-benefits-high-margins-142845478.html?.tsrc=rss"
     },
     {
       "ticker": "V",
-      "title": "Top Analyst Reports for Walmart, Visa & Novo Nordisk",
+      "title": "Buy 5 Financial Technology Stocks to Strengthen Your Portfolio in Q4",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 19:38:00 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-walmart-visa-193800024.html?.tsrc=rss"
+      "published": "Wed, 14 Oct 2026 14:20:00 +0000",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/buy-5-financial-technology-stocks-142000190.html?.tsrc=rss"
     },
     {
       "ticker": "V",
-      "title": "Is Visa Stock Increasing Your Market Risk?",
+      "title": "Visa lowers interchange fees for tens of thousands of small businesses, but new credit card fees are on the horizon",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 19:31:31 +0000",
-      "link": "https://www.trefis.com/articles/618501/is-visa-stock-increasing-your-market-risk/2026-10-13?.tsrc=rss"
+      "published": "Wed, 14 Oct 2026 11:30:00 +0000",
+      "link": "https://finance.yahoo.com/small-business/articles/visa-lowers-interchange-fees-tens-113000791.html?.tsrc=rss"
     },
     {
       "ticker": "XOM",
-      "title": "ExxonMobil to Receive Port Houston\u2019s 4th Annual Lone Star Award at HIMC",
+      "title": "Exxon Wants to Repeat Its Guyana Success in Trinidad. Should You Buy the Stock Now or Wait for the First Well?",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 20:16:00 +0000",
-      "link": "https://finance.yahoo.com/energy/articles/exxonmobil-receive-port-houston-4th-201600492.html?.tsrc=rss"
+      "published": "Wed, 14 Oct 2026 21:50:00 +0000",
+      "link": "https://www.fool.com/investing/2026/10/14/exxon-wants-to-repeat-its-guyana-success-in-trinid/?.tsrc=rss"
     },
     {
       "ticker": "XOM",
-      "title": "Will Elevated Crude Prices Enhance ExxonMobil's Cash Flows?",
+      "title": "ExxonMobil (XOM) Stock May Be 10% Undervalued As Kashagan Risk Looms",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 14:02:00 +0000",
-      "link": "https://finance.yahoo.com/energy/articles/elevated-crude-prices-enhance-exxonmobils-140200620.html?.tsrc=rss"
+      "published": "Wed, 14 Oct 2026 15:21:17 +0000",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-xom-stock-may-10-152117459.html?.tsrc=rss"
     },
     {
       "ticker": "XOM",
-      "title": "ExxonMobil (XOM) Trades at a Premium Yet Earnings Are Expected to Shrink",
+      "title": "Has ExxonMobil Stock Become A Different Bet?",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 12:12:39 +0000",
-      "link": "https://finance.yahoo.com/energy/articles/exxonmobil-xom-trades-premium-yet-121239208.html?.tsrc=rss"
+      "published": "Wed, 14 Oct 2026 15:17:09 +0000",
+      "link": "https://www.trefis.com/articles/618681/has-exxonmobil-stock-become-a-different-bet/2026-10-14?.tsrc=rss"
     },
     {
-      "ticker": "SPY",
-      "title": "If You Own SPY, This Lower-Cost Fund Tracks Identical Holdings for Less Than Half the Fee",
+      "ticker": "LLY",
+      "title": "Eli Lilly (LLY) Stock Looks Undervalued As Its 404% Run Continues",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 23:33:53 +0000",
-      "link": "https://247wallst.com/investing/etf/2026/10/13/if-you-own-spy-this-lower-cost-fund-tracks-identical-holdings-for-less-than-half-the-fee/?.tsrc=rss"
+      "published": "Wed, 14 Oct 2026 21:11:03 +0000",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-lly-stock-looks-211103429.html?.tsrc=rss"
     },
     {
-      "ticker": "SPY",
-      "title": "Is Spotify (SPOT) a Good or Bad Investment at Today\u2019s Price?",
+      "ticker": "LLY",
+      "title": "Lilly, Merck, AbbVie Stocks Surge. Why Healthcare Is Rallying Today.",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 23:10:59 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spotify-spot-good-bad-investment-231059679.html?.tsrc=rss"
+      "published": "Wed, 14 Oct 2026 20:49:00 +0000",
+      "link": "https://finance.yahoo.com/m/30c53b34-cff0-396a-a36c-26664b546adc/lilly%2C-merck%2C-abbvie-stocks.html?.tsrc=rss"
     },
     {
-      "ticker": "SPY",
-      "title": "Humana (HUM) Will Have 95% of Its Members in Four-Star Plans, Up From 20%. What Changed?",
+      "ticker": "LLY",
+      "title": "Eli Lilly and Company Earnings Preview: What to Expect",
       "publisher": "Yahoo RSS",
-      "published": "Tue, 13 Oct 2026 22:35:33 +0000",
-      "link": "https://finance.yahoo.com/healthcare/articles/humana-hum-95-members-four-223533680.html?.tsrc=rss"
+      "published": "Wed, 14 Oct 2026 11:58:33 +0000",
+      "link": "https://www.barchart.com/story/news/7576167/eli-lilly-and-company-earnings-preview-what-to-expect?.tsrc=rss"
     }
-  ],
-  "intraday_mark": true
+  ]
 }
