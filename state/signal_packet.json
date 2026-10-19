@@ -1,9 +1,9 @@
 {
   "date": "2026-10-19",
   "mode": "advisory",
-  "nav": 99762.76,
+  "nav": 99743.97,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0032,
+  "drawdown_from_peak": 0.0034,
   "halted": false,
   "macro": {
     "score": -1,
@@ -38,9 +38,9 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "MSFT": {
-      "total": 3,
+      "total": 2,
       "trend": 2,
-      "momentum": 2,
+      "momentum": 1,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
@@ -52,16 +52,16 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "AMZN": {
+      "total": 3,
+      "trend": 2,
+      "momentum": 2,
+      "action": "HOLD (ride the cycle)",
+      "rationale": "Bullish cycle intact (Trend and Momentum positive)."
+    },
+    "GOOGL": {
       "total": 0,
       "trend": 1,
       "momentum": 0,
-      "action": "HOLD / OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
-    },
-    "GOOGL": {
-      "total": -1,
-      "trend": 1,
-      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -73,11 +73,11 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "TSLA": {
-      "total": -4,
+      "total": -3,
       "trend": -1,
-      "momentum": -2,
+      "momentum": -1,
       "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "AVGO": {
       "total": -5,
@@ -87,11 +87,11 @@
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "JPM": {
-      "total": 1,
-      "trend": 1,
-      "momentum": 1,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "total": -1,
+      "trend": 0,
+      "momentum": 0,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "V": {
       "total": 3,
@@ -136,9 +136,9 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "SPY": {
-      "total": -1,
+      "total": 0,
       "trend": 1,
-      "momentum": -1,
+      "momentum": 0,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -154,7 +154,7 @@
       "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "RSP": {
       "total": 1,
@@ -178,9 +178,9 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLF": {
-      "total": 2,
+      "total": 1,
       "trend": 1,
-      "momentum": 2,
+      "momentum": 1,
       "action": "HOLD (ride the cycle)",
       "rationale": "Bullish cycle intact (Trend and Momentum positive)."
     },
@@ -206,16 +206,16 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLY": {
-      "total": -1,
+      "total": 0,
       "trend": -1,
-      "momentum": 1,
+      "momentum": 2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLU": {
-      "total": 0,
+      "total": -1,
       "trend": -1,
-      "momentum": 2,
+      "momentum": 1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -227,23 +227,23 @@
       "rationale": "Negative structure and momentum, no signs of turning."
     },
     "LQD": {
+      "total": -2,
+      "trend": -2,
+      "momentum": 1,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+    },
+    "TLT": {
       "total": -1,
       "trend": -1,
       "momentum": 1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
-    "TLT": {
-      "total": 0,
-      "trend": -1,
-      "momentum": 2,
-      "action": "TACTICAL REBOUND (counter-trend)",
-      "rationale": "Rebound signals within a death-cross: tactical trade, NOT a new cycle."
-    },
     "GLD": {
-      "total": -3,
+      "total": -4,
       "trend": -2,
-      "momentum": 0,
+      "momentum": -1,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     }
@@ -251,45 +251,24 @@
   "headlines": [
     {
       "ticker": "AVGO",
-      "title": "Broadcom Inc. (AVGO) Falls More Steeply Than Broader Market: What Investors Need to Know",
+      "title": "Companies object to tokenized listings on OKX-ICE platform",
       "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 20:45:05 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-inc-avgo-falls-more-204505934.html?.tsrc=rss"
+      "published": "Mon, 19 Oct 2026 19:00:00 +0000",
+      "link": "https://finance.yahoo.com/video/companies-object-to-tokenized-listings-on-okx-ice-platform-193603562.html?.tsrc=rss"
     },
     {
       "ticker": "AVGO",
-      "title": "Broadcom Falls 4% as CEO Hock Tan\u2019s Capital Warning Hangs Over AI Chips; Marvell Drops 4%",
+      "title": "Tech rebounds as semiconductor stocks jump: AlphaCheck",
       "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 18:02:08 +0000",
-      "link": "https://247wallst.com/investing/2026/10/16/broadcom-falls-4-as-ceo-hock-tans-capital-warning-hangs-over-ai-chips-marvell-drops-4/?.tsrc=rss"
+      "published": "Mon, 19 Oct 2026 13:50:03 +0000",
+      "link": "https://finance.yahoo.com/markets/article/tech-rebounds-as-semiconductor-stocks-jump-alphacheck-135003909.html?.tsrc=rss"
     },
     {
       "ticker": "AVGO",
-      "title": "Will Broadcom Rejoin the $2 Trillion Club in 2027?",
+      "title": "Broadcom vs. Applied Materials: Which Buybacks Are Actually Shrinking the Share Count?",
       "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 15:52:00 +0000",
-      "link": "https://www.fool.com/investing/2026/10/16/will-broadcom-rejoin-the-2-trillion-club-in-2027/?.tsrc=rss"
-    },
-    {
-      "ticker": "TSLA",
-      "title": "Stock Market Today, Oct. 16: Tesla Slips 2% as Roadster Reveal Fades Before Earnings",
-      "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 21:43:03 +0000",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/10/16/stock-market-today-oct-16-tesla-falls-as-roadster-reveal-fades-before-earnings/?.tsrc=rss"
-    },
-    {
-      "ticker": "TSLA",
-      "title": "Elon Musk Says Tesla Roadster Could Be \u2018Greatest Product Demo of All Time\u2019 \u2014 Is This the Hovering Car Featuring SpaceX Tech?",
-      "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 21:30:07 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-tesla-roadster-213007769.html?.tsrc=rss"
-    },
-    {
-      "ticker": "TSLA",
-      "title": "Tesla investors hardly impressed with Elon Musk's 'flying car'",
-      "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 21:25:00 +0000",
-      "link": "https://www.thestreet.com/crypto/markets/tesla-investors-hardly-impressed-with-elon-musks-flying-car?.tsrc=rss"
+      "published": "Mon, 19 Oct 2026 18:57:12 +0000",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-vs-applied-materials-buybacks-185712459.html?.tsrc=rss"
     },
     {
       "ticker": "IWM",
@@ -313,110 +292,130 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-etf-iwm-092002046.html?.tsrc=rss"
     },
     {
-      "ticker": "AAPL",
-      "title": "Can Apple's Duo hype offset soft iPhone 18 demand?",
+      "ticker": "GLD",
+      "title": "Forget GLD. Investors Sent $500 Million to the Cheaper SPDR Gold Fund",
       "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 19:45:32 +0000",
-      "link": "https://finance.yahoo.com/video/can-apples-duo-hype-offset-soft-iphone-18-demand-194532749.html?.tsrc=rss"
+      "published": "Mon, 19 Oct 2026 22:47:32 +0000",
+      "link": "https://247wallst.com/investing/etf/2026/10/19/forget-gld-investors-sent-500-million-to-the-cheaper-spdr-gold-fund/?.tsrc=rss"
+    },
+    {
+      "ticker": "GLD",
+      "title": "Gold ETF Down 13% in Six Months: 4 Bullish Reasons for Long Term",
+      "publisher": "Yahoo RSS",
+      "published": "Thu, 08 Oct 2026 12:00:00 +0000",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-etf-down-13-six-120000828.html?.tsrc=rss"
+    },
+    {
+      "ticker": "GLD",
+      "title": "Gold Just Had Its Worst Day in Over Two Months. GLD Is Now 26% Off Its High",
+      "publisher": "Yahoo RSS",
+      "published": "Wed, 30 Sep 2026 11:15:54 +0000",
+      "link": "https://247wallst.com/investing/2026/09/30/gold-just-had-its-worst-day-in-over-two-months-gld-is-now-26-off-its-high/?.tsrc=rss"
     },
     {
       "ticker": "AAPL",
-      "title": "Stock Market Today, Oct. 16: Apple Edges Higher on iPhone Duo Preorder Surge",
+      "title": "Jim Cramer\u2019s 4-word Apple rule could save you real money",
       "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 21:49:34 +0000",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/10/16/stock-market-today-oct-16-apple-edges-higher-on-iphone-duo-preorder-surge/?.tsrc=rss"
+      "published": "Mon, 19 Oct 2026 23:17:00 +0000",
+      "link": "https://www.thestreet.com/investing/jim-cramers-4-word-apple-rule-could-save-you-real-money?.tsrc=rss"
     },
     {
       "ticker": "AAPL",
-      "title": "Coca-Cola, Visa and Mastercard Hit Records as Investors Rotate Out of Chip Stocks",
+      "title": "Apple Stock Holds Strong Amid Healthy iPhone Duo Preorders",
       "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 20:43:00 +0000",
-      "link": "https://finance.yahoo.com/m/f547526c-55f6-33da-9b20-bad443c7f965/coca-cola%2C-visa-and.html?.tsrc=rss"
+      "published": "Mon, 19 Oct 2026 20:39:16 +0000",
+      "link": "https://finance.yahoo.com/m/ed0b8ee3-bbf6-3cb8-840e-4138b476aa07/apple-stock-holds-strong-amid.html?.tsrc=rss"
     },
     {
-      "ticker": "MSFT",
-      "title": "Not Alphabet. Not Microsoft. This Is the Cloud Stock I'd Buy With $5,000 Right Now.",
+      "ticker": "AAPL",
+      "title": "Sector Update: Tech Stocks Rise Late Afternoon",
       "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 21:43:00 +0000",
-      "link": "https://www.fool.com/investing/2026/10/16/not-alphabet-not-microsoft-this-is-the-cloud-stock/?.tsrc=rss"
+      "published": "Mon, 19 Oct 2026 19:46:54 +0000",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-194654951.html?.tsrc=rss"
     },
     {
-      "ticker": "MSFT",
-      "title": "Microsoft Signs 1,100 MW Power Deal With NiSource Until 2048 as AI Spending Outruns the Grid",
+      "ticker": "AMZN",
+      "title": "Palantir, Datadog and chip stocks bounce back as Amazon lifts Wall Street",
       "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 16:36:19 +0000",
-      "link": "https://www.tikr.com/blog/microsoft-signs-1100-mw-power-deal-with-nisource-until-2048-as-ai-spending-outruns-the-grid?ref=yahoofinance&.tsrc=rss"
+      "published": "Mon, 19 Oct 2026 20:40:43 +0000",
+      "link": "https://finance.yahoo.com/markets/article/palantir-datadog-and-chip-stocks-bounce-back-as-amazon-lifts-wall-street-204043191.html?.tsrc=rss"
     },
     {
-      "ticker": "MSFT",
-      "title": "Microsoft (MSFT) Remains a High-Quality AI Leader",
+      "ticker": "AMZN",
+      "title": "3M Jumps On Expanded Amazon Data Center Deal; Earnings On Tap",
       "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 16:28:32 +0000",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-remains-high-quality-162832834.html?.tsrc=rss"
+      "published": "Mon, 19 Oct 2026 23:39:09 +0000",
+      "link": "https://finance.yahoo.com/m/9f746d33-c17c-38dd-9fb5-a7b8bead6c9c/3m-jumps-on-expanded-amazon.html?.tsrc=rss"
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon vs. Home Depot: Which Consumer Stock Is a Better Buy in 2026?",
+      "publisher": "Yahoo RSS",
+      "published": "Mon, 19 Oct 2026 21:44:14 +0000",
+      "link": "https://www.fool.com/coverage/better-buy/2026/10/19/amazon-vs-home-depot-which-consumer-stock-is-a-better-buy-in-2026/?.tsrc=rss"
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Datadog, Intel, CoreWeave, Tesla, Amazon, Cleveland-Cliffs, and More Stocks That Explain Today\u2019s Market",
+      "publisher": "Yahoo RSS",
+      "published": "Mon, 19 Oct 2026 20:28:00 +0000",
+      "link": "https://finance.yahoo.com/m/81a4deae-1e16-3913-a37f-3c4abe680ee4/datadog%2C-intel%2C-coreweave%2C.html?.tsrc=rss"
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Wall Street Projects A Down Quarter For Tesla Earnings; Stock Rebounds",
+      "publisher": "Yahoo RSS",
+      "published": "Mon, 19 Oct 2026 20:01:11 +0000",
+      "link": "https://finance.yahoo.com/m/c61444d9-580f-35fc-a535-18525c5e82ea/wall-street-projects-a-down.html?.tsrc=rss"
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Musk's Tesla jumps 32 spots on the Roundtable 100 after 'flying car' reveal",
+      "publisher": "Yahoo RSS",
+      "published": "Mon, 19 Oct 2026 19:45:37 +0000",
+      "link": "https://www.thestreet.com/crypto/markets/musks-tesla-jumps-32-spots-on-the-roundtable-100-after-flying-car-reveal?.tsrc=rss"
     },
     {
       "ticker": "V",
-      "title": "Coca-Cola, Visa and Mastercard Hit Records as Investors Rotate Out of Chip Stocks",
+      "title": "Prediction: Visa Will Be a $1 Trillion Company by 2030",
       "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 20:43:00 +0000",
-      "link": "https://finance.yahoo.com/m/f547526c-55f6-33da-9b20-bad443c7f965/coca-cola%2C-visa-and.html?.tsrc=rss"
+      "published": "Mon, 19 Oct 2026 20:35:00 +0000",
+      "link": "https://www.fool.com/investing/2026/10/19/prediction-visa-will-be-a-1-trillion-company-2030/?.tsrc=rss"
     },
     {
       "ticker": "V",
-      "title": "Visa Stock Is Up 11% in October While Earnings Estimates Stood Still. Here\u2019s What October 27 Has to Prove",
+      "title": "3 Unstoppable Dow Stocks to Buy Before October Ends",
       "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 20:42:44 +0000",
-      "link": "https://www.tikr.com/blog/visa-stock-is-up-11-in-october-while-earnings-estimates-stood-still-heres-what-october-27-has-to-prove?ref=yahoofinance&.tsrc=rss"
+      "published": "Mon, 19 Oct 2026 19:50:00 +0000",
+      "link": "https://www.fool.com/investing/2026/10/19/3-dow-stocks-buy-before-october-end/?.tsrc=rss"
     },
     {
       "ticker": "V",
-      "title": "Visa, Mastercard urge court to approve fee settlement",
+      "title": "Newline\u2122 by Fifth Third Collaborated with Visa to Enable Fintechs to Offer Visa\u00ae Corporate Cards in Over 40 Countries",
       "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 17:40:00 +0000",
-      "link": "https://www.paymentsdive.com/news/visa-mastercard-urge-court-to-approve-fee-settlement/833241/?.tsrc=rss"
+      "published": "Mon, 19 Oct 2026 16:00:00 +0000",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/newline-fifth-third-collaborated-visa-160000655.html?.tsrc=rss"
     },
     {
       "ticker": "XOM",
-      "title": "ExxonMobil\u2019s Refining Profits Are Set to Jump $4.5 Billion. Here\u2019s What XOM Investors Need to Know.",
+      "title": "Better Oil Stock: Chevron (CVX) vs. ExxonMobil (XOM)",
       "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 19:05:01 +0000",
-      "link": "https://www.fool.com/investing/2026/10/16/exxonmobils-refining-profits-are-set-to-jump-45-billion-heres-what-xom-investors-need-to-know/?.tsrc=rss"
+      "published": "Mon, 19 Oct 2026 19:15:00 +0000",
+      "link": "https://www.fool.com/investing/2026/10/19/better-oil-stock-chevron-vs-exxonmobil/?.tsrc=rss"
     },
     {
       "ticker": "XOM",
-      "title": "XOM Stock Climbs On $4.5B Refining Lift Estimate; Goldman Sees Q3 EPS Exceeding Wall Street Expectations",
+      "title": "Exxon just showed why gas prices didn't fall with oil",
       "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 18:06:50 +0000",
-      "link": "https://stocktwits.com/news-articles/markets/equity/xom-stock-climbs-on-4-5-b-refining-lift-estimate-goldman-sees-q3-eps-exceeding-wall-street-expectations/cZxKaeZRBsU?.tsrc=rss"
+      "published": "Mon, 19 Oct 2026 16:33:00 +0000",
+      "link": "https://www.thestreet.com/markets/exxon-just-showed-why-gas-prices-didnt-fall-with-oil?.tsrc=rss"
     },
     {
       "ticker": "XOM",
-      "title": "ExxonMobil Stock Is on Pace for a Record High. Preliminary Earnings Are Both Good and Bad.",
+      "title": "ExxonMobil\u2019s Dividend Has Deep Pockets, but a Shallow Yield",
       "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 16:57:00 +0000",
-      "link": "https://finance.yahoo.com/m/e2df95eb-68ab-3481-a133-49cf0d7a48ac/exxonmobil-stock-is-on-pace.html?.tsrc=rss"
-    },
-    {
-      "ticker": "LLY",
-      "title": "Forget Zepbound: 3 Newer Drugs That Could Power Eli Lilly's Next Leg Higher",
-      "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 18:58:00 +0000",
-      "link": "https://www.fool.com/investing/2026/10/16/forget-zepbound-3-newer-drugs-that-could-power-eli/?.tsrc=rss"
-    },
-    {
-      "ticker": "LLY",
-      "title": "A $1,000 Investment in Eli Lilly Became $18,637. The Obesity Boom Changed Everything",
-      "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 18:15:55 +0000",
-      "link": "https://247wallst.com/investing/2026/10/16/a-1000-investment-in-eli-lilly-became-18637-the-obesity-boom-changed-everything/?.tsrc=rss"
-    },
-    {
-      "ticker": "LLY",
-      "title": "Eli Lilly\u2019s Growth Is Exceptional. Is Its Valuation Asking Too Much?",
-      "publisher": "Yahoo RSS",
-      "published": "Fri, 16 Oct 2026 16:15:55 +0000",
-      "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-growth-exceptional-valuation-161555998.html?.tsrc=rss"
+      "published": "Mon, 19 Oct 2026 14:10:58 +0000",
+      "link": "https://finance.yahoo.com/energy/articles/exxonmobil-dividend-deep-pockets-shallow-141058728.html?.tsrc=rss"
     }
-  ],
-  "intraday_mark": true
+  ]
 }
