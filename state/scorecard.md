@@ -1,6 +1,6 @@
-# Scorecard — 2026-10-20
+# Scorecard — 2026-10-21
 
-NAV **$99,804.01** · cash $90,001.24 · drawdown 0.3% · macro -1 (Concentration)
+NAV **$99,826.47** · cash $90,001.24 · drawdown 0.2% · macro -1 (Concentration)
 
 | Ticker | Trend | Mom | Macro | Total | Action |
 |---|---:|---:|---:|---:|---|
@@ -17,21 +17,21 @@ NAV **$99,804.01** · cash $90,001.24 · drawdown 0.3% · macro -1 (Concentratio
 | RSP | +1 | +2 | -1 | **+2** | WAIT (do not chase) |
 | XLF | +1 | +2 | -1 | **+2** | HOLD (ride the cycle) |
 | AAPL | +2 | +0 | -1 | **+1** | OBSERVE |
+| TSLA | +0 | +2 | -1 | **+1** | RE-ENTRY (new cycle) |
 | JPM | +0 | +1 | -1 | **+0** | OBSERVE |
 | HD | -1 | +2 | -1 | **+0** | OBSERVE |
+| SPY | +2 | -1 | -1 | **+0** | OBSERVE |
 | XLY | -1 | +2 | -1 | **+0** | OBSERVE |
 | XLU | -1 | +2 | -1 | **+0** | OBSERVE |
 | TLT | -1 | +2 | -1 | **+0** | OBSERVE |
+| NVDA | +1 | -1 | -1 | **-1** | OBSERVE |
 | META | +1 | -1 | -1 | **-1** | OBSERVE |
-| SPY | +1 | -1 | -1 | **-1** | OBSERVE |
+| QQQ | +1 | -1 | -1 | **-1** | OBSERVE |
+| XLI | -1 | +1 | -1 | **-1** | OBSERVE |
 | LQD | -1 | +1 | -1 | **-1** | OBSERVE |
-| NVDA | +1 | -2 | -1 | **-2** | OBSERVE |
-| GOOGL | +0 | -1 | -1 | **-2** | OBSERVE |
-| TSLA | +0 | -1 | -1 | **-2** | OBSERVE |
-| QQQ | +1 | -2 | -1 | **-2** | OBSERVE |
 | XLK | +1 | -2 | -1 | **-2** | OBSERVE |
-| XLI | -1 | +0 | -1 | **-2** | OBSERVE |
 | HYG | -1 | +0 | -1 | **-2** | OBSERVE |
-| IWM | -1 | -2 | -1 | **-4** | RE-ENTRY (new cycle) |
+| GOOGL | +0 | -2 | -1 | **-3** | OBSERVE |
+| IWM | -1 | -1 | -1 | **-3** | STAY OUT / AVOID |
 | GLD | -2 | -1 | -1 | **-4** | STAY OUT / AVOID |
 | AVGO | -2 | -2 | -1 | **-5** | STAY OUT / AVOID |
