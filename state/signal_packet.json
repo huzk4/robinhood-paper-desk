@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "mode": "advisory",
-  "nav": 99649.35,
+  "nav": 99558.81,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0043,
+  "drawdown_from_peak": 0.0052,
   "halted": false,
   "macro": {
     "score": 0,
@@ -417,5 +417,6 @@
       "published": "Thu, 15 Oct 2026 15:09:05 +0000",
       "link": "https://finance.yahoo.com/m/9bc2a072-a6e7-32f1-bc5b-dc7e28eae11c/the-rest-of-the-market-is.html?.tsrc=rss"
     }
-  ]
+  ],
+  "intraday_mark": true
 }
