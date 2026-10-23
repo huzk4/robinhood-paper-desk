@@ -1,9 +1,9 @@
 {
   "date": "2026-10-23",
   "mode": "advisory",
-  "nav": 99558.81,
+  "nav": 99539.5,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0052,
+  "drawdown_from_peak": 0.0054,
   "halted": false,
   "macro": {
     "score": 0,
@@ -48,22 +48,22 @@
       "total": -1,
       "trend": 1,
       "momentum": -2,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "AMZN": {
-      "total": 3,
+      "total": 0,
       "trend": 1,
-      "momentum": 2,
-      "action": "HOLD (ride the cycle)",
-      "rationale": "Bullish cycle intact (Trend and Momentum positive)."
+      "momentum": -1,
+      "action": "HOLD / OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "GOOGL": {
       "total": -2,
       "trend": 0,
       "momentum": -2,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "META": {
       "total": -1,
@@ -73,9 +73,9 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "TSLA": {
-      "total": 1,
+      "total": -1,
       "trend": 0,
-      "momentum": 1,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -87,11 +87,11 @@
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "JPM": {
-      "total": 2,
-      "trend": 1,
-      "momentum": 1,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "total": 0,
+      "trend": 0,
+      "momentum": 0,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "V": {
       "total": 4,
@@ -136,9 +136,9 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "SPY": {
-      "total": 0,
+      "total": -1,
       "trend": 1,
-      "momentum": -1,
+      "momentum": -2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -150,11 +150,11 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "IWM": {
-      "total": -2,
-      "trend": -1,
-      "momentum": -1,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Negative structure and momentum, no signs of turning."
+      "total": 0,
+      "trend": 0,
+      "momentum": 0,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "RSP": {
       "total": 4,
@@ -192,11 +192,11 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLI": {
-      "total": -1,
+      "total": -3,
       "trend": -1,
-      "momentum": 0,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "momentum": -2,
+      "action": "STAY OUT / AVOID",
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "XLP": {
       "total": 4,
@@ -220,11 +220,11 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "HYG": {
-      "total": -1,
-      "trend": -1,
+      "total": -2,
+      "trend": -2,
       "momentum": 0,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "LQD": {
       "total": 1,
@@ -251,52 +251,59 @@
   "headlines": [
     {
       "ticker": "AAPL",
-      "title": "Apple\u2019s foldable iPhone has a $2,000 app problem",
+      "title": "Elon Musk's $1B Skydance Investment",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 20:34:18 +0000",
-      "link": "https://finance.yahoo.com/video/apples-foldable-iphone-has-a-2000-app-problem-203418718.html?.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 18:33:20 +0000",
+      "link": "https://finance.yahoo.com/video/elon-musks-1b-skydance-investment-183320087.html?.tsrc=rss"
     },
     {
       "ticker": "AAPL",
-      "title": "Investors are punishing Big Tech's biggest spenders. Meta is the latest casualty.",
+      "title": "How Apple dethroned Nvidia to become world's most valuable company",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 17:42:36 +0000",
-      "link": "https://finance.yahoo.com/markets/article/investors-are-punishing-big-techs-biggest-spenders-meta-is-the-latest-casualty-174236447.html?.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 15:08:19 +0000",
+      "link": "https://finance.yahoo.com/video/how-apple-dethroned-nvidia-to-become-worlds-most-valuable-company-150819601.html?.tsrc=rss"
     },
     {
       "ticker": "AAPL",
-      "title": "Apple Reportedly Raised Its iPhone Duo Target 44%. Here\u2019s What November 2 Has to Show",
+      "title": "S&P 500, Dow Drop As Elevated Oil Prices Stoke Inflation Fears Ahead Of Fed Meeting Next Week \u2014 AAPL, AXP, CART, UBER In Focus",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 20:32:05 +0000",
-      "link": "https://www.tikr.com/blog/apple-reportedly-raised-its-iphone-duo-target-44-heres-what-november-2-has-to-show?ref=yahoofinance&.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 22:35:57 +0000",
+      "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-drop-as-elevated-oil-prices-stoke-inflation-fears-ahead-of-fed-meeting-next-week-aapl-axp-cart-uber-in-focus/cZxyHWvRBU4?.tsrc=rss"
     },
     {
       "ticker": "AVGO",
-      "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+      "title": "Prediction: Nvidia Will Outperform Broadcom Over the Next 5 Years",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 13:06:48 +0000",
-      "link": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html?.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 21:05:01 +0000",
+      "link": "https://www.fool.com/investing/2026/10/23/prediction-nvidia-will-outperform-broadcom-over-the-next-5-years/?.tsrc=rss"
     },
     {
       "ticker": "AVGO",
-      "title": "Broadcom Inc. (AVGO) Suffers a Larger Drop Than the General Market: Key Insights",
+      "title": "AMD or Broadcom: If I Could Only Own 1 AI Chip Stock Through 2030, Here's My Pick",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 20:45:02 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-inc-avgo-suffers-larger-204502208.html?.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 15:20:00 +0000",
+      "link": "https://www.fool.com/investing/2026/10/23/amd-or-broadcom-if-i-could-only-own-1-ai-chip-stoc/?.tsrc=rss"
     },
     {
       "ticker": "AVGO",
-      "title": "Prediction: Broadcom Stock Could Crush the S&P 500 Through 2030",
+      "title": "Same Playbook, Different Silicon: Broadcom Holds the Throne, Marvell Plays the AMD Challenger.",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 16:00:47 +0000",
-      "link": "https://247wallst.com/investing/2026/10/22/prediction-broadcom-stock-could-crush-the-sp-500-through-2030/?.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 12:45:58 +0000",
+      "link": "https://247wallst.com/investing/2026/10/23/same-playbook-different-silicon-broadcom-holds-the-throne-marvell-plays-the-amd-challenger/?.tsrc=rss"
     },
     {
       "ticker": "V",
-      "title": "CodeCoin Launches Quantum-Secured Visa-Network Payment Card at IMF Annual Meetings in Bangkok",
+      "title": "American Express Falls 3% Despite Q3 Beat and Higher Profit Floor; Visa and Mastercard Slip",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 19:43:00 +0000",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/codecoin-launches-quantum-secured-visa-194300534.html?.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 13:51:02 +0000",
+      "link": "https://247wallst.com/investing/2026/10/23/american-express-falls-3-despite-q3-beat-and-higher-profit-floor-visa-and-mastercard-slip/?.tsrc=rss"
+    },
+    {
+      "ticker": "V",
+      "title": "Visa Partners Singapore Tourism Board to Strengthen Singapore's Global Destination Appeal",
+      "publisher": "Yahoo RSS",
+      "published": "Fri, 23 Oct 2026 01:30:00 +0000",
+      "link": "https://finance.yahoo.com/media-advertising/articles/visa-partners-singapore-tourism-board-013000280.html?.tsrc=rss"
     },
     {
       "ticker": "V",
@@ -306,32 +313,32 @@
       "link": "https://www.americanbanker.com/payments/news/visa-and-mastercard-launch-ai-and-stablecoin-tech-products?.tsrc=rss"
     },
     {
-      "ticker": "V",
-      "title": "Visa and Mastercard tokenization fees could support revenue growth, UBS says",
+      "ticker": "UNH",
+      "title": "UnitedHealth Soars 11% in a Week After a Beat-and-Raise Quarter: \u201cDiscipline and Execution\u201d",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 18:54:00 +0000",
-      "link": "https://www.proactiveinvestors.com/companies/news/1100580/visa-and-mastercard-tokenization-fees-could-support-revenue-growth-ubs-says-1100580.html?.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 17:53:21 +0000",
+      "link": "https://www.tikr.com/blog/unitedhealth-soars-11-in-a-week-after-a-beat-and-raise-quarter-discipline-and-execution?ref=yahoofinance&.tsrc=rss"
     },
     {
       "ticker": "UNH",
-      "title": "UnitedHealth Group Incorporated (UNH) is Attracting Investor Attention: Here is What You Should Know",
+      "title": "What Will Decide UnitedHealth Group Stock Over The Next Six Months?",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 12:00:02 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/unitedhealth-group-incorporated-unh-attracting-120002905.html?.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 08:24:05 +0000",
+      "link": "https://www.trefis.com/articles/620187/what-will-decide-unitedhealth-group-stock-over-the-next-six-months/2026-10-23?.tsrc=rss"
     },
     {
       "ticker": "UNH",
-      "title": "UnitedHealth's Earnings Jumped 60%. Is the Comeback Stock a Buy, Sell, or Hold?",
+      "title": "UnitedHealth Climbs 9% Since Earnings as Optum Health Profit Surges to $735 Million",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 00:20:00 +0000",
-      "link": "https://www.fool.com/investing/2026/10/21/unitedhealths-earnings-jumped-60-is-the-comeback-s/?.tsrc=rss"
+      "published": "Thu, 22 Oct 2026 19:56:48 +0000",
+      "link": "https://www.tikr.com/blog/unitedhealth-climbs-9-since-earnings-as-optum-health-profit-surges-to-735-million?ref=yahoofinance&.tsrc=rss"
     },
     {
-      "ticker": "UNH",
-      "title": "Sector Update: Healthcare Stocks Softer Late Afternoon",
+      "ticker": "XOM",
+      "title": "3 Energy Stocks to Buy and Hold for the Next Decade, Starting With ExxonMobil",
       "publisher": "Yahoo RSS",
-      "published": "Wed, 21 Oct 2026 19:49:14 +0000",
-      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-194914771.html?.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 21:35:00 +0000",
+      "link": "https://www.fool.com/investing/2026/10/23/3-energy-stocks-to-buy-and-hold-for-the-next-decad/?.tsrc=rss"
     },
     {
       "ticker": "XOM",
@@ -348,53 +355,46 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/exxon-mobil-holdings-xom-great-150002353.html?.tsrc=rss"
     },
     {
-      "ticker": "XOM",
-      "title": "XOM vs. BP: Which Integrated Energy Giant Has the Edge?",
+      "ticker": "LLY",
+      "title": "2 Growth Stocks to Hold for the Next Decade (Hint: These Aren\u2019t AI Stocks)",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 13:45:00 +0000",
-      "link": "https://finance.yahoo.com/energy/articles/xom-vs-bp-integrated-energy-134500362.html?.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 20:05:02 +0000",
+      "link": "https://www.fool.com/investing/2026/10/23/2-growth-stocks-to-hold-for-the-next-decade-hint-these-aren-t-ai-stocks/?.tsrc=rss"
     },
     {
       "ticker": "LLY",
-      "title": "Amgen vs. Eli Lilly: Does the GLP-1 Mania Make LLY Stock a Better Buy in 2026?",
+      "title": "Goldman Sachs resets Eli Lilly 12-month stock price target before earnings",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 22:15:02 +0000",
-      "link": "https://www.fool.com/coverage/better-buy/2026/10/22/amgen-vs-eli-lilly-does-the-glp-1-mania-make-lly-stock-a-better-buy-in-2026/?.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 19:37:00 +0000",
+      "link": "https://www.thestreet.com/investing/stocks/lly-eli-lilly-goldman-sachs-raises-12-month-stock-price-target-ahead-of-earnings?.tsrc=rss"
     },
     {
       "ticker": "LLY",
-      "title": "What Does Eli Lilly (LLY) Mean To Signal With Its $5 Billion Richmond Build?",
+      "title": "Eli Lilly (LLY) Builds In Richmond As Fair Value Still Sits Higher",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 21:18:02 +0000",
-      "link": "https://finance.yahoo.com/healthcare/articles/does-eli-lilly-lly-mean-211802614.html?.tsrc=rss"
-    },
-    {
-      "ticker": "LLY",
-      "title": "UBS portfolio manager: S&P 500 could hit 9,500 by June 2027 on AI, longevity, energy boom",
-      "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 19:15:31 +0000",
-      "link": "https://247wallst.com/investing/2026/10/22/ubs-portfolio-manager-sp-500-could-hit-9500-by-june-2027-on-ai-longevity-energy-boom/?.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 18:11:16 +0000",
+      "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-builds-richmond-181116184.html?.tsrc=rss"
     },
     {
       "ticker": "COST",
-      "title": "Costco reveals which members spend the most money",
+      "title": "Prediction: $5,000 in Costco Stock Will Trail the Market Through 2030",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 21:03:00 +0000",
-      "link": "https://www.thestreet.com/retail/costco-reveals-which-members-spend-the-most-money?.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 23:07:01 +0000",
+      "link": "https://www.fool.com/investing/2026/10/23/prediction-usd5-000-in-costco-stock-will-trail-the-market-through-2030/?.tsrc=rss"
     },
     {
       "ticker": "COST",
-      "title": "Costco (COST) Advances While Market Declines: Some Information for Investors",
+      "title": "She Built a $100 Million Business in 7 Years. Here\u2019s How She Scaled From Scrappy Startup to Costco and Whole Foods.",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 20:45:03 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/costco-cost-advances-while-market-204503810.html?.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 19:34:29 +0000",
+      "link": "https://www.entrepreneur.com/building-a-business/she-built-a-100-million-business-32000-retail-locations-costco-whole-foods?.tsrc=rss"
     },
     {
       "ticker": "COST",
-      "title": "Costco Turned $1,000 Into $8,018 in Ten Years While the S&P 500 Delivered $3,564",
+      "title": "REJURAN\u00ae COSMETICS Expands U.S. Retail Presence Through Costco's First-Ever Beauty Table Program",
       "publisher": "Yahoo RSS",
-      "published": "Thu, 22 Oct 2026 19:45:14 +0000",
-      "link": "https://247wallst.com/investing/2026/10/22/costco-turned-1000-into-8018-in-ten-years-while-the-sp-500-delivered-3564/?.tsrc=rss"
+      "published": "Fri, 23 Oct 2026 16:07:00 +0000",
+      "link": "https://finance.yahoo.com/healthcare/articles/rejuran-cosmetics-expands-u-retail-160700059.html?.tsrc=rss"
     },
     {
       "ticker": "RSP",
@@ -417,6 +417,5 @@
       "published": "Thu, 15 Oct 2026 15:09:05 +0000",
       "link": "https://finance.yahoo.com/m/9bc2a072-a6e7-32f1-bc5b-dc7e28eae11c/the-rest-of-the-market-is.html?.tsrc=rss"
     }
-  ],
-  "intraday_mark": true
+  ]
 }
