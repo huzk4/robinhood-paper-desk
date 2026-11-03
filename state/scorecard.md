@@ -1,37 +1,41 @@
-# Scorecard — 2026-10-23
+# Scorecard — 2026-11-02
 
-NAV **$99,539.50** · cash $90,001.24 · drawdown 0.5% · macro +0 (Transitional)
+NAV **$99,636.48** · cash $90,001.24 · drawdown 0.4% · macro +0 (Transitional)
 
 | Ticker | Trend | Mom | Macro | Total | Action |
 |---|---:|---:|---:|---:|---|
-| AAPL | +2 | +2 | +0 | **+4** | WAIT (do not chase) |
 | V | +2 | +2 | +0 | **+4** | WAIT (do not chase) |
-| UNH | +2 | +2 | +0 | **+4** | WAIT (do not chase) |
 | XOM | +2 | +2 | +0 | **+4** | WAIT (do not chase) |
 | LLY | +2 | +2 | +0 | **+4** | WAIT (do not chase) |
 | COST | +2 | +2 | +0 | **+4** | WAIT (do not chase) |
 | RSP | +2 | +2 | +0 | **+4** | WAIT (do not chase) |
-| XLE | +2 | +2 | +0 | **+4** | WAIT (do not chase) |
+| XLF | +2 | +2 | +0 | **+4** | HOLD (ride the cycle) |
 | XLV | +2 | +2 | +0 | **+4** | WAIT (do not chase) |
 | XLP | +2 | +2 | +0 | **+4** | WAIT (do not chase) |
-| XLF | +1 | +2 | +0 | **+3** | HOLD (ride the cycle) |
-| HD | -1 | +2 | +0 | **+1** | OBSERVE |
-| XLY | -1 | +2 | +0 | **+1** | OBSERVE |
-| XLU | -1 | +2 | +0 | **+1** | OBSERVE |
+| TSLA | +1 | +2 | +0 | **+3** | WAIT (do not chase) |
+| XLY | +1 | +2 | +0 | **+3** | WAIT (do not chase) |
+| XLU | +1 | +2 | +0 | **+3** | WAIT (do not chase) |
+| JPM | +1 | +1 | +0 | **+2** | WAIT (do not chase) |
+| HD | +0 | +2 | +0 | **+2** | OBSERVE |
+| IWM | +1 | +1 | +0 | **+2** | WAIT (do not chase) |
+| TLT | +0 | +2 | +0 | **+2** | OBSERVE |
+| UNH | +1 | +0 | +0 | **+1** | OBSERVE |
+| XLE | +1 | +0 | +0 | **+1** | OBSERVE |
+| XLI | +0 | +1 | +0 | **+1** | OBSERVE |
 | LQD | -1 | +2 | +0 | **+1** | OBSERVE |
-| TLT | -1 | +2 | +0 | **+1** | OBSERVE |
-| MSFT | +1 | -1 | +0 | **+0** | OBSERVE |
-| AMZN | +1 | -1 | +0 | **+0** | HOLD / OBSERVE |
-| JPM | +0 | +0 | +0 | **+0** | OBSERVE |
-| IWM | +0 | +0 | +0 | **+0** | OBSERVE |
-| NVDA | +1 | -2 | +0 | **-1** | STAY OUT / AVOID |
-| META | +1 | -2 | +0 | **-1** | OBSERVE |
-| TSLA | +0 | -1 | +0 | **-1** | OBSERVE |
-| SPY | +1 | -2 | +0 | **-1** | OBSERVE |
-| QQQ | +1 | -2 | +0 | **-1** | OBSERVE |
-| XLK | +1 | -2 | +0 | **-1** | OBSERVE |
-| GOOGL | +0 | -2 | +0 | **-2** | STAY OUT / AVOID |
+| AAPL | +1 | -1 | +0 | **+0** | OBSERVE |
+| MSFT | +1 | -2 | +0 | **-1** | OBSERVE |
+| SPY | +1 | -2 | +0 | **-1** | STAY OUT / AVOID |
+| NVDA | +0 | -2 | +0 | **-2** | STAY OUT / AVOID |
+| AMZN | +0 | -2 | +0 | **-2** | HOLD / OBSERVE |
+| QQQ | +0 | -2 | +0 | **-2** | STAY OUT / AVOID |
+| XLK | +0 | -2 | +0 | **-2** | STAY OUT / AVOID |
 | HYG | -2 | +0 | +0 | **-2** | STAY OUT / AVOID |
-| XLI | -1 | -2 | +0 | **-3** | STAY OUT / AVOID |
+| GOOGL | -1 | -2 | +0 | **-3** | STAY OUT / AVOID |
+| META | -1 | -2 | +0 | **-3** | STAY OUT / AVOID |
 | AVGO | -2 | -2 | +0 | **-4** | STAY OUT / AVOID |
 | GLD | -2 | -2 | +0 | **-4** | STAY OUT / AVOID |
+
+## Proposed orders (advisory)
+
+- SELL 19.1344 AMZN — HOLD / OBSERVE (score -2)
