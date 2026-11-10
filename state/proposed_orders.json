@@ -1,8 +1,14 @@
 [
   {
-    "side": "sell",
-    "ticker": "AMZN",
-    "shares": 19.1344,
-    "reason": "HOLD / OBSERVE (score -2)"
+    "side": "buy",
+    "ticker": "AAPL",
+    "shares": 22.8306,
+    "reason": "RE-ENTRY (new cycle) (score +3)"
+  },
+  {
+    "side": "buy",
+    "ticker": "MSFT",
+    "shares": 14.6859,
+    "reason": "RE-ENTRY (new cycle) (score +5)"
   }
 ]

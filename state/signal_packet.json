@@ -6,9 +6,9 @@
   "drawdown_from_peak": 0.001,
   "halted": false,
   "macro": {
-    "score": 0,
+    "score": 1,
     "regime": "Transitional",
-    "composite": 0.062,
+    "composite": 0.375,
     "notes": [
       "No yield_spread: redistributing the 20% weight of the curve among other components."
     ]
@@ -30,78 +30,84 @@
   "fills_today": [],
   "proposed_orders": [
     {
-      "side": "sell",
-      "ticker": "AMZN",
-      "shares": 19.1344,
-      "reason": "HOLD / OBSERVE (score -2)"
+      "side": "buy",
+      "ticker": "AAPL",
+      "shares": 22.8306,
+      "reason": "RE-ENTRY (new cycle) (score +3)"
+    },
+    {
+      "side": "buy",
+      "ticker": "MSFT",
+      "shares": 14.6859,
+      "reason": "RE-ENTRY (new cycle) (score +5)"
     }
   ],
   "scores": {
     "AAPL": {
-      "total": 0,
-      "trend": 1,
-      "momentum": -1,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "total": 3,
+      "trend": 2,
+      "momentum": 0,
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "MSFT": {
-      "total": -1,
-      "trend": 1,
-      "momentum": -2,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "total": 5,
+      "trend": 2,
+      "momentum": 2,
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "NVDA": {
       "total": -2,
-      "trend": 0,
-      "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
-    },
-    "AMZN": {
-      "total": -2,
-      "trend": 0,
-      "momentum": -2,
-      "action": "HOLD / OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
-    },
-    "GOOGL": {
-      "total": -3,
       "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
-    "META": {
+    "AMZN": {
+      "total": 5,
+      "trend": 2,
+      "momentum": 2,
+      "action": "HOLD (ride the cycle)",
+      "rationale": "Bullish cycle intact (Trend and Momentum positive)."
+    },
+    "GOOGL": {
       "total": -3,
+      "trend": -2,
+      "momentum": -2,
+      "action": "TACTICAL REBOUND (counter-trend)",
+      "rationale": "Rebound signals within a death-cross: tactical trade, NOT a new cycle."
+    },
+    "META": {
+      "total": -2,
       "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Negative structure and momentum, no signs of turning."
     },
     "TSLA": {
-      "total": 3,
-      "trend": 1,
-      "momentum": 2,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "total": -1,
+      "trend": -1,
+      "momentum": -1,
+      "action": "STAY OUT / AVOID",
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "AVGO": {
-      "total": -4,
+      "total": -3,
       "trend": -2,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "TACTICAL REBOUND (counter-trend)",
+      "rationale": "Rebound signals within a death-cross: tactical trade, NOT a new cycle."
     },
     "JPM": {
-      "total": 2,
+      "total": 3,
       "trend": 1,
       "momentum": 1,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "V": {
-      "total": 4,
+      "total": 5,
       "trend": 2,
       "momentum": 2,
       "action": "WAIT (do not chase)",
@@ -110,33 +116,33 @@
     "UNH": {
       "total": 1,
       "trend": 1,
-      "momentum": 0,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XOM": {
-      "total": 4,
-      "trend": 2,
-      "momentum": 2,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "total": 0,
+      "trend": 1,
+      "momentum": -2,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "LLY": {
-      "total": 4,
+      "total": 5,
       "trend": 2,
       "momentum": 2,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "HD": {
-      "total": 2,
-      "trend": 0,
+      "total": 4,
+      "trend": 1,
       "momentum": 2,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "WAIT (do not chase)",
+      "rationale": "Healthy trend but no fresh entry trigger."
     },
     "COST": {
-      "total": 4,
+      "total": 5,
       "trend": 2,
       "momentum": 2,
       "action": "WAIT (do not chase)",
@@ -144,27 +150,27 @@
     },
     "SPY": {
       "total": -1,
-      "trend": 1,
+      "trend": 0,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "QQQ": {
       "total": -2,
-      "trend": 0,
+      "trend": -1,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "IWM": {
-      "total": 2,
+      "total": 3,
       "trend": 1,
       "momentum": 1,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "RSP": {
-      "total": 4,
+      "total": 5,
       "trend": 2,
       "momentum": 2,
       "action": "WAIT (do not chase)",
@@ -172,258 +178,257 @@
     },
     "XLK": {
       "total": -2,
-      "trend": 0,
+      "trend": -1,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "XLE": {
-      "total": 1,
+      "total": 0,
       "trend": 1,
-      "momentum": 0,
+      "momentum": -2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLF": {
-      "total": 4,
+      "total": 5,
       "trend": 2,
       "momentum": 2,
       "action": "HOLD (ride the cycle)",
       "rationale": "Bullish cycle intact (Trend and Momentum positive)."
     },
     "XLV": {
-      "total": 4,
+      "total": 5,
       "trend": 2,
       "momentum": 2,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLI": {
-      "total": 1,
+      "total": 0,
       "trend": 0,
-      "momentum": 1,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLP": {
-      "total": 4,
+      "total": 5,
       "trend": 2,
       "momentum": 2,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLY": {
-      "total": 3,
+      "total": 4,
       "trend": 1,
       "momentum": 2,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLU": {
-      "total": 3,
+      "total": 4,
       "trend": 1,
       "momentum": 2,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "HYG": {
-      "total": -2,
-      "trend": -2,
-      "momentum": 0,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "total": 1,
+      "trend": -1,
+      "momentum": 1,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "LQD": {
-      "total": 1,
+      "total": 2,
       "trend": -1,
       "momentum": 2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "TLT": {
-      "total": 2,
+      "total": 3,
       "trend": 0,
       "momentum": 2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "GLD": {
-      "total": -4,
-      "trend": -2,
-      "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "total": 1,
+      "trend": -1,
+      "momentum": 1,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     }
   },
   "headlines": [
     {
-      "ticker": "AVGO",
-      "title": "Why Free Cash Flow Matters More Than Ever: 5 Tech Stocks to Watch",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 19:39:00 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-free-cash-flow-matters-193900582.html?.tsrc=rss"
+      "ticker": "MSFT",
+      "title": "Post-Midterms AI Selloff on Data-Center Buildout Concerns Appears Overdone",
+      "publisher": "The Wall Street Journal",
+      "published": "2026-11-10T02:48:00Z",
+      "link": "https://www.wsj.com/finance/stocks/nikkei-rises-2-8-led-by-bank-machinery-stocks-c0a653b1?siteid=yhoof2&yptr=yahoo"
     },
     {
-      "ticker": "AVGO",
-      "title": "Wi-Fi 6, Wi-Fi 6E and Wi-Fi 7 Chipset - Global Strategic Business Report 2026: Capitalize on 13.3% CAGR to $90.7 Billion by 2032; Outmaneuver Broadcom, Qualcomm, Intel and Mediatek",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 15:37:00 +0000",
-      "link": "https://finance.yahoo.com/technology/articles/wi-fi-6-wi-fi-153700998.html?.tsrc=rss"
+      "ticker": "MSFT",
+      "title": "Tech leads Asian stock rally as traders track Wall St rebound",
+      "publisher": "AFP",
+      "published": "2026-11-10T02:39:30Z",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/tech-leads-asian-stock-rally-023930562.html"
     },
     {
-      "ticker": "AVGO",
-      "title": "Broadcom\u2019s Supply Bottlenecks \u2013 Not Demand \u2013 Continue to Offer Investors a Discount I Keep Buying",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 13:45:19 +0000",
-      "link": "https://247wallst.com/investing/2026/11/02/broadcoms-supply-bottlenecks-not-demand-continue-to-offer-investors-a-discount-i-keep-buying/?.tsrc=rss"
+      "ticker": "MSFT",
+      "title": "Alphabet Almost Sets a Record No One Wants",
+      "publisher": "Motley Fool",
+      "published": "2026-11-10T00:43:02Z",
+      "link": "https://www.fool.com/investing/2026/11/09/alphabet-almost-sets-a-record-no-one-wants/"
+    },
+    {
+      "ticker": "AMZN",
+      "title": "One nugget overlooked during the AI sell-off: token costs",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-09T15:16:11Z",
+      "link": "https://finance.yahoo.com/video/one-nugget-overlooked-during-the-ai-sell-off-token-costs-151611529.html"
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Anthropic's S-1 Says It Will Expand Its Data Center Footprint. Here's Who Could Pour the Concrete, Wire the Power, and Cool the Chips.",
+      "publisher": "Motley Fool",
+      "published": "2026-11-10T03:14:00Z",
+      "link": "https://www.fool.com/investing/2026/11/09/anthropics-s-1-says-it-will-expand-its-data-center/"
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Post-Midterms AI Selloff on Data-Center Buildout Concerns Appears Overdone",
+      "publisher": "The Wall Street Journal",
+      "published": "2026-11-10T02:48:00Z",
+      "link": "https://www.wsj.com/finance/stocks/nikkei-rises-2-8-led-by-bank-machinery-stocks-c0a653b1?siteid=yhoof2&yptr=yahoo"
     },
     {
       "ticker": "V",
-      "title": "Visa raises quarterly dividend by 16%",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 20:13:00 +0000",
-      "link": "https://www.thestreet.com/investing/stocks/visa-dividend-increase-earnings-report?.tsrc=rss"
+      "title": "PayPal\u2019s (PYPL) Turnaround Still Needs Proof",
+      "publisher": "TipRanks",
+      "published": "2026-11-09T20:51:00Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/paypal-pypl-turnaround-still-needs-205100874.html"
     },
     {
       "ticker": "V",
-      "title": "Visa Stocks Rise 2.4% With Higher Cantor Target Facing a Payments-Mix Test",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 17:22:01 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-stocks-rise-2-4-172201494.html?.tsrc=rss"
+      "title": "Visa Sees 20%\u2011Plus Services Growth as U.S. Payment Volumes Gain Momentum",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T16:15:14Z",
+      "link": "https://www.marketbeat.com/instant-alerts/event-visa-sees-20plus-services-growth-as-us-payment-volumes-gain-momentum-2026-11-09/?utm_source=yahoofinance&utm_medium=yahoofinance"
     },
     {
       "ticker": "V",
-      "title": "Fraud, AI Use Emerge as Key Issues in Visa Holiday Report",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 17:08:02 +0000",
-      "link": "https://wwd.com/sourcing-journal/industry-news/ai-use-emerge-as-key-issues-in-visa-holiday-report-1239395746/?.tsrc=rss"
-    },
-    {
-      "ticker": "XOM",
-      "title": "How Investors Are Reacting To ExxonMobil Stock Earnings Beat",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 22:10:59 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-exxonmobil-stock-earnings-221059479.html?.tsrc=rss"
-    },
-    {
-      "ticker": "XOM",
-      "title": "ExxonMobil (XOM) Stock Fair Value Edges Higher After Analyst Target Revisions",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 21:10:47 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-xom-stock-fair-value-211047450.html?.tsrc=rss"
-    },
-    {
-      "ticker": "XOM",
-      "title": "XOM Q3 deep dive: Margin expansion and strategic investments amid production headwinds",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 20:05:36 +0000",
-      "link": "https://finance.yahoo.com/energy/articles/xom-q3-deep-dive-margin-200536808.html?.tsrc=rss"
+      "title": "Latest News In Digital Payment - Malaysian Fintech Surge Driven By Digital Innovation",
+      "publisher": "Simply Wall St.",
+      "published": "2026-11-09T12:37:45Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/latest-news-digital-payment-malaysian-123745323.html"
     },
     {
       "ticker": "LLY",
-      "title": "Eli Lilly Stock: Is It Still a Buy at $1,400?",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 23:20:02 +0000",
-      "link": "https://www.fool.com/investing/2026/11/02/eli-lilly-stock-is-it-still-a-buy-at-1-400/?.tsrc=rss"
+      "title": "Trump\u2019s Plan to Lower Drug Prices in U.S. Is Leading to Fewer New Drugs in Europe",
+      "publisher": "The Wall Street Journal",
+      "published": "2026-11-10T01:30:00Z",
+      "link": "https://www.wsj.com/health/pharma/trumps-plan-to-lower-drug-prices-in-u-s-is-leading-to-fewer-new-drugs-in-europe-2b3d8d9d?siteid=yhoof2&yptr=yahoo"
     },
     {
       "ticker": "LLY",
-      "title": "Betting On Drug Sales: Is Viatris Or Lilly The Better Way In?",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 20:21:06 +0000",
-      "link": "https://www.trefis.com/stock/vtrs/articles/621760/betting-on-drug-sales-is-viatris-or-lilly-the-better-way-in/2026-11-02?.tsrc=rss"
+      "title": "Hims & Hers Stock Extends Losses After Earnings Stumble",
+      "publisher": "Barrons.com",
+      "published": "2026-11-09T23:01:00Z",
+      "link": "https://www.barrons.com/articles/hims-hers-earnings-stock-price-7869b1b3?siteid=yhoof2&yptr=yahoo"
     },
     {
       "ticker": "LLY",
-      "title": "Eli Lilly Just Delivered Another Blowout Quarter. Is This Unstoppable Growth Stock Still a Buy?",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 18:53:02 +0000",
-      "link": "https://www.fool.com/investing/2026/11/02/eli-lilly-just-delivered-another-blowout-quarter-is-this-unstoppable-growth-stock-still-a-buy/?.tsrc=rss"
+      "title": "Hims' Roller Coaster Ride Continues With Surprise Losses, Light Sales And A Guidance Cut",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-11-09T21:17:52Z",
+      "link": "https://www.investors.com/news/technology/hims-stock-hims-earnings-q3-2026/?src=A00220&yptr=yahoo"
     },
     {
       "ticker": "COST",
-      "title": "JPMorgan's shocking capital expenditures estimates for Amazon, and worries for McDonald's ahead",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 15:12:40 +0000",
-      "link": "https://finance.yahoo.com/video/jpmorgans-shocking-capital-expenditures-estimates-for-amazon-and-worries-for-mcdonalds-ahead-151240797.html?.tsrc=rss"
+      "title": "Costco Wholesale (COST) Gains Grocery Share As Its Valuation Looks Harder To Ignore",
+      "publisher": "Simply Wall St.",
+      "published": "2026-11-10T03:12:34Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/costco-wholesale-cost-gains-grocery-031234033.html"
     },
     {
       "ticker": "COST",
-      "title": "Costco Wholesale Stock Is Trading Over $1,000. Here's Why a Stock Split Still May Not Come in 2027.",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 20:39:00 +0000",
-      "link": "https://www.fool.com/investing/2026/11/02/costco-wholesale-stock-is-trading-over-1000-heres/?.tsrc=rss"
+      "title": "Costco just passed Kroger in a grocery ranking that matters",
+      "publisher": "TheStreet",
+      "published": "2026-11-10T00:17:00Z",
+      "link": "https://www.thestreet.com/retail/costco-just-passed-kroger-in-a-grocery-ranking-that-matters"
     },
     {
       "ticker": "COST",
-      "title": "Why Is Costco (COST) Facing Class Action Lawsuits Over Tariff Refunds?",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 14:07:04 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-costco-cost-facing-class-140704589.html?.tsrc=rss"
+      "title": "She Plans to Join Costco\u2019s New Medicare Advantage Plan at 65. Once Her 12-Month Trial Right Ends, a Medigap Insurer Could Ask Health Questions and Reject Her Application",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-09T20:03:23Z",
+      "link": "https://247wallst.com/personal-finance/2026/11/09/she-plans-to-join-costcos-new-medicare-advantage-plan-at-65-once-her-12-month-trial-right-ends-a-medigap-insurer-could-ask-health-questions-and-reject-her-application/"
     },
     {
       "ticker": "RSP",
-      "title": "Invesco S&P 500 Equal Weight (RSP) Buys $0.2 Million More Morgan Stanley on Thursday",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 11:04:50 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110450838.html?.tsrc=rss"
+      "title": "Trade Desk Handed CEO Jeffrey Green Options on 7 Million Shares Weeks Before Tonight\u2019s Earnings",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-09T18:00:24Z",
+      "link": "https://247wallst.com/investing/etf/2026/11/09/trade-desk-handed-ceo-jeffrey-green-options-on-7-million-shares-weeks-before-tonights-earnings/"
     },
     {
       "ticker": "RSP",
-      "title": "Is Invesco S&P 500 Equal Weight Industrials ETF (RSPN) a Strong ETF Right Now?",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 10:20:02 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-102002906.html?.tsrc=rss"
+      "title": "The Rest of the Magnificent 7 Are Leaving Nvidia in the Dust",
+      "publisher": "Barrons.com",
+      "published": "2026-11-09T16:14:40Z",
+      "link": "https://www.barrons.com/livecoverage/stock-market-news-today-110926/card/the-rest-of-the-magnificent-7-are-leaving-nvidia-in-the-dust-zhlm2OjELYB7e0DlNcoo?siteid=yhoof2&yptr=yahoo"
     },
     {
       "ticker": "RSP",
-      "title": "Is Invesco S&P 500 Equal Weight Financials ETF (RSPF) a Strong ETF Right Now?",
-      "publisher": "Yahoo RSS",
-      "published": "Wed, 28 Oct 2026 09:20:02 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-092002578.html?.tsrc=rss"
+      "title": "Invesco S&P 500 Equal Weight (RSP) Adds Vylor and Moderna on Nov. 5",
+      "publisher": "GuruFocus.com",
+      "published": "2026-11-09T11:04:53Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110453969.html"
     },
     {
       "ticker": "XLF",
-      "title": "What State Street Fin Select Sector SPDR (XLF) Bought: Berkshire Leads on Oct. 29",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 11:04:25 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-fin-select-sector-110425586.html?.tsrc=rss"
+      "title": "Sector Update: Financial Stocks Rise Late Afternoon",
+      "publisher": "MT Newswires",
+      "published": "2026-11-09T21:04:47Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-210447470.html"
     },
     {
       "ticker": "XLF",
-      "title": "'The Fed put is very much back': Wall Street strategists weigh central bank's next move",
-      "publisher": "Yahoo RSS",
-      "published": "Sat, 31 Oct 2026 15:53:53 +0000",
-      "link": "https://finance.yahoo.com/markets/article/the-fed-put-is-very-much-back-wall-street-strategists-weigh-central-banks-next-move-155353732.html?.tsrc=rss"
+      "title": "Sector Update: Financial Stocks Rise Monday Afternoon",
+      "publisher": "MT Newswires",
+      "published": "2026-11-09T18:53:58Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-monday-185358801.html"
     },
     {
       "ticker": "XLF",
-      "title": "Sector Update: Financial Stocks Higher Late Afternoon",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 21:06:21 +0000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-210621921.html?.tsrc=rss"
+      "title": "Exchange-Traded Funds Higher as US Equities Advance After Midday",
+      "publisher": "MT Newswires",
+      "published": "2026-11-09T18:08:17Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-180817957.html"
     },
     {
       "ticker": "XLV",
-      "title": "What State Street Health Care SPDR (XLV) Bought: Eli Lilly Leads on Oct. 29",
-      "publisher": "Yahoo RSS",
-      "published": "Mon, 02 Nov 2026 11:04:43 +0000",
-      "link": "https://finance.yahoo.com/healthcare/articles/state-street-health-care-spdr-110443929.html?.tsrc=rss"
+      "title": "Defensive healthcare ETFs: broad funds, income options, and key caveats",
+      "publisher": "Investing.com",
+      "published": "2026-11-09T21:25:17Z",
+      "link": "https://finance.yahoo.com/healthcare/articles/defensive-healthcare-etfs-broad-funds-212517207.html"
     },
     {
       "ticker": "XLV",
-      "title": "'The Fed put is very much back': Wall Street strategists weigh central bank's next move",
-      "publisher": "Yahoo RSS",
-      "published": "Sat, 31 Oct 2026 15:53:53 +0000",
-      "link": "https://finance.yahoo.com/markets/article/the-fed-put-is-very-much-back-wall-street-strategists-weigh-central-banks-next-move-155353732.html?.tsrc=rss"
+      "title": "Sector Update: Healthcare Stocks Higher Late Afternoon",
+      "publisher": "MT Newswires",
+      "published": "2026-11-09T20:57:54Z",
+      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-higher-afternoon-205754611.html"
     },
     {
       "ticker": "XLV",
-      "title": "Should You Invest in the State Street Health Care Select Sector SPDR ETF ETF (XLV)?",
-      "publisher": "Yahoo RSS",
-      "published": "Tue, 27 Oct 2026 09:20:02 +0000",
-      "link": "https://finance.yahoo.com/healthcare/articles/invest-state-street-health-care-092002587.html?.tsrc=rss"
+      "title": "Sector Update: Healthcare Stocks Rise Monday Afternoon",
+      "publisher": "MT Newswires",
+      "published": "2026-11-09T18:36:36Z",
+      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-monday-183636704.html"
     }
-  ],
-  "intraday_mark": true
+  ]
 }
