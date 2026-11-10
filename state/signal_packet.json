@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "mode": "advisory",
-  "nav": 100080.92,
+  "nav": 100182.85,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.001,
+  "drawdown_from_peak": 0.0,
   "halted": false,
   "macro": {
     "score": 1,
@@ -430,5 +430,6 @@
       "published": "2026-11-09T18:36:36Z",
       "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-monday-183636704.html"
     }
-  ]
+  ],
+  "intraday_mark": true
 }
