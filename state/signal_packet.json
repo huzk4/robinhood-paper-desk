@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "mode": "advisory",
-  "nav": 100182.85,
+  "nav": 100121.25,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0,
+  "drawdown_from_peak": 0.0006,
   "halted": false,
   "macro": {
     "score": 1,
