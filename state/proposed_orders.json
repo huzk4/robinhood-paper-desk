@@ -1,14 +1,8 @@
 [
   {
     "side": "buy",
-    "ticker": "AAPL",
-    "shares": 22.8306,
+    "ticker": "UNH",
+    "shares": 19.4013,
     "reason": "RE-ENTRY (new cycle) (score +3)"
-  },
-  {
-    "side": "buy",
-    "ticker": "MSFT",
-    "shares": 14.6859,
-    "reason": "RE-ENTRY (new cycle) (score +5)"
   }
 ]
