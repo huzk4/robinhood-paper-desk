@@ -52,8 +52,8 @@
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "AMZN": {
-      "total": 4,
-      "trend": 1,
+      "total": 5,
+      "trend": 2,
       "momentum": 2,
       "action": "HOLD (ride the cycle)",
       "rationale": "Bullish cycle intact (Trend and Momentum positive)."
@@ -76,13 +76,13 @@
       "total": 0,
       "trend": 0,
       "momentum": -1,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "AVGO": {
-      "total": 1,
+      "total": 2,
       "trend": -1,
-      "momentum": 1,
+      "momentum": 2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -108,11 +108,11 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XOM": {
-      "total": 1,
+      "total": 0,
       "trend": 1,
-      "momentum": -1,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "momentum": -2,
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "LLY": {
       "total": 4,
@@ -122,11 +122,11 @@
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "HD": {
-      "total": 3,
+      "total": 2,
       "trend": 1,
-      "momentum": 1,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "momentum": 0,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "COST": {
       "total": 5,
@@ -147,14 +147,14 @@
       "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "IWM": {
-      "total": -1,
-      "trend": 0,
+      "total": -2,
+      "trend": -1,
       "momentum": -2,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "RSP": {
       "total": 2,
@@ -167,15 +167,15 @@
       "total": -2,
       "trend": -1,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "XLE": {
       "total": 0,
       "trend": 1,
       "momentum": -2,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "XLF": {
       "total": 2,
@@ -185,11 +185,11 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLV": {
-      "total": 4,
-      "trend": 2,
-      "momentum": 1,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "total": 2,
+      "trend": 1,
+      "momentum": 0,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLI": {
       "total": -2,
@@ -199,18 +199,18 @@
       "rationale": "Negative structure and momentum, no signs of turning."
     },
     "XLP": {
-      "total": 5,
+      "total": 4,
       "trend": 2,
-      "momentum": 2,
+      "momentum": 1,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLY": {
-      "total": 2,
-      "trend": 1,
-      "momentum": 0,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "total": 4,
+      "trend": 2,
+      "momentum": 1,
+      "action": "WAIT (do not chase)",
+      "rationale": "Healthy trend but no fresh entry trigger."
     },
     "XLU": {
       "total": 3,
@@ -227,18 +227,18 @@
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "LQD": {
-      "total": -3,
+      "total": -2,
       "trend": -2,
-      "momentum": -2,
+      "momentum": -1,
       "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "TLT": {
-      "total": -2,
+      "total": -1,
       "trend": -1,
-      "momentum": -2,
+      "momentum": -1,
       "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "GLD": {
       "total": -3,
@@ -251,172 +251,171 @@
   "headlines": [
     {
       "ticker": "AAPL",
-      "title": "Apple outage today: iCloud and App Store down after a week of big outages",
-      "publisher": "Yahoo Finance",
-      "published": "2026-11-17T19:34:24Z",
-      "link": "https://finance.yahoo.com/markets/article/why-apple-is-down-in-a-week-of-outages-from-microsoft-to-chase-193424335.html"
+      "title": "Major tech outages raise new cybersecurity concerns",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-18T14:40:24Z",
+      "link": "https://finance.yahoo.com/video/major-tech-outages-raise-new-cybersecurity-concerns-144024816.html"
     },
     {
       "ticker": "AAPL",
-      "title": "Mary Barra Transformed GM. Her Successor May Have to Do It Again.",
-      "publisher": "The Wall Street Journal",
-      "published": "2026-11-18T02:00:00Z",
-      "link": "https://www.wsj.com/business/autos/mary-barra-transformed-gm-her-successor-may-have-to-do-it-again-aca050e9?siteid=yhoof2&yptr=yahoo"
+      "title": "Corning CEO on working with Steve Jobs to make screens for the first iPhone",
+      "publisher": "Fortune",
+      "published": "2026-11-19T01:00:13Z",
+      "link": "https://finance.yahoo.com/video/corning-ceo-working-steve-jobs-010013740.html"
     },
     {
       "ticker": "AAPL",
-      "title": "Nvidia says 'no' to rehiring Huang and WSJ reports SEC is probing the chipmaker",
-      "publisher": "Reuters",
-      "published": "2026-11-18T01:32:47Z",
-      "link": "https://finance.yahoo.com/news/nvidia-board-forms-committee-national-102208048.html"
-    },
-    {
-      "ticker": "COST",
-      "title": "Costco (COST) Stock Fair Value Edges Higher As AI Rollout Expands And Lawsuits Emerge",
-      "publisher": "Simply Wall St.",
-      "published": "2026-11-18T00:15:18Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/costco-cost-stock-fair-value-001518698.html"
-    },
-    {
-      "ticker": "COST",
-      "title": "Costco releases trendy holiday product",
-      "publisher": "TheStreet",
-      "published": "2026-11-17T23:07:00Z",
-      "link": "https://www.thestreet.com/retail/costco-advent-calendar-seasonal-items"
-    },
-    {
-      "ticker": "COST",
-      "title": "Costco Is Near Its High. Bank of America Sees Another 13%",
-      "publisher": "TIKR",
-      "published": "2026-11-17T22:58:20Z",
-      "link": "https://www.tikr.com/blog/costco-is-near-its-high-bank-of-america-sees-another-13?ref=yahoofinance&tlnk=yf-261117-v2phm43q"
-    },
-    {
-      "ticker": "XLP",
-      "title": "Consumer staples stocks benefiting from a powerful rotation as tech gets slammed",
-      "publisher": "Yahoo Finance",
-      "published": "2026-11-17T17:39:29Z",
-      "link": "https://finance.yahoo.com/markets/article/consumer-staples-stocks-benefiting-from-a-powerful-rotation-as-tech-gets-slammed-173929452.html"
-    },
-    {
-      "ticker": "XLP",
-      "title": "Sector Update: Consumer Stocks Decline Late Afternoon",
-      "publisher": "MT Newswires",
-      "published": "2026-11-17T20:43:09Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-204309541.html"
-    },
-    {
-      "ticker": "XLP",
-      "title": "Sector Update: Consumer Stocks Softer in Afternoon Trading",
-      "publisher": "MT Newswires",
-      "published": "2026-11-17T18:44:44Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-softer-afternoon-184444371.html"
-    },
-    {
-      "ticker": "AMZN",
-      "title": "There's 'no difference' between buying Anthropic's IPO and Amazon's IPO: Kevin O'Leary",
-      "publisher": "Yahoo Finance",
-      "published": "2026-11-17T19:07:07Z",
-      "link": "https://finance.yahoo.com/markets/stocks/article/theres-no-difference-between-buying-anthropics-ipo-and-amazons-ipo-kevin-oleary-190707549.html"
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Why SpaceX's latest Starship test was a big deal",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-17T16:14:38Z",
-      "link": "https://finance.yahoo.com/video/why-spacexs-latest-starship-test-was-a-big-deal-161438578.html"
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Robert Pattinson is the next James Bond: A closer look at Amazon MGM's decision",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-17T14:47:18Z",
-      "link": "https://finance.yahoo.com/video/robert-pattinson-is-the-next-james-bond-a-closer-look-at-amazon-mgms-decision-144718415.html"
-    },
-    {
-      "ticker": "LLY",
-      "title": "Eli Lilly Is Up 39% in a Year. Barclays Sees Another 9%",
-      "publisher": "TIKR",
-      "published": "2026-11-17T22:53:58Z",
-      "link": "https://www.tikr.com/blog/eli-lilly-is-up-39-in-a-year-barclays-sees-another-9?ref=yahoofinance&tlnk=yf-261117-q55229h6"
-    },
-    {
-      "ticker": "LLY",
-      "title": "Coca-Cola Stock (KO) May Struggle to Repeat Its Strong 2026 Performance",
-      "publisher": "TipRanks",
-      "published": "2026-11-17T21:38:00Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-stock-ko-may-213800936.html"
-    },
-    {
-      "ticker": "LLY",
-      "title": "Eli Lilly vs. Novo Nordisk: Which GLP-1 Stock Is a Better Buy for 2027?",
+      "title": "Alphabet vs. Apple: Which Warren Buffett Stock Is the Better Buy?",
       "publisher": "Motley Fool",
-      "published": "2026-11-17T21:37:02Z",
-      "link": "https://www.fool.com/coverage/better-buy/2026/11/17/eli-lilly-vs-novo-nordisk-which-glp-1-stock-is-a-better-buy-for-2027/"
+      "published": "2026-11-18T23:45:02Z",
+      "link": "https://www.fool.com/investing/2026/11/18/alphabet-vs-apple-which-warren-buffett-stock-is-the-better-buy/"
     },
     {
-      "ticker": "XLV",
-      "title": "Are Wall Street Analysts Predicting DexCom\u2019s Stock Will Climb or Sink?",
-      "publisher": "Barchart",
-      "published": "2026-11-17T18:13:32Z",
-      "link": "https://www.barchart.com/story/news/8881680/are-wall-street-analysts-predicting-dexcoms-stock-will-climb-or-sink"
+      "ticker": "AMZN",
+      "title": "Nvidia's next CEO should be hired internally, Jeff Bezos advises",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-18T15:28:07Z",
+      "link": "https://finance.yahoo.com/video/nvidias-next-ceo-should-be-hired-internally-jeff-bezos-advises-152807796.html"
     },
     {
-      "ticker": "XLV",
-      "title": "Your \u201cSafe\u201d Health Care ETF Just Got Hit by UnitedHealth Again",
+      "ticker": "AMZN",
+      "title": "e.l.f. Beauty vs. On: Which Stock Is the Better Buy for 2027?",
+      "publisher": "Motley Fool",
+      "published": "2026-11-19T02:24:01Z",
+      "link": "https://www.fool.com/coverage/better-buy/2026/11/18/e-l-f-beauty-vs-on-which-stock-is-the-better-buy-for-2027/"
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon\u2019s $18 Billion Anthropic Bet Is Worth $159 Billion at the IPO Price. Here\u2019s What That Is Per Amazon Share",
       "publisher": "24/7 Wall St.",
-      "published": "2026-11-17T16:47:29Z",
-      "link": "https://247wallst.com/investing/etf/2026/11/17/your-safe-health-care-etf-just-got-hit-by-unitedhealth-again/"
+      "published": "2026-11-19T02:17:11Z",
+      "link": "https://247wallst.com/investing/2026/11/18/amazons-18-billion-anthropic-bet-is-worth-159-billion-at-the-ipo-price-heres-what-that-is-per-amazon-share/"
     },
     {
-      "ticker": "XLV",
-      "title": "The Stock Market Reaches the Lull in the Horror Film",
-      "publisher": "Barrons.com",
-      "published": "2026-11-17T14:39:17Z",
-      "link": "https://www.barrons.com/livecoverage/stock-market-news-today-111726/card/the-stock-market-reaches-the-lull-in-the-horror-film-NxOF6quZp0WQJAHYymcE?siteid=yhoof2&yptr=yahoo"
+      "ticker": "COST",
+      "title": "3 under-the-radar picks Wall Street's sharpest minds like now",
+      "publisher": "TheStreet",
+      "published": "2026-11-19T00:37:00Z",
+      "link": "https://www.thestreet.com/investing/stocks/3-under-the-radar-picks-wall-streets-sharpest-minds-like-now"
+    },
+    {
+      "ticker": "COST",
+      "title": "Costco recalls food product that\u2019s popular during the holidays",
+      "publisher": "TheStreet",
+      "published": "2026-11-18T23:45:00Z",
+      "link": "https://www.thestreet.com/retail/costco-recalls-food-product-thats-popular-during-the-holidays"
+    },
+    {
+      "ticker": "COST",
+      "title": "Costco generators sell out as tech outages spark panic buying",
+      "publisher": "USA TODAY",
+      "published": "2026-11-18T23:25:48Z",
+      "link": "https://www.usatoday.com/story/money/2026/11/18/tech-outages-spark-costco-panic-buying/92851472007/"
+    },
+    {
+      "ticker": "LLY",
+      "title": "Lilly Buying Spree Surpasses $32B",
+      "publisher": "Bloomberg",
+      "published": "2026-11-18T21:13:25Z",
+      "link": "https://finance.yahoo.com/video/lilly-buying-spree-surpasses-32b-211325209.html"
+    },
+    {
+      "ticker": "LLY",
+      "title": "Is Lilly Stock's Winning Streak Skill Or Luck?",
+      "publisher": "Trefis",
+      "published": "2026-11-18T15:07:09Z",
+      "link": "https://www.trefis.com/stock/lly/articles/626270/is-lilly-stocks-winning-streak-skill-or-luck/2026-11-18"
+    },
+    {
+      "ticker": "LLY",
+      "title": "FDA publishes rejection letter for Summit drug; Nuvalent buyout pays more dividends for GSK",
+      "publisher": "BioPharma Dive",
+      "published": "2026-11-18T14:21:00Z",
+      "link": "https://www.biopharmadive.com/news/summit-crl-sellas-data-nelkarmi-lilly-astrazeneca-biogen/874825/"
+    },
+    {
+      "ticker": "XLP",
+      "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+      "publisher": "MT Newswires",
+      "published": "2026-11-18T20:42:53Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-204253375.html"
+    },
+    {
+      "ticker": "XLP",
+      "title": "Own P&G Stock For Safety? Watch Bond Yields",
+      "publisher": "Trefis",
+      "published": "2026-11-18T13:41:56Z",
+      "link": "https://www.trefis.com/stock/pg/articles/626185/own-p-g-stock-for-safety-watch-bond-yields/2026-11-18"
+    },
+    {
+      "ticker": "XLP",
+      "title": "Are Wall Street Analysts Bullish on Hormel Foods Stock?",
+      "publisher": "Barchart",
+      "published": "2026-11-18T10:53:07Z",
+      "link": "https://www.barchart.com/story/news/8892323/are-wall-street-analysts-bullish-on-hormel-foods-stock"
+    },
+    {
+      "ticker": "XLY",
+      "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+      "publisher": "MT Newswires",
+      "published": "2026-11-18T20:42:53Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-204253375.html"
+    },
+    {
+      "ticker": "XLY",
+      "title": "Are Wall Street Analysts Bullish on Lennar Stock?",
+      "publisher": "Barchart",
+      "published": "2026-11-18T14:41:09Z",
+      "link": "https://www.barchart.com/story/news/8898022/are-wall-street-analysts-bullish-on-lennar-stock"
+    },
+    {
+      "ticker": "XLY",
+      "title": "3 ETFs For Tesla As Its Germany Expansion Changes The Mix",
+      "publisher": "Simply Wall St.",
+      "published": "2026-11-18T13:10:23Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-etfs-tesla-germany-expansion-131023445.html"
     },
     {
       "ticker": "NVDA",
-      "title": "Nvidia's Q3 numbers were pretty good. Its earnings call optics were another story.",
+      "title": "The data center bottlenecks that Mavria aims to solve",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-11-17T23:44:51Z",
-      "link": "https://finance.yahoo.com/video/nvidias-q3-numbers-were-pretty-good-its-earnings-call-optics-were-another-story-234451647.html"
+      "published": "2026-11-18T22:16:00Z",
+      "link": "https://finance.yahoo.com/video/the-data-center-bottlenecks-that-mavria-aims-to-solve-221600157.html"
     },
     {
       "ticker": "NVDA",
-      "title": "Nvidia earnings special coverage: \"The street wants to believe in Nvidia after Jensen\"",
+      "title": "Memory supply constraints will be even 'tighter' in 2027: Micron CTO",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-11-17T23:30:44Z",
-      "link": "https://finance.yahoo.com/video/nvidia-earnings-special-coverage-the-street-wants-to-believe-in-nvidia-after-jensen-233044562.html"
+      "published": "2026-11-18T21:58:15Z",
+      "link": "https://finance.yahoo.com/video/memory-supply-constraints-will-be-even-tighter-in-2027-micron-cto-215815321.html"
     },
     {
       "ticker": "NVDA",
-      "title": "Nvidia with a positive Q3 despite SEC probing Nvidia amid Huang Scandal",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-17T22:32:24Z",
-      "link": "https://finance.yahoo.com/video/nvidia-with-a-positive-q3-despite-sec-probing-nvidia-amid-huang-scandal-223224298.html"
-    },
-    {
-      "ticker": "HD",
-      "title": "Home Depot taps Richard McPhail as new CEO, reports Q3 earnings beat",
+      "title": "Nvidia interim CEO Colette Kress has taken over one of the most consequential companies on the planet; those who know her say she's up to the task",
       "publisher": "Yahoo Finance",
-      "published": "2026-11-17T11:08:47Z",
-      "link": "https://finance.yahoo.com/markets/stocks/article/home-depot-taps-richard-mcphail-as-new-ceo-reports-q3-earnings-beat-111428412.html"
+      "published": "2026-11-18T20:26:19Z",
+      "link": "https://finance.yahoo.com/technology/article/nvidia-interim-ceo-colette-kress-has-taken-over-one-of-the-most-consequential-companies-on-the-planet-those-who-know-her-say-shes-up-to-the-task-210312776.html"
     },
     {
-      "ticker": "HD",
-      "title": "Stocks slip ahead of Nvidia earnings, Home Depot shares slide: AlphaCheck",
-      "publisher": "Yahoo Finance",
-      "published": "2026-11-17T14:57:55Z",
-      "link": "https://finance.yahoo.com/markets/article/copy-copy-tech-rises-coreweave-results-reignite-ai-trade-alphacheck-145755423.html"
+      "ticker": "XLU",
+      "title": "Do Wall Street Analysts Like Entergy Stock?",
+      "publisher": "Barchart",
+      "published": "2026-11-18T12:20:23Z",
+      "link": "https://www.barchart.com/story/news/8893996/do-wall-street-analysts-like-entergy-stock"
     },
     {
-      "ticker": "HD",
-      "title": "Home Depot CFO Richard McPhail to become retailer's next CEO",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-17T14:46:32Z",
-      "link": "https://finance.yahoo.com/video/home-depot-cfo-richard-mcphail-to-become-retailers-next-ceo-144632964.html"
+      "ticker": "XLU",
+      "title": "What State Street Utilities Select Sector SPDR (XLU) Sold: NextEra Leads on Monday",
+      "publisher": "GuruFocus.com",
+      "published": "2026-11-18T11:05:56Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-utilities-select-sector-110556153.html"
+    },
+    {
+      "ticker": "XLU",
+      "title": "What Are Wall Street Analysts' Target Price for Alliant Energy Stock?",
+      "publisher": "Barchart",
+      "published": "2026-11-16T13:04:54Z",
+      "link": "https://www.barchart.com/story/news/8853647/what-are-wall-street-analysts-target-price-for-alliant-energy-stock"
     }
-  ],
-  "intraday_mark": true
+  ]
 }
