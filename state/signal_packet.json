@@ -6,9 +6,9 @@
   "drawdown_from_peak": 0.0078,
   "halted": false,
   "macro": {
-    "score": 1,
+    "score": 0,
     "regime": "Transitional",
-    "composite": 0.375,
+    "composite": 0.0,
     "notes": [
       "No yield_spread: redistributing the 20% weight of the curve among other components."
     ]
@@ -31,217 +31,217 @@
   "proposed_orders": [],
   "scores": {
     "AAPL": {
-      "total": 5,
-      "trend": 2,
-      "momentum": 2,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
-    },
-    "MSFT": {
-      "total": 0,
+      "total": 1,
       "trend": 1,
-      "momentum": -2,
+      "momentum": 0,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
+    "MSFT": {
+      "total": -1,
+      "trend": 1,
+      "momentum": -2,
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+    },
     "NVDA": {
-      "total": -3,
+      "total": -4,
       "trend": -2,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "AMZN": {
-      "total": 5,
-      "trend": 2,
-      "momentum": 2,
-      "action": "HOLD (ride the cycle)",
-      "rationale": "Bullish cycle intact (Trend and Momentum positive)."
+      "total": 0,
+      "trend": 1,
+      "momentum": -1,
+      "action": "HOLD / OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "GOOGL": {
-      "total": -2,
+      "total": -4,
       "trend": -2,
-      "momentum": -1,
+      "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "META": {
-      "total": -1,
+      "total": -3,
       "trend": -1,
-      "momentum": -1,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Negative structure and momentum, no signs of turning."
-    },
-    "TSLA": {
-      "total": 0,
-      "trend": 0,
-      "momentum": -1,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
-    },
-    "AVGO": {
-      "total": 2,
-      "trend": -1,
-      "momentum": 2,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
-    },
-    "JPM": {
-      "total": 0,
-      "trend": 0,
-      "momentum": -1,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
-    },
-    "V": {
-      "total": 2,
-      "trend": 2,
-      "momentum": -1,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
-    },
-    "UNH": {
-      "total": 0,
-      "trend": 1,
-      "momentum": -2,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
-    },
-    "XOM": {
-      "total": 0,
-      "trend": 1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
+    "TSLA": {
+      "total": -3,
+      "trend": -1,
+      "momentum": -2,
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+    },
+    "AVGO": {
+      "total": -2,
+      "trend": -2,
+      "momentum": 0,
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+    },
+    "JPM": {
+      "total": -3,
+      "trend": -1,
+      "momentum": -2,
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+    },
+    "V": {
+      "total": -1,
+      "trend": 1,
+      "momentum": -2,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+    },
+    "UNH": {
+      "total": -3,
+      "trend": -1,
+      "momentum": -2,
+      "action": "STAY OUT / AVOID",
+      "rationale": "Negative structure and momentum, no signs of turning."
+    },
+    "XOM": {
+      "total": -1,
+      "trend": 1,
+      "momentum": -2,
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+    },
     "LLY": {
-      "total": 4,
-      "trend": 2,
-      "momentum": 1,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "total": 0,
+      "trend": 1,
+      "momentum": -1,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "HD": {
-      "total": 2,
+      "total": 1,
       "trend": 1,
       "momentum": 0,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "COST": {
-      "total": 5,
+      "total": 4,
       "trend": 2,
       "momentum": 2,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "SPY": {
-      "total": -1,
-      "trend": 0,
+      "total": -3,
+      "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "QQQ": {
-      "total": -2,
+      "total": -3,
       "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
-      "rationale": "Negative structure and momentum, no signs of turning."
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "IWM": {
-      "total": -2,
+      "total": -3,
       "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
-      "rationale": "Negative structure and momentum, no signs of turning."
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "RSP": {
-      "total": 2,
+      "total": -1,
       "trend": 1,
-      "momentum": 0,
+      "momentum": -2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLK": {
-      "total": -2,
+      "total": -3,
       "trend": -1,
       "momentum": -2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "XLE": {
-      "total": 0,
-      "trend": 1,
+      "total": -2,
+      "trend": 0,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "XLF": {
-      "total": 2,
+      "total": -1,
       "trend": 1,
-      "momentum": 0,
+      "momentum": -2,
       "action": "HOLD / OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLV": {
-      "total": 2,
+      "total": -1,
       "trend": 1,
-      "momentum": 0,
+      "momentum": -2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLI": {
-      "total": -2,
-      "trend": -1,
+      "total": -4,
+      "trend": -2,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
-      "rationale": "Negative structure and momentum, no signs of turning."
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "XLP": {
-      "total": 4,
+      "total": 1,
       "trend": 2,
-      "momentum": 1,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "momentum": -1,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLY": {
-      "total": 4,
-      "trend": 2,
-      "momentum": 1,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "total": -1,
+      "trend": 1,
+      "momentum": -2,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLU": {
-      "total": 3,
-      "trend": 1,
-      "momentum": 1,
-      "action": "WAIT (do not chase)",
-      "rationale": "Healthy trend but no fresh entry trigger."
+      "total": -1,
+      "trend": 0,
+      "momentum": -1,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "HYG": {
-      "total": -2,
+      "total": -4,
       "trend": -2,
-      "momentum": -1,
+      "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "LQD": {
       "total": -2,
-      "trend": -2,
-      "momentum": -1,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Negative structure and momentum, no signs of turning."
-    },
-    "TLT": {
-      "total": -1,
       "trend": -1,
       "momentum": -1,
       "action": "STAY OUT / AVOID",
       "rationale": "Negative structure and momentum, no signs of turning."
     },
+    "TLT": {
+      "total": 0,
+      "trend": 0,
+      "momentum": 0,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+    },
     "GLD": {
-      "total": -3,
+      "total": -4,
       "trend": -2,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
@@ -250,173 +250,172 @@
   },
   "headlines": [
     {
-      "ticker": "AAPL",
-      "title": "Major tech outages raise new cybersecurity concerns",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-18T14:40:24Z",
-      "link": "https://finance.yahoo.com/video/major-tech-outages-raise-new-cybersecurity-concerns-144024816.html"
-    },
-    {
-      "ticker": "AAPL",
-      "title": "Corning CEO on working with Steve Jobs to make screens for the first iPhone",
-      "publisher": "Fortune",
-      "published": "2026-11-19T01:00:13Z",
-      "link": "https://finance.yahoo.com/video/corning-ceo-working-steve-jobs-010013740.html"
-    },
-    {
-      "ticker": "AAPL",
-      "title": "Alphabet vs. Apple: Which Warren Buffett Stock Is the Better Buy?",
-      "publisher": "Motley Fool",
-      "published": "2026-11-18T23:45:02Z",
-      "link": "https://www.fool.com/investing/2026/11/18/alphabet-vs-apple-which-warren-buffett-stock-is-the-better-buy/"
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Nvidia's next CEO should be hired internally, Jeff Bezos advises",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-18T15:28:07Z",
-      "link": "https://finance.yahoo.com/video/nvidias-next-ceo-should-be-hired-internally-jeff-bezos-advises-152807796.html"
-    },
-    {
-      "ticker": "AMZN",
-      "title": "e.l.f. Beauty vs. On: Which Stock Is the Better Buy for 2027?",
-      "publisher": "Motley Fool",
-      "published": "2026-11-19T02:24:01Z",
-      "link": "https://www.fool.com/coverage/better-buy/2026/11/18/e-l-f-beauty-vs-on-which-stock-is-the-better-buy-for-2027/"
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon\u2019s $18 Billion Anthropic Bet Is Worth $159 Billion at the IPO Price. Here\u2019s What That Is Per Amazon Share",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-11-19T02:17:11Z",
-      "link": "https://247wallst.com/investing/2026/11/18/amazons-18-billion-anthropic-bet-is-worth-159-billion-at-the-ipo-price-heres-what-that-is-per-amazon-share/"
-    },
-    {
-      "ticker": "COST",
-      "title": "3 under-the-radar picks Wall Street's sharpest minds like now",
-      "publisher": "TheStreet",
-      "published": "2026-11-19T00:37:00Z",
-      "link": "https://www.thestreet.com/investing/stocks/3-under-the-radar-picks-wall-streets-sharpest-minds-like-now"
-    },
-    {
-      "ticker": "COST",
-      "title": "Costco recalls food product that\u2019s popular during the holidays",
-      "publisher": "TheStreet",
-      "published": "2026-11-18T23:45:00Z",
-      "link": "https://www.thestreet.com/retail/costco-recalls-food-product-thats-popular-during-the-holidays"
-    },
-    {
-      "ticker": "COST",
-      "title": "Costco generators sell out as tech outages spark panic buying",
-      "publisher": "USA TODAY",
-      "published": "2026-11-18T23:25:48Z",
-      "link": "https://www.usatoday.com/story/money/2026/11/18/tech-outages-spark-costco-panic-buying/92851472007/"
-    },
-    {
-      "ticker": "LLY",
-      "title": "Lilly Buying Spree Surpasses $32B",
-      "publisher": "Bloomberg",
-      "published": "2026-11-18T21:13:25Z",
-      "link": "https://finance.yahoo.com/video/lilly-buying-spree-surpasses-32b-211325209.html"
-    },
-    {
-      "ticker": "LLY",
-      "title": "Is Lilly Stock's Winning Streak Skill Or Luck?",
-      "publisher": "Trefis",
-      "published": "2026-11-18T15:07:09Z",
-      "link": "https://www.trefis.com/stock/lly/articles/626270/is-lilly-stocks-winning-streak-skill-or-luck/2026-11-18"
-    },
-    {
-      "ticker": "LLY",
-      "title": "FDA publishes rejection letter for Summit drug; Nuvalent buyout pays more dividends for GSK",
-      "publisher": "BioPharma Dive",
-      "published": "2026-11-18T14:21:00Z",
-      "link": "https://www.biopharmadive.com/news/summit-crl-sellas-data-nelkarmi-lilly-astrazeneca-biogen/874825/"
-    },
-    {
-      "ticker": "XLP",
-      "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
-      "publisher": "MT Newswires",
-      "published": "2026-11-18T20:42:53Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-204253375.html"
-    },
-    {
-      "ticker": "XLP",
-      "title": "Own P&G Stock For Safety? Watch Bond Yields",
-      "publisher": "Trefis",
-      "published": "2026-11-18T13:41:56Z",
-      "link": "https://www.trefis.com/stock/pg/articles/626185/own-p-g-stock-for-safety-watch-bond-yields/2026-11-18"
-    },
-    {
-      "ticker": "XLP",
-      "title": "Are Wall Street Analysts Bullish on Hormel Foods Stock?",
-      "publisher": "Barchart",
-      "published": "2026-11-18T10:53:07Z",
-      "link": "https://www.barchart.com/story/news/8892323/are-wall-street-analysts-bullish-on-hormel-foods-stock"
-    },
-    {
-      "ticker": "XLY",
-      "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
-      "publisher": "MT Newswires",
-      "published": "2026-11-18T20:42:53Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-204253375.html"
-    },
-    {
-      "ticker": "XLY",
-      "title": "Are Wall Street Analysts Bullish on Lennar Stock?",
-      "publisher": "Barchart",
-      "published": "2026-11-18T14:41:09Z",
-      "link": "https://www.barchart.com/story/news/8898022/are-wall-street-analysts-bullish-on-lennar-stock"
-    },
-    {
-      "ticker": "XLY",
-      "title": "3 ETFs For Tesla As Its Germany Expansion Changes The Mix",
-      "publisher": "Simply Wall St.",
-      "published": "2026-11-18T13:10:23Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-etfs-tesla-germany-expansion-131023445.html"
-    },
-    {
       "ticker": "NVDA",
-      "title": "The data center bottlenecks that Mavria aims to solve",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-18T22:16:00Z",
-      "link": "https://finance.yahoo.com/video/the-data-center-bottlenecks-that-mavria-aims-to-solve-221600157.html"
-    },
-    {
-      "ticker": "NVDA",
-      "title": "Memory supply constraints will be even 'tighter' in 2027: Micron CTO",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-18T21:58:15Z",
-      "link": "https://finance.yahoo.com/video/memory-supply-constraints-will-be-even-tighter-in-2027-micron-cto-215815321.html"
-    },
-    {
-      "ticker": "NVDA",
-      "title": "Nvidia interim CEO Colette Kress has taken over one of the most consequential companies on the planet; those who know her say she's up to the task",
+      "title": "Nvidia stock extends $2.7 trillion rout as SEC probe reportedly investigates its accounting",
       "publisher": "Yahoo Finance",
-      "published": "2026-11-18T20:26:19Z",
-      "link": "https://finance.yahoo.com/technology/article/nvidia-interim-ceo-colette-kress-has-taken-over-one-of-the-most-consequential-companies-on-the-planet-those-who-know-her-say-shes-up-to-the-task-210312776.html"
+      "published": "2026-11-20T19:42:54Z",
+      "link": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html"
     },
     {
-      "ticker": "XLU",
-      "title": "Do Wall Street Analysts Like Entergy Stock?",
+      "ticker": "NVDA",
+      "title": "Trump critiques Jensen Huang's replacement as he wades deeper into Nvidia turmoil",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T21:07:29Z",
+      "link": "https://finance.yahoo.com/markets/article/trump-critiques-jensen-huangs-replacement-as-he-wades-deeper-into-nvidia-turmoil-210729338.html"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Market Hang: AI Reset? Anthropic's Outlook, Amodei's Future, and Who Could Dethrone NVIDIA?",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-20T21:00:48Z",
+      "link": "https://finance.yahoo.com/video/market-hang-ai-reset-anthropics-outlook-amodeis-future-and-who-could-dethrone-nvidia-210048852.html"
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Top 5 Stocks to Buy According to Billionaire George Soros",
+      "publisher": "Insider Monkey",
+      "published": "2026-11-21T01:04:21Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/top-5-stocks-buy-according-010421254.html"
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Morgan Stanley sends a strong signal to Google stock investors",
+      "publisher": "TheStreet",
+      "published": "2026-11-21T01:03:00Z",
+      "link": "https://www.thestreet.com/investing/stocks/morgan-stanley-sends-a-strong-signal-to-google-stock-investors"
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Review & Preview: Hype Halted",
+      "publisher": "Barrons.com",
+      "published": "2026-11-21T00:55:00Z",
+      "link": "https://www.barrons.com/articles/stocks-today-indexes-enter-correction-tech-downturn-12e9de94?siteid=yhoof2&yptr=yahoo"
+    },
+    {
+      "ticker": "COST",
+      "title": "From tech glitches to bulk buying: How outages are spurring a wave of Costco sales",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-20T18:36:56Z",
+      "link": "https://finance.yahoo.com/video/from-tech-glitches-to-bulk-buying-how-outages-are-spurring-a-wave-of-costco-sales-183656858.html"
+    },
+    {
+      "ticker": "COST",
+      "title": "Nasdaq Dives 1,261 Points as Anthropic, AI Stocks Sink: Stock Market Today",
+      "publisher": "Kiplinger",
+      "published": "2026-11-20T21:12:15Z",
+      "link": "https://www.kiplinger.com/investing/stocks/nasdaq-dives-1-261-points-as-anthropic-ai-stocks-sink-stock-market-today"
+    },
+    {
+      "ticker": "COST",
+      "title": "What the stock sell-off and bond-buying mean for mortgage rates",
+      "publisher": "Financial Post",
+      "published": "2026-11-20T20:12:06Z",
+      "link": "https://financialpost.com/real-estate/mortgages/mortgage-rates/what-the-stock-sell-off-and-bond-buying-mean-for-mortgage-rates/"
+    },
+    {
+      "ticker": "XLI",
+      "title": "Dover Stock: Analyst Estimates & Ratings",
       "publisher": "Barchart",
-      "published": "2026-11-18T12:20:23Z",
-      "link": "https://www.barchart.com/story/news/8893996/do-wall-street-analysts-like-entergy-stock"
+      "published": "2026-11-20T13:43:18Z",
+      "link": "https://www.barchart.com/story/news/8935315/dover-stock-analyst-estimates-ratings"
     },
     {
-      "ticker": "XLU",
-      "title": "What State Street Utilities Select Sector SPDR (XLU) Sold: NextEra Leads on Monday",
+      "ticker": "XLI",
+      "title": "State Street Industrial Select Sector SPDR (XLI) Adds GE and RTX on Wednesday",
       "publisher": "GuruFocus.com",
-      "published": "2026-11-18T11:05:56Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-utilities-select-sector-110556153.html"
+      "published": "2026-11-20T11:05:01Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110501357.html"
     },
     {
-      "ticker": "XLU",
-      "title": "What Are Wall Street Analysts' Target Price for Alliant Energy Stock?",
+      "ticker": "XLI",
+      "title": "Automatic Data Processing Stock: Analyst Estimates & Ratings",
       "publisher": "Barchart",
-      "published": "2026-11-16T13:04:54Z",
-      "link": "https://www.barchart.com/story/news/8853647/what-are-wall-street-analysts-target-price-for-alliant-energy-stock"
+      "published": "2026-11-19T14:37:04Z",
+      "link": "https://www.barchart.com/story/news/8917684/automatic-data-processing-stock-analyst-estimates-ratings"
+    },
+    {
+      "ticker": "HYG",
+      "title": "How to Build $9,450 a Month in Dividend Income Without Selling a Single Share",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-19T17:51:54Z",
+      "link": "https://247wallst.com/personal-finance/2026/11/19/how-to-build-9450-a-month-in-dividend-income-without-selling-a-single-share/"
+    },
+    {
+      "ticker": "HYG",
+      "title": "Junk Bonds, Emerging Markets and Foreign Debt: 3 Monthly Checks and the Risk Behind Them",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-16T21:07:00Z",
+      "link": "https://247wallst.com/investing/etf/2026/11/16/junk-bonds-emerging-markets-and-foreign-debt-3-monthly-checks-and-the-risk-behind-them/"
+    },
+    {
+      "ticker": "HYG",
+      "title": "How Much Does a 60-Year-Old Need Invested to Replace a $125,000 Salary With Dividends and Never Sell a Share?",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-10T20:07:07Z",
+      "link": "https://247wallst.com/personal-finance/2026/11/10/how-much-does-a-60-year-old-need-invested-to-replace-a-125000-salary-with-dividends-and-never-sell-a-share/"
+    },
+    {
+      "ticker": "GLD",
+      "title": "Peter Schiff Warns Fed\u2019s Inflation Fight Means \u2018Greater Financial Crisis' Than 2008",
+      "publisher": "Benzinga",
+      "published": "2026-11-20T21:30:05Z",
+      "link": "https://finance.yahoo.com/economy/policy/articles/peter-schiff-warns-fed-inflation-213005648.html"
+    },
+    {
+      "ticker": "GLD",
+      "title": "Does Gold Protect You When Stocks Fall?",
+      "publisher": "Trefis",
+      "published": "2026-11-20T19:01:27Z",
+      "link": "https://www.trefis.com/stock/gld/articles/627167/does-gold-protect-you-when-stocks-fall/2026-11-20"
+    },
+    {
+      "ticker": "GLD",
+      "title": "Gold Is Tanking, but Retail Investors Aren\u2019t Rushing for the Exits Just Yet",
+      "publisher": "The Wall Street Journal",
+      "published": "2026-11-20T15:00:01Z",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-20-2026/card/gold-is-tanking-but-retail-investors-aren-t-rushing-for-the-exits-just-yet-rRMmPfeXtjRCthEmCA0n?siteid=yhoof2&yptr=yahoo"
+    },
+    {
+      "ticker": "META",
+      "title": "Anthropic just went public. Here's what SpaceX and Facebook IPOs tell us about where the stock goes next.",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T13:54:22Z",
+      "link": "https://finance.yahoo.com/markets/article/anthropic-just-went-public-heres-what-spacex-and-facebook-ipos-tell-us-about-where-the-stock-goes-next-135422687.html"
+    },
+    {
+      "ticker": "META",
+      "title": "Billionaire Bill Ackman\u2019s Top 5 Stocks After Selling Stakes to Open a Brand-New Position",
+      "publisher": "Insider Monkey",
+      "published": "2026-11-21T01:38:37Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/billionaire-bill-ackman-top-5-013837421.html"
+    },
+    {
+      "ticker": "META",
+      "title": "Bill Ackman\u2019s Top 10 Stocks After Selling Stakes to Open a Brand-New Position",
+      "publisher": "Insider Monkey",
+      "published": "2026-11-21T01:32:27Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-top-10-stocks-013227518.html"
+    },
+    {
+      "ticker": "TSLA",
+      "title": "In 2000, Elon Musk Crashed His Uninsured $1 Million McLaren Trying to Show Peter Thiel What It Could Do. In 2025, Thiel\u2019s Fund Quietly Sold Every Tesla Share It Owned",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-21T01:52:02Z",
+      "link": "https://247wallst.com/investing/2026/11/20/in-2000-elon-musk-crashed-his-uninsured-1-million-mclaren-trying-to-show-peter-thiel-what-it-could-do-in-2025-thiels-fund-quietly-sold-every-tesla-share-it-owned/"
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Has AI's honeymoon ended on Wall Street?",
+      "publisher": "AFP",
+      "published": "2026-11-21T00:46:04Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ais-honeymoon-ended-wall-street-004604807.html"
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Zero To Sixty: Tesla Expands Cybercab To Dallas As Waymo Pauses Freeway Operations This Week",
+      "publisher": "Stocktwits",
+      "published": "2026-11-21T00:45:41Z",
+      "link": "https://stocktwits.com/news-articles/markets/equity/zero-to-sixty-tesla-expands-cybercab-to-dallas-as-waymo-pauses-freeway-operations-this-week/cNbm5YSR91g"
     }
-  ],
-  "intraday_mark": true
+  ]
 }
