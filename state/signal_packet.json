@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-23",
   "mode": "advisory",
-  "nav": 99402.89,
+  "nav": NaN,
   "cash": 90001.24,
-  "drawdown_from_peak": 0.0078,
+  "drawdown_from_peak": NaN,
   "halted": false,
   "macro": {
     "score": 0,
@@ -417,5 +417,6 @@
       "published": "2026-11-21T00:45:41Z",
       "link": "https://stocktwits.com/news-articles/markets/equity/zero-to-sixty-tesla-expands-cybercab-to-dallas-as-waymo-pauses-freeway-operations-this-week/cNbm5YSR91g"
     }
-  ]
+  ],
+  "intraday_mark": true
 }
