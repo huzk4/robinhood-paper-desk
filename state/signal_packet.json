@@ -1,9 +1,9 @@
 {
   "date": "2026-11-23",
   "mode": "advisory",
-  "nav": NaN,
+  "nav": 99659.47,
   "cash": 90001.24,
-  "drawdown_from_peak": NaN,
+  "drawdown_from_peak": 0.0052,
   "halted": false,
   "macro": {
     "score": 0,
@@ -32,8 +32,8 @@
   "scores": {
     "AAPL": {
       "total": 1,
-      "trend": 1,
-      "momentum": 0,
+      "trend": 2,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -41,48 +41,48 @@
       "total": -1,
       "trend": 1,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "NVDA": {
       "total": -4,
       "trend": -2,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "TACTICAL REBOUND (counter-trend)",
+      "rationale": "Rebound signals within a death-cross: tactical trade, NOT a new cycle."
     },
     "AMZN": {
-      "total": 0,
+      "total": 1,
       "trend": 1,
-      "momentum": -1,
+      "momentum": 0,
       "action": "HOLD / OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "GOOGL": {
-      "total": -4,
+      "total": -3,
       "trend": -2,
-      "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "momentum": -1,
+      "action": "TACTICAL REBOUND (counter-trend)",
+      "rationale": "Rebound signals within a death-cross: tactical trade, NOT a new cycle."
     },
     "META": {
       "total": -3,
       "trend": -1,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "TSLA": {
-      "total": -3,
-      "trend": -1,
-      "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "total": -1,
+      "trend": 0,
+      "momentum": -1,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "AVGO": {
-      "total": -2,
+      "total": -4,
       "trend": -2,
-      "momentum": 0,
+      "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
@@ -91,12 +91,12 @@
       "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "V": {
-      "total": -1,
+      "total": 0,
       "trend": 1,
-      "momentum": -2,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -105,14 +105,14 @@
       "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
-      "rationale": "Negative structure and momentum, no signs of turning."
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "XOM": {
-      "total": -1,
-      "trend": 1,
+      "total": -2,
+      "trend": 0,
       "momentum": -2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "LLY": {
       "total": 0,
@@ -129,9 +129,9 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "COST": {
-      "total": 4,
+      "total": 3,
       "trend": 2,
-      "momentum": 2,
+      "momentum": 1,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
@@ -139,36 +139,36 @@
       "total": -3,
       "trend": -1,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "QQQ": {
       "total": -3,
       "trend": -1,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "IWM": {
       "total": -3,
       "trend": -1,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "RSP": {
       "total": -1,
       "trend": 1,
       "momentum": -2,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "XLK": {
       "total": -3,
       "trend": -1,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "XLE": {
       "total": -2,
@@ -185,9 +185,9 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLV": {
-      "total": -1,
+      "total": 0,
       "trend": 1,
-      "momentum": -2,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -195,8 +195,8 @@
       "total": -4,
       "trend": -2,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "TACTICAL REBOUND (counter-trend)",
+      "rationale": "Rebound signals within a death-cross: tactical trade, NOT a new cycle."
     },
     "XLP": {
       "total": 1,
@@ -206,15 +206,15 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLY": {
-      "total": -1,
+      "total": 0,
       "trend": 1,
-      "momentum": -2,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLU": {
-      "total": -1,
-      "trend": 0,
+      "total": 0,
+      "trend": 1,
       "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
@@ -227,111 +227,90 @@
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "LQD": {
-      "total": -2,
+      "total": -1,
       "trend": -1,
-      "momentum": -1,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Negative structure and momentum, no signs of turning."
+      "momentum": 0,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "TLT": {
       "total": 0,
       "trend": 0,
       "momentum": 0,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "GLD": {
       "total": -4,
       "trend": -2,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "TACTICAL REBOUND (counter-trend)",
+      "rationale": "Rebound signals within a death-cross: tactical trade, NOT a new cycle."
     }
   },
   "headlines": [
     {
       "ticker": "NVDA",
-      "title": "Nvidia stock extends $2.7 trillion rout as SEC probe reportedly investigates its accounting",
-      "publisher": "Yahoo Finance",
-      "published": "2026-11-20T19:42:54Z",
-      "link": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html"
+      "title": "Jensen Huang is back: Does Washington have a seat in the boardroom?",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-23T22:12:14Z",
+      "link": "https://finance.yahoo.com/video/jensen-huang-is-back-does-washington-have-a-seat-in-the-boardroom-221214249.html"
     },
     {
       "ticker": "NVDA",
-      "title": "Trump critiques Jensen Huang's replacement as he wades deeper into Nvidia turmoil",
-      "publisher": "Yahoo Finance",
-      "published": "2026-11-20T21:07:29Z",
-      "link": "https://finance.yahoo.com/markets/article/trump-critiques-jensen-huangs-replacement-as-he-wades-deeper-into-nvidia-turmoil-210729338.html"
+      "title": "Ex-Nvidia employee: 'Stability and accountability can coexist'",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-23T22:11:05Z",
+      "link": "https://finance.yahoo.com/video/ex-nvidia-employee-stability-and-accountability-can-coexist-221105947.html"
     },
     {
       "ticker": "NVDA",
-      "title": "Market Hang: AI Reset? Anthropic's Outlook, Amodei's Future, and Who Could Dethrone NVIDIA?",
+      "title": "JGBs Rise Further Amid Uncertainty Over AI Infrastructure Investments",
+      "publisher": "The Wall Street Journal",
+      "published": "2026-11-24T05:12:00Z",
+      "link": "https://www.wsj.com/finance/jgb-futures-rise-buoyed-by-decline-in-crude-oil-prices-deebd8c8?siteid=yhoof2&yptr=yahoo"
+    },
+    {
+      "ticker": "AVGO",
+      "title": "Nvidia soars 31% as board reinstates Jensen Huang as CEO, chip stocks jump",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T13:31:09Z",
+      "link": "https://finance.yahoo.com/markets/article/nvidia-soars-25-as-board-reinstates-jensen-huang-as-ceo-chip-stocks-jump-142353537.html"
+    },
+    {
+      "ticker": "AVGO",
+      "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-11-20T21:00:48Z",
-      "link": "https://finance.yahoo.com/video/market-hang-ai-reset-anthropics-outlook-amodeis-future-and-who-could-dethrone-nvidia-210048852.html"
+      "published": "2026-11-23T18:59:49Z",
+      "link": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html"
     },
     {
-      "ticker": "GOOGL",
-      "title": "Top 5 Stocks to Buy According to Billionaire George Soros",
-      "publisher": "Insider Monkey",
-      "published": "2026-11-21T01:04:21Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/top-5-stocks-buy-according-010421254.html"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Morgan Stanley sends a strong signal to Google stock investors",
-      "publisher": "TheStreet",
-      "published": "2026-11-21T01:03:00Z",
-      "link": "https://www.thestreet.com/investing/stocks/morgan-stanley-sends-a-strong-signal-to-google-stock-investors"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Review & Preview: Hype Halted",
-      "publisher": "Barrons.com",
-      "published": "2026-11-21T00:55:00Z",
-      "link": "https://www.barrons.com/articles/stocks-today-indexes-enter-correction-tech-downturn-12e9de94?siteid=yhoof2&yptr=yahoo"
-    },
-    {
-      "ticker": "COST",
-      "title": "From tech glitches to bulk buying: How outages are spurring a wave of Costco sales",
+      "ticker": "AVGO",
+      "title": "Jensen Huang back at Nvidia, stock soars; Anthropic slides",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-11-20T18:36:56Z",
-      "link": "https://finance.yahoo.com/video/from-tech-glitches-to-bulk-buying-how-outages-are-spurring-a-wave-of-costco-sales-183656858.html"
-    },
-    {
-      "ticker": "COST",
-      "title": "Nasdaq Dives 1,261 Points as Anthropic, AI Stocks Sink: Stock Market Today",
-      "publisher": "Kiplinger",
-      "published": "2026-11-20T21:12:15Z",
-      "link": "https://www.kiplinger.com/investing/stocks/nasdaq-dives-1-261-points-as-anthropic-ai-stocks-sink-stock-market-today"
-    },
-    {
-      "ticker": "COST",
-      "title": "What the stock sell-off and bond-buying mean for mortgage rates",
-      "publisher": "Financial Post",
-      "published": "2026-11-20T20:12:06Z",
-      "link": "https://financialpost.com/real-estate/mortgages/mortgage-rates/what-the-stock-sell-off-and-bond-buying-mean-for-mortgage-rates/"
+      "published": "2026-11-23T16:13:39Z",
+      "link": "https://finance.yahoo.com/video/jensen-huang-back-at-nvidia-stock-soars-anthropic-slides-161339662.html"
     },
     {
       "ticker": "XLI",
-      "title": "Dover Stock: Analyst Estimates & Ratings",
+      "title": "How Much RTX Do You Really Get Through 3 ETFs?",
+      "publisher": "Simply Wall St.",
+      "published": "2026-11-23T18:09:23Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/much-rtx-really-3-etfs-180923536.html"
+    },
+    {
+      "ticker": "XLI",
+      "title": "Are Wall Street Analysts Predicting Cummins Stock Will Climb or Sink?",
       "publisher": "Barchart",
-      "published": "2026-11-20T13:43:18Z",
-      "link": "https://www.barchart.com/story/news/8935315/dover-stock-analyst-estimates-ratings"
+      "published": "2026-11-23T15:28:36Z",
+      "link": "https://www.barchart.com/story/news/8966675/are-wall-street-analysts-predicting-cummins-stock-will-climb-or-sink"
     },
     {
       "ticker": "XLI",
-      "title": "State Street Industrial Select Sector SPDR (XLI) Adds GE and RTX on Wednesday",
-      "publisher": "GuruFocus.com",
-      "published": "2026-11-20T11:05:01Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110501357.html"
-    },
-    {
-      "ticker": "XLI",
-      "title": "Automatic Data Processing Stock: Analyst Estimates & Ratings",
+      "title": "Verisk Analytics Stock: Analyst Estimates & Ratings",
       "publisher": "Barchart",
-      "published": "2026-11-19T14:37:04Z",
-      "link": "https://www.barchart.com/story/news/8917684/automatic-data-processing-stock-analyst-estimates-ratings"
+      "published": "2026-11-23T11:30:49Z",
+      "link": "https://www.barchart.com/story/news/8961512/verisk-analytics-stock-analyst-estimates-ratings"
     },
     {
       "ticker": "HYG",
@@ -356,67 +335,87 @@
     },
     {
       "ticker": "GLD",
-      "title": "Peter Schiff Warns Fed\u2019s Inflation Fight Means \u2018Greater Financial Crisis' Than 2008",
-      "publisher": "Benzinga",
-      "published": "2026-11-20T21:30:05Z",
-      "link": "https://finance.yahoo.com/economy/policy/articles/peter-schiff-warns-fed-inflation-213005648.html"
-    },
-    {
-      "ticker": "GLD",
-      "title": "Does Gold Protect You When Stocks Fall?",
+      "title": "Own Gold As A Hedge? BND Rose More Often",
       "publisher": "Trefis",
-      "published": "2026-11-20T19:01:27Z",
-      "link": "https://www.trefis.com/stock/gld/articles/627167/does-gold-protect-you-when-stocks-fall/2026-11-20"
+      "published": "2026-11-23T22:38:05Z",
+      "link": "https://www.trefis.com/stock/bnd/articles/627661/own-gold-as-a-hedge-bnd-rose-more-often/2026-11-23"
     },
     {
       "ticker": "GLD",
-      "title": "Gold Is Tanking, but Retail Investors Aren\u2019t Rushing for the Exits Just Yet",
-      "publisher": "The Wall Street Journal",
-      "published": "2026-11-20T15:00:01Z",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-20-2026/card/gold-is-tanking-but-retail-investors-aren-t-rushing-for-the-exits-just-yet-rRMmPfeXtjRCthEmCA0n?siteid=yhoof2&yptr=yahoo"
+      "title": "Retiring On $2 Million? Sell BND Before SCHD",
+      "publisher": "Trefis",
+      "published": "2026-11-23T22:14:27Z",
+      "link": "https://www.trefis.com/stock/voo/articles/627666/retiring-on-2-million-sell-bnd-before-schd/2026-11-23"
+    },
+    {
+      "ticker": "GLD",
+      "title": "SPY And Gold Fell Together. Did Bonds Save 60/40?",
+      "publisher": "Trefis",
+      "published": "2026-11-23T12:05:47Z",
+      "link": "https://www.trefis.com/stock/spy/articles/627558/spy-and-gold-fell-together-did-bonds-save-60-40/2026-11-22"
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Google's Gemini 4 Neon gains momentum ahead of OpenAI, data shows",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-23T22:33:24Z",
+      "link": "https://finance.yahoo.com/video/googles-gemini-4-neon-gains-momentum-ahead-of-openai-data-shows-223324082.html"
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Jensen Huang back as Nvidia CEO after 12 days: Shares surge 30%",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-23T16:13:02Z",
+      "link": "https://finance.yahoo.com/video/jensen-huang-back-as-nvidia-ceo-after-12-days-shares-surge-30-161302539.html"
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "1966 Or 1995: Which Way Does America's $2.1 Trillion Deficit Go?",
+      "publisher": "Trefis",
+      "published": "2026-11-24T05:06:42Z",
+      "link": "https://www.trefis.com/stock/spy/articles/627413/1966-or-1995-which-way-does-america-s-2-1-trillion-deficit-go/2026-11-23"
     },
     {
       "ticker": "META",
-      "title": "Anthropic just went public. Here's what SpaceX and Facebook IPOs tell us about where the stock goes next.",
-      "publisher": "Yahoo Finance",
-      "published": "2026-11-20T13:54:22Z",
-      "link": "https://finance.yahoo.com/markets/article/anthropic-just-went-public-heres-what-spacex-and-facebook-ipos-tell-us-about-where-the-stock-goes-next-135422687.html"
+      "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-23T18:59:49Z",
+      "link": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html"
     },
     {
       "ticker": "META",
-      "title": "Billionaire Bill Ackman\u2019s Top 5 Stocks After Selling Stakes to Open a Brand-New Position",
-      "publisher": "Insider Monkey",
-      "published": "2026-11-21T01:38:37Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/billionaire-bill-ackman-top-5-013837421.html"
+      "title": "Jensen Huang back at Nvidia, stock soars; Anthropic slides",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-23T16:13:39Z",
+      "link": "https://finance.yahoo.com/video/jensen-huang-back-at-nvidia-stock-soars-anthropic-slides-161339662.html"
     },
     {
       "ticker": "META",
-      "title": "Bill Ackman\u2019s Top 10 Stocks After Selling Stakes to Open a Brand-New Position",
-      "publisher": "Insider Monkey",
-      "published": "2026-11-21T01:32:27Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-top-10-stocks-013227518.html"
+      "title": "1966 Or 1995: Which Way Does America's $2.1 Trillion Deficit Go?",
+      "publisher": "Trefis",
+      "published": "2026-11-24T05:06:42Z",
+      "link": "https://www.trefis.com/stock/spy/articles/627413/1966-or-1995-which-way-does-america-s-2-1-trillion-deficit-go/2026-11-23"
     },
     {
-      "ticker": "TSLA",
-      "title": "In 2000, Elon Musk Crashed His Uninsured $1 Million McLaren Trying to Show Peter Thiel What It Could Do. In 2025, Thiel\u2019s Fund Quietly Sold Every Tesla Share It Owned",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-11-21T01:52:02Z",
-      "link": "https://247wallst.com/investing/2026/11/20/in-2000-elon-musk-crashed-his-uninsured-1-million-mclaren-trying-to-show-peter-thiel-what-it-could-do-in-2025-thiels-fund-quietly-sold-every-tesla-share-it-owned/"
+      "ticker": "JPM",
+      "title": "Jensen Huang is back: Does Washington have a seat in the boardroom?",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-23T22:12:14Z",
+      "link": "https://finance.yahoo.com/video/jensen-huang-is-back-does-washington-have-a-seat-in-the-boardroom-221214249.html"
     },
     {
-      "ticker": "TSLA",
-      "title": "Has AI's honeymoon ended on Wall Street?",
-      "publisher": "AFP",
-      "published": "2026-11-21T00:46:04Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ais-honeymoon-ended-wall-street-004604807.html"
+      "ticker": "JPM",
+      "title": "The 10-Year Topped 5% For The First Time Since 2007. What Happened Next?",
+      "publisher": "Trefis",
+      "published": "2026-11-24T05:06:42Z",
+      "link": "https://www.trefis.com/stock/spy/articles/627401/the-10-year-topped-5-for-the-first-time-since-2007-what-happened-next/2026-11-23"
     },
     {
-      "ticker": "TSLA",
-      "title": "Zero To Sixty: Tesla Expands Cybercab To Dallas As Waymo Pauses Freeway Operations This Week",
-      "publisher": "Stocktwits",
-      "published": "2026-11-21T00:45:41Z",
-      "link": "https://stocktwits.com/news-articles/markets/equity/zero-to-sixty-tesla-expands-cybercab-to-dallas-as-waymo-pauses-freeway-operations-this-week/cNbm5YSR91g"
+      "ticker": "JPM",
+      "title": "Forget JPMorgan: Upstart Has More to Lose From a 10% Card Rate Cap",
+      "publisher": "TIKR",
+      "published": "2026-11-23T23:31:38Z",
+      "link": "https://www.tikr.com/blog/forget-jpmorgan-upstart-has-more-to-lose-from-a-10-card-rate-cap?ref=yahoofinance&tlnk=yf-261123-2gmrm77f"
     }
-  ],
-  "intraday_mark": true
+  ]
 }
