@@ -28,14 +28,39 @@
     }
   },
   "fills_today": [],
-  "proposed_orders": [],
+  "proposed_orders": [
+    {
+      "side": "buy",
+      "ticker": "AAPL",
+      "shares": 22.513,
+      "reason": "RE-ENTRY (new cycle) (score +2)"
+    },
+    {
+      "side": "buy",
+      "ticker": "LLY",
+      "shares": 5.663,
+      "reason": "RE-ENTRY (new cycle) (score +2)"
+    },
+    {
+      "side": "buy",
+      "ticker": "XLP",
+      "shares": 86.7563,
+      "reason": "RE-ENTRY (new cycle) (score +2)"
+    },
+    {
+      "side": "buy",
+      "ticker": "TLT",
+      "shares": 97.8177,
+      "reason": "RE-ENTRY (new cycle) (score +2)"
+    }
+  ],
   "scores": {
     "AAPL": {
-      "total": 1,
+      "total": 2,
       "trend": 2,
-      "momentum": -1,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "momentum": 0,
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "MSFT": {
       "total": -1,
@@ -48,13 +73,13 @@
       "total": -4,
       "trend": -2,
       "momentum": -2,
-      "action": "TACTICAL REBOUND (counter-trend)",
-      "rationale": "Rebound signals within a death-cross: tactical trade, NOT a new cycle."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "AMZN": {
-      "total": 1,
+      "total": 0,
       "trend": 1,
-      "momentum": 0,
+      "momentum": -1,
       "action": "HOLD / OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -62,15 +87,15 @@
       "total": -3,
       "trend": -2,
       "momentum": -1,
-      "action": "TACTICAL REBOUND (counter-trend)",
-      "rationale": "Rebound signals within a death-cross: tactical trade, NOT a new cycle."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "META": {
       "total": -3,
       "trend": -1,
       "momentum": -2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "TSLA": {
       "total": -1,
@@ -94,8 +119,8 @@
       "rationale": "Negative structure and momentum, no signs of turning."
     },
     "V": {
-      "total": 0,
-      "trend": 1,
+      "total": 1,
+      "trend": 2,
       "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
@@ -104,22 +129,22 @@
       "total": -3,
       "trend": -1,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "XOM": {
       "total": -2,
       "trend": 0,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "LLY": {
-      "total": 0,
-      "trend": 1,
-      "momentum": -1,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "total": 2,
+      "trend": 2,
+      "momentum": 0,
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "HD": {
       "total": 1,
@@ -139,55 +164,55 @@
       "total": -3,
       "trend": -1,
       "momentum": -2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "QQQ": {
       "total": -3,
       "trend": -1,
       "momentum": -2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "IWM": {
       "total": -3,
       "trend": -1,
       "momentum": -2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "RSP": {
-      "total": -1,
+      "total": 0,
       "trend": 1,
-      "momentum": -2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "momentum": -1,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLK": {
       "total": -3,
       "trend": -1,
       "momentum": -2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Negative structure and momentum, no signs of turning."
     },
     "XLE": {
       "total": -2,
       "trend": 0,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "XLF": {
-      "total": -1,
+      "total": 0,
       "trend": 1,
-      "momentum": -2,
+      "momentum": -1,
       "action": "HOLD / OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLV": {
-      "total": 0,
-      "trend": 1,
-      "momentum": -1,
+      "total": 2,
+      "trend": 2,
+      "momentum": 0,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -195,19 +220,19 @@
       "total": -4,
       "trend": -2,
       "momentum": -2,
-      "action": "TACTICAL REBOUND (counter-trend)",
-      "rationale": "Rebound signals within a death-cross: tactical trade, NOT a new cycle."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "XLP": {
-      "total": 1,
+      "total": 2,
       "trend": 2,
-      "momentum": -1,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "momentum": 0,
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "XLY": {
-      "total": 0,
-      "trend": 1,
+      "total": 1,
+      "trend": 2,
       "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
@@ -227,16 +252,16 @@
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "LQD": {
-      "total": -1,
+      "total": -2,
       "trend": -1,
-      "momentum": 0,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "momentum": -1,
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "TLT": {
-      "total": 0,
+      "total": 2,
       "trend": 0,
-      "momentum": 0,
+      "momentum": 2,
       "action": "RE-ENTRY (new cycle)",
       "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
@@ -244,73 +269,73 @@
       "total": -4,
       "trend": -2,
       "momentum": -2,
-      "action": "TACTICAL REBOUND (counter-trend)",
-      "rationale": "Rebound signals within a death-cross: tactical trade, NOT a new cycle."
+      "action": "STAY OUT / AVOID",
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     }
   },
   "headlines": [
     {
       "ticker": "NVDA",
-      "title": "Jensen Huang is back: Does Washington have a seat in the boardroom?",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-23T22:12:14Z",
-      "link": "https://finance.yahoo.com/video/jensen-huang-is-back-does-washington-have-a-seat-in-the-boardroom-221214249.html"
-    },
-    {
-      "ticker": "NVDA",
-      "title": "Ex-Nvidia employee: 'Stability and accountability can coexist'",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-23T22:11:05Z",
-      "link": "https://finance.yahoo.com/video/ex-nvidia-employee-stability-and-accountability-can-coexist-221105947.html"
-    },
-    {
-      "ticker": "NVDA",
-      "title": "JGBs Rise Further Amid Uncertainty Over AI Infrastructure Investments",
-      "publisher": "The Wall Street Journal",
-      "published": "2026-11-24T05:12:00Z",
-      "link": "https://www.wsj.com/finance/jgb-futures-rise-buoyed-by-decline-in-crude-oil-prices-deebd8c8?siteid=yhoof2&yptr=yahoo"
-    },
-    {
-      "ticker": "AVGO",
-      "title": "Nvidia soars 31% as board reinstates Jensen Huang as CEO, chip stocks jump",
+      "title": "Why Trump wanted Jensen Huang back at the helm of Nvidia",
       "publisher": "Yahoo Finance",
-      "published": "2026-11-23T13:31:09Z",
-      "link": "https://finance.yahoo.com/markets/article/nvidia-soars-25-as-board-reinstates-jensen-huang-as-ceo-chip-stocks-jump-142353537.html"
+      "published": "2026-11-24T22:43:25Z",
+      "link": "https://finance.yahoo.com/markets/article/why-trump-wanted-jensen-huang-back-at-the-helm-of-nvidia-224325153.html"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-24T21:45:58Z",
+      "link": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Why Nvidia is 'bar none' the 'cheapest growth stock in the market'",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-24T21:34:25Z",
+      "link": "https://finance.yahoo.com/video/why-nvidia-is-bar-none-the-cheapest-growth-stock-in-the-market-213425021.html"
     },
     {
       "ticker": "AVGO",
-      "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-23T18:59:49Z",
-      "link": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html"
+      "title": "Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-24T14:16:35Z",
+      "link": "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html"
     },
     {
       "ticker": "AVGO",
-      "title": "Jensen Huang back at Nvidia, stock soars; Anthropic slides",
+      "title": "Stocks give back gains as Anthropic dips below IPO price",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-11-23T16:13:39Z",
-      "link": "https://finance.yahoo.com/video/jensen-huang-back-at-nvidia-stock-soars-anthropic-slides-161339662.html"
+      "published": "2026-11-24T15:44:08Z",
+      "link": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html"
+    },
+    {
+      "ticker": "AVGO",
+      "title": "Arista Networks vs. SentinelOne: Which Technology Stock Is a Better Buy for 2027?",
+      "publisher": "Motley Fool",
+      "published": "2026-11-25T02:43:50Z",
+      "link": "https://www.fool.com/coverage/better-buy/2026/11/24/arista-networks-vs-sentinelone-which-technology-stock-is-a-better-buy-for-2027/"
     },
     {
       "ticker": "XLI",
-      "title": "How Much RTX Do You Really Get Through 3 ETFs?",
-      "publisher": "Simply Wall St.",
-      "published": "2026-11-23T18:09:23Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/much-rtx-really-3-etfs-180923536.html"
-    },
-    {
-      "ticker": "XLI",
-      "title": "Are Wall Street Analysts Predicting Cummins Stock Will Climb or Sink?",
+      "title": "Illinois Tool Works Stock: Is Wall Street Bullish or Bearish?",
       "publisher": "Barchart",
-      "published": "2026-11-23T15:28:36Z",
-      "link": "https://www.barchart.com/story/news/8966675/are-wall-street-analysts-predicting-cummins-stock-will-climb-or-sink"
+      "published": "2026-11-24T15:23:55Z",
+      "link": "https://www.barchart.com/story/news/8986701/illinois-tool-works-stock-is-wall-street-bullish-or-bearish"
     },
     {
       "ticker": "XLI",
-      "title": "Verisk Analytics Stock: Analyst Estimates & Ratings",
+      "title": "Otis Worldwide Stock: Is Wall Street Bullish or Bearish?",
       "publisher": "Barchart",
-      "published": "2026-11-23T11:30:49Z",
-      "link": "https://www.barchart.com/story/news/8961512/verisk-analytics-stock-analyst-estimates-ratings"
+      "published": "2026-11-24T14:05:17Z",
+      "link": "https://www.barchart.com/story/news/8984867/otis-worldwide-stock-is-wall-street-bullish-or-bearish"
+    },
+    {
+      "ticker": "XLI",
+      "title": "State Street Industrial Select SPDR (XLI) Sells GE and RTX on Nov. 20",
+      "publisher": "GuruFocus.com",
+      "published": "2026-11-24T11:03:58Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-spdr-110358887.html"
     },
     {
       "ticker": "HYG",
@@ -356,67 +381,66 @@
     },
     {
       "ticker": "GOOGL",
-      "title": "Google's Gemini 4 Neon gains momentum ahead of OpenAI, data shows",
+      "title": "Stocks give back gains as Anthropic dips below IPO price",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-11-23T22:33:24Z",
-      "link": "https://finance.yahoo.com/video/googles-gemini-4-neon-gains-momentum-ahead-of-openai-data-shows-223324082.html"
+      "published": "2026-11-24T15:44:08Z",
+      "link": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html"
     },
     {
       "ticker": "GOOGL",
-      "title": "Jensen Huang back as Nvidia CEO after 12 days: Shares surge 30%",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-23T16:13:02Z",
-      "link": "https://finance.yahoo.com/video/jensen-huang-back-as-nvidia-ceo-after-12-days-shares-surge-30-161302539.html"
+      "title": "Have robotaxis hit a tipping point? Wall Street and experts are split.",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-24T15:00:00Z",
+      "link": "https://finance.yahoo.com/markets/stocks/article/have-robotaxis-hit-a-tipping-point-wall-street-and-experts-are-split-150000412.html"
     },
     {
       "ticker": "GOOGL",
-      "title": "1966 Or 1995: Which Way Does America's $2.1 Trillion Deficit Go?",
-      "publisher": "Trefis",
-      "published": "2026-11-24T05:06:42Z",
-      "link": "https://www.trefis.com/stock/spy/articles/627413/1966-or-1995-which-way-does-america-s-2-1-trillion-deficit-go/2026-11-23"
+      "title": "Your $300,000 in XLC Holds $130,206 in Just Meta and Alphabet",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-25T01:04:06Z",
+      "link": "https://247wallst.com/investing/etf/2026/11/24/your-300000-in-xlc-holds-130206-in-just-meta-and-alphabet/"
     },
     {
       "ticker": "META",
-      "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
+      "title": "Stocks give back gains as Anthropic dips below IPO price",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-11-23T18:59:49Z",
-      "link": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html"
+      "published": "2026-11-24T15:44:08Z",
+      "link": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html"
     },
     {
       "ticker": "META",
-      "title": "Jensen Huang back at Nvidia, stock soars; Anthropic slides",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-23T16:13:39Z",
-      "link": "https://finance.yahoo.com/video/jensen-huang-back-at-nvidia-stock-soars-anthropic-slides-161339662.html"
+      "title": "Your $300,000 in XLC Holds $130,206 in Just Meta and Alphabet",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-25T01:04:06Z",
+      "link": "https://247wallst.com/investing/etf/2026/11/24/your-300000-in-xlc-holds-130206-in-just-meta-and-alphabet/"
     },
     {
       "ticker": "META",
-      "title": "1966 Or 1995: Which Way Does America's $2.1 Trillion Deficit Go?",
-      "publisher": "Trefis",
-      "published": "2026-11-24T05:06:42Z",
-      "link": "https://www.trefis.com/stock/spy/articles/627413/1966-or-1995-which-way-does-america-s-2-1-trillion-deficit-go/2026-11-23"
+      "title": "5 Sleeper Blue-Chip Stock Picks for Steady Long-Term Gains",
+      "publisher": "Kiplinger",
+      "published": "2026-11-25T00:52:33Z",
+      "link": "https://www.kiplinger.com/investing/blue-chip-stocks/sleeper-blue-chip-stock-picks-for-steady-long-term-gains"
     },
     {
       "ticker": "JPM",
-      "title": "Jensen Huang is back: Does Washington have a seat in the boardroom?",
+      "title": "Bitcoin now counts as collateral: From the CFTC to the ECB",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-11-23T22:12:14Z",
-      "link": "https://finance.yahoo.com/video/jensen-huang-is-back-does-washington-have-a-seat-in-the-boardroom-221214249.html"
+      "published": "2026-11-24T17:37:02Z",
+      "link": "https://finance.yahoo.com/video/bitcoin-now-counts-as-collateral-from-the-cftc-to-the-ecb-173702372.html"
     },
     {
       "ticker": "JPM",
-      "title": "The 10-Year Topped 5% For The First Time Since 2007. What Happened Next?",
-      "publisher": "Trefis",
-      "published": "2026-11-24T05:06:42Z",
-      "link": "https://www.trefis.com/stock/spy/articles/627401/the-10-year-topped-5-for-the-first-time-since-2007-what-happened-next/2026-11-23"
+      "title": "This Nasdaq ETF Pays a 19% Yield Without Writing a Single Covered Call. Here\u2019s How",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-25T02:02:33Z",
+      "link": "https://247wallst.com/investing/etf/2026/11/24/this-nasdaq-etf-pays-a-19-yield-without-writing-a-single-covered-call-heres-how/"
     },
     {
       "ticker": "JPM",
-      "title": "Forget JPMorgan: Upstart Has More to Lose From a 10% Card Rate Cap",
-      "publisher": "TIKR",
-      "published": "2026-11-23T23:31:38Z",
-      "link": "https://www.tikr.com/blog/forget-jpmorgan-upstart-has-more-to-lose-from-a-10-card-rate-cap?ref=yahoofinance&tlnk=yf-261123-2gmrm77f"
+      "title": "MINISO (MNSO) Stock Fair Value Edges Higher On Overseas Large Format Rollout",
+      "publisher": "Simply Wall St.",
+      "published": "2026-11-25T01:11:04Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/miniso-mnso-stock-fair-value-011104891.html"
     }
-  ],
-  "intraday_mark": true
+  ]
 }

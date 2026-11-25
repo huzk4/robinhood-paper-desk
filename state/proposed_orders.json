@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "side": "buy",
+    "ticker": "AAPL",
+    "shares": 22.513,
+    "reason": "RE-ENTRY (new cycle) (score +2)"
+  },
+  {
+    "side": "buy",
+    "ticker": "LLY",
+    "shares": 5.663,
+    "reason": "RE-ENTRY (new cycle) (score +2)"
+  },
+  {
+    "side": "buy",
+    "ticker": "XLP",
+    "shares": 86.7563,
+    "reason": "RE-ENTRY (new cycle) (score +2)"
+  },
+  {
+    "side": "buy",
+    "ticker": "TLT",
+    "shares": 97.8177,
+    "reason": "RE-ENTRY (new cycle) (score +2)"
+  }
+]
