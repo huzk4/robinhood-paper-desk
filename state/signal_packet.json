@@ -32,25 +32,25 @@
     {
       "side": "buy",
       "ticker": "AAPL",
-      "shares": 22.513,
+      "shares": 22.3912,
       "reason": "RE-ENTRY (new cycle) (score +2)"
     },
     {
       "side": "buy",
       "ticker": "LLY",
-      "shares": 5.663,
+      "shares": 5.7188,
       "reason": "RE-ENTRY (new cycle) (score +2)"
     },
     {
       "side": "buy",
       "ticker": "XLP",
-      "shares": 86.7563,
+      "shares": 86.2609,
       "reason": "RE-ENTRY (new cycle) (score +2)"
     },
     {
       "side": "buy",
-      "ticker": "TLT",
-      "shares": 97.8177,
+      "ticker": "LQD",
+      "shares": 76.3437,
       "reason": "RE-ENTRY (new cycle) (score +2)"
     }
   ],
@@ -77,9 +77,9 @@
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "AMZN": {
-      "total": 0,
+      "total": -1,
       "trend": 1,
-      "momentum": -1,
+      "momentum": -2,
       "action": "HOLD / OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -91,11 +91,11 @@
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "META": {
-      "total": -3,
-      "trend": -1,
+      "total": -4,
+      "trend": -2,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
-      "rationale": "Negative structure and momentum, no signs of turning."
+      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "TSLA": {
       "total": -1,
@@ -119,9 +119,9 @@
       "rationale": "Negative structure and momentum, no signs of turning."
     },
     "V": {
-      "total": 1,
+      "total": 2,
       "trend": 2,
-      "momentum": -1,
+      "momentum": 0,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -136,8 +136,8 @@
       "total": -2,
       "trend": 0,
       "momentum": -2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "LLY": {
       "total": 2,
@@ -199,8 +199,8 @@
       "total": -2,
       "trend": 0,
       "momentum": -2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLF": {
       "total": 0,
@@ -210,9 +210,9 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLV": {
-      "total": 2,
+      "total": 1,
       "trend": 2,
-      "momentum": 0,
+      "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -238,9 +238,9 @@
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLU": {
-      "total": 0,
+      "total": 1,
       "trend": 1,
-      "momentum": -1,
+      "momentum": 0,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
@@ -252,9 +252,9 @@
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "LQD": {
-      "total": -2,
-      "trend": -1,
-      "momentum": -1,
+      "total": 2,
+      "trend": 0,
+      "momentum": 2,
       "action": "RE-ENTRY (new cycle)",
       "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
@@ -262,59 +262,94 @@
       "total": 2,
       "trend": 0,
       "momentum": 2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "GLD": {
       "total": -4,
       "trend": -2,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
+      "action": "TACTICAL REBOUND (counter-trend)",
+      "rationale": "Rebound signals within a death-cross: tactical trade, NOT a new cycle."
     }
   },
   "headlines": [
     {
       "ticker": "NVDA",
-      "title": "Why Trump wanted Jensen Huang back at the helm of Nvidia",
-      "publisher": "Yahoo Finance",
-      "published": "2026-11-24T22:43:25Z",
-      "link": "https://finance.yahoo.com/markets/article/why-trump-wanted-jensen-huang-back-at-the-helm-of-nvidia-224325153.html"
+      "title": "Jensen Huang reclaims throne at Nvidia: Here's the bottom line for investors",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-25T21:28:03Z",
+      "link": "https://finance.yahoo.com/video/jensen-huang-reclaims-throne-at-nvidia-heres-the-bottom-line-for-investors-212803135.html"
     },
     {
       "ticker": "NVDA",
-      "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+      "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-11-24T21:45:58Z",
-      "link": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html"
+      "published": "2026-11-25T21:00:00Z",
+      "link": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-and-a-holiday-retail-rally-222042649.html"
     },
     {
       "ticker": "NVDA",
-      "title": "Why Nvidia is 'bar none' the 'cheapest growth stock in the market'",
+      "title": "Nvidia is cheap on paper, so why won't the market buy it?",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-11-24T21:34:25Z",
-      "link": "https://finance.yahoo.com/video/why-nvidia-is-bar-none-the-cheapest-growth-stock-in-the-market-213425021.html"
+      "published": "2026-11-25T19:22:15Z",
+      "link": "https://finance.yahoo.com/video/nvidia-is-cheap-on-paper-so-why-wont-the-market-buy-it-192215326.html"
     },
     {
-      "ticker": "AVGO",
-      "title": "Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure",
+      "ticker": "META",
+      "title": "Nvidia is cheap on paper, so why won't the market buy it?",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-25T19:22:15Z",
+      "link": "https://finance.yahoo.com/video/nvidia-is-cheap-on-paper-so-why-wont-the-market-buy-it-192215326.html"
+    },
+    {
+      "ticker": "META",
+      "title": "Tariffs are back as Anthropic sinks further below its IPO price",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-25T16:05:24Z",
+      "link": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html"
+    },
+    {
+      "ticker": "META",
+      "title": "Amazon and Meta are negotiating the future of AI shopping. Consumers aren't quite there yet.",
       "publisher": "Yahoo Finance",
-      "published": "2026-11-24T14:16:35Z",
-      "link": "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html"
+      "published": "2026-11-25T14:42:15Z",
+      "link": "https://finance.yahoo.com/technology/article/amazon-and-meta-are-negotiating-the-future-of-ai-shopping-consumers-arent-quite-there-yet-144215428.html"
     },
     {
       "ticker": "AVGO",
-      "title": "Stocks give back gains as Anthropic dips below IPO price",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-24T15:44:08Z",
-      "link": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html"
+      "title": "Why Retail Investors Are Watching AMD and AI Infrastructure Stocks After SpaceX Satellite News",
+      "publisher": "Simply Wall St.",
+      "published": "2026-11-26T02:12:15Z",
+      "link": "https://finance.yahoo.com/technology/ai/articles/why-retail-investors-watching-amd-021215050.html"
     },
     {
       "ticker": "AVGO",
-      "title": "Arista Networks vs. SentinelOne: Which Technology Stock Is a Better Buy for 2027?",
+      "title": "Broadcom Stock Hasn't Traded This Low Since July 2025. I Think It's a Buy.",
       "publisher": "Motley Fool",
-      "published": "2026-11-25T02:43:50Z",
-      "link": "https://www.fool.com/coverage/better-buy/2026/11/24/arista-networks-vs-sentinelone-which-technology-stock-is-a-better-buy-for-2027/"
+      "published": "2026-11-26T01:03:02Z",
+      "link": "https://www.fool.com/investing/2026/11/25/broadcom-stock-hasn-t-traded-this-low-since-july-2025-i-think-it-s-a-buy/"
+    },
+    {
+      "ticker": "AVGO",
+      "title": "5 Best Strong Buy Growth Stocks to Buy for 2027",
+      "publisher": "Insider Monkey",
+      "published": "2026-11-26T00:46:10Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-strong-buy-growth-004610627.html"
+    },
+    {
+      "ticker": "XLI",
+      "title": "J.B. Hunt Transport Stock: Is Wall Street Bullish or Bearish?",
+      "publisher": "Barchart",
+      "published": "2026-11-25T14:06:05Z",
+      "link": "https://www.barchart.com/story/news/9003580/j-b-hunt-transport-stock-is-wall-street-bullish-or-bearish"
+    },
+    {
+      "ticker": "XLI",
+      "title": "What State Street Industrial Select SPDR (XLI) Bought: GE Leads on Nov. 23",
+      "publisher": "GuruFocus.com",
+      "published": "2026-11-25T11:05:22Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-spdr-110522615.html"
     },
     {
       "ticker": "XLI",
@@ -322,20 +357,6 @@
       "publisher": "Barchart",
       "published": "2026-11-24T15:23:55Z",
       "link": "https://www.barchart.com/story/news/8986701/illinois-tool-works-stock-is-wall-street-bullish-or-bearish"
-    },
-    {
-      "ticker": "XLI",
-      "title": "Otis Worldwide Stock: Is Wall Street Bullish or Bearish?",
-      "publisher": "Barchart",
-      "published": "2026-11-24T14:05:17Z",
-      "link": "https://www.barchart.com/story/news/8984867/otis-worldwide-stock-is-wall-street-bullish-or-bearish"
-    },
-    {
-      "ticker": "XLI",
-      "title": "State Street Industrial Select SPDR (XLI) Sells GE and RTX on Nov. 20",
-      "publisher": "GuruFocus.com",
-      "published": "2026-11-24T11:03:58Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-spdr-110358887.html"
     },
     {
       "ticker": "HYG",
@@ -360,88 +381,66 @@
     },
     {
       "ticker": "GLD",
-      "title": "Own Gold As A Hedge? BND Rose More Often",
-      "publisher": "Trefis",
-      "published": "2026-11-23T22:38:05Z",
-      "link": "https://www.trefis.com/stock/bnd/articles/627661/own-gold-as-a-hedge-bnd-rose-more-often/2026-11-23"
+      "title": "Gold Is Having Its Worst November Since at Least 2000",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-25T17:42:49Z",
+      "link": "https://247wallst.com/investing/2026/11/25/gold-is-having-its-worst-november-since-at-least-2000/"
     },
     {
       "ticker": "GLD",
-      "title": "Retiring On $2 Million? Sell BND Before SCHD",
-      "publisher": "Trefis",
-      "published": "2026-11-23T22:14:27Z",
-      "link": "https://www.trefis.com/stock/voo/articles/627666/retiring-on-2-million-sell-bnd-before-schd/2026-11-23"
+      "title": "Gold Faces a Stunning November Not Seen in Nearly 50 Years",
+      "publisher": "GuruFocus.com",
+      "published": "2026-11-25T15:06:42Z",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-faces-stunning-november-not-150642189.html"
     },
     {
       "ticker": "GLD",
-      "title": "SPY And Gold Fell Together. Did Bonds Save 60/40?",
-      "publisher": "Trefis",
-      "published": "2026-11-23T12:05:47Z",
-      "link": "https://www.trefis.com/stock/spy/articles/627558/spy-and-gold-fell-together-did-bonds-save-60-40/2026-11-22"
+      "title": "Stocks or Gold? GDE Refuses to Choose: Every $100 Buys $90 of Each",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-25T13:42:51Z",
+      "link": "https://247wallst.com/investing/etf/2026/11/25/stocks-or-gold-gde-refuses-to-choose-every-100-buys-90-of-each/"
     },
     {
       "ticker": "GOOGL",
-      "title": "Stocks give back gains as Anthropic dips below IPO price",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-24T15:44:08Z",
-      "link": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html"
+      "title": "SpaceX gets approval for 1 million data center satellites",
+      "publisher": "LA Times",
+      "published": "2026-11-26T02:38:47Z",
+      "link": "https://finance.yahoo.com/technology/ai/articles/spacex-gets-approval-1-million-023847485.html"
     },
     {
       "ticker": "GOOGL",
-      "title": "Have robotaxis hit a tipping point? Wall Street and experts are split.",
-      "publisher": "Yahoo Finance",
-      "published": "2026-11-24T15:00:00Z",
-      "link": "https://finance.yahoo.com/markets/stocks/article/have-robotaxis-hit-a-tipping-point-wall-street-and-experts-are-split-150000412.html"
+      "title": "Apple Stock Defies AI Selloff: Is It the Market's Safe Haven?",
+      "publisher": "BeInCrypto",
+      "published": "2026-11-26T01:00:00Z",
+      "link": "https://beincrypto.com/apple-stock-ai-selloff-safe-haven/"
     },
     {
       "ticker": "GOOGL",
-      "title": "Your $300,000 in XLC Holds $130,206 in Just Meta and Alphabet",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-11-25T01:04:06Z",
-      "link": "https://247wallst.com/investing/etf/2026/11/24/your-300000-in-xlc-holds-130206-in-just-meta-and-alphabet/"
+      "title": "5 Best Strong Buy Growth Stocks to Buy for 2027",
+      "publisher": "Insider Monkey",
+      "published": "2026-11-26T00:46:10Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-strong-buy-growth-004610627.html"
     },
     {
-      "ticker": "META",
-      "title": "Stocks give back gains as Anthropic dips below IPO price",
+      "ticker": "JPM",
+      "title": "Tariffs are back as Anthropic sinks further below its IPO price",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-11-24T15:44:08Z",
-      "link": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html"
+      "published": "2026-11-25T16:05:24Z",
+      "link": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html"
     },
     {
-      "ticker": "META",
-      "title": "Your $300,000 in XLC Holds $130,206 in Just Meta and Alphabet",
+      "ticker": "JPM",
+      "title": "Washington Calls It a Goldilocks Economy. On a $2,071 Social Security Check, She Calls It the Annoyance Economy: Prices Up 3.7%, and Her Real Raise Is Just 3.3%",
       "publisher": "24/7 Wall St.",
-      "published": "2026-11-25T01:04:06Z",
-      "link": "https://247wallst.com/investing/etf/2026/11/24/your-300000-in-xlc-holds-130206-in-just-meta-and-alphabet/"
-    },
-    {
-      "ticker": "META",
-      "title": "5 Sleeper Blue-Chip Stock Picks for Steady Long-Term Gains",
-      "publisher": "Kiplinger",
-      "published": "2026-11-25T00:52:33Z",
-      "link": "https://www.kiplinger.com/investing/blue-chip-stocks/sleeper-blue-chip-stock-picks-for-steady-long-term-gains"
+      "published": "2026-11-26T02:03:25Z",
+      "link": "https://247wallst.com/personal-finance/social-security/2026/11/25/washington-calls-it-a-goldilocks-economy-on-a-2071-social-security-check-she-calls-it-the-annoyance-economy-prices-up-3-7-and-her-real-raise-is-just-3-3/"
     },
     {
       "ticker": "JPM",
-      "title": "Bitcoin now counts as collateral: From the CFTC to the ECB",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-24T17:37:02Z",
-      "link": "https://finance.yahoo.com/video/bitcoin-now-counts-as-collateral-from-the-cftc-to-the-ecb-173702372.html"
-    },
-    {
-      "ticker": "JPM",
-      "title": "This Nasdaq ETF Pays a 19% Yield Without Writing a Single Covered Call. Here\u2019s How",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-11-25T02:02:33Z",
-      "link": "https://247wallst.com/investing/etf/2026/11/24/this-nasdaq-etf-pays-a-19-yield-without-writing-a-single-covered-call-heres-how/"
-    },
-    {
-      "ticker": "JPM",
-      "title": "MINISO (MNSO) Stock Fair Value Edges Higher On Overseas Large Format Rollout",
-      "publisher": "Simply Wall St.",
-      "published": "2026-11-25T01:11:04Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/miniso-mnso-stock-fair-value-011104891.html"
+      "title": "Market Chatter: JPMorgan Projects $450 Billion in AI High-Grade Debt Issuance for 2027",
+      "publisher": "MT Newswires",
+      "published": "2026-11-25T22:20:27Z",
+      "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-jpmorgan-projects-450-222027435.html"
     }
-  ],
-  "intraday_mark": true
+  ]
 }
