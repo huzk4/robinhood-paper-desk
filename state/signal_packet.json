@@ -276,87 +276,94 @@
   "headlines": [
     {
       "ticker": "NVDA",
-      "title": "Jensen Huang reclaims throne at Nvidia: Here's the bottom line for investors",
+      "title": "Will Jensen Huang's second act as Nvidia CEO be different?",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-11-25T21:28:03Z",
-      "link": "https://finance.yahoo.com/video/jensen-huang-reclaims-throne-at-nvidia-heres-the-bottom-line-for-investors-212803135.html"
+      "published": "2026-11-26T14:00:00Z",
+      "link": "https://finance.yahoo.com/video/jensen-huangs-second-act-nvidia-140000599.html"
     },
     {
       "ticker": "NVDA",
-      "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
+      "title": "Jensen Huang 'absolutely could be fired again,' legal expert says",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-11-25T21:00:00Z",
-      "link": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-and-a-holiday-retail-rally-222042649.html"
+      "published": "2026-11-26T13:00:00Z",
+      "link": "https://finance.yahoo.com/video/jensen-huang-absolutely-could-fired-130000374.html"
     },
     {
       "ticker": "NVDA",
-      "title": "Nvidia is cheap on paper, so why won't the market buy it?",
+      "title": "5 things I'm thankful for in AI",
       "publisher": "Yahoo Finance Video",
-      "published": "2026-11-25T19:22:15Z",
-      "link": "https://finance.yahoo.com/video/nvidia-is-cheap-on-paper-so-why-wont-the-market-buy-it-192215326.html"
+      "published": "2026-11-26T12:00:00Z",
+      "link": "https://finance.yahoo.com/video/5-things-im-thankful-ai-120000522.html"
     },
     {
       "ticker": "META",
-      "title": "Nvidia is cheap on paper, so why won't the market buy it?",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-25T19:22:15Z",
-      "link": "https://finance.yahoo.com/video/nvidia-is-cheap-on-paper-so-why-wont-the-market-buy-it-192215326.html"
-    },
-    {
-      "ticker": "META",
-      "title": "Tariffs are back as Anthropic sinks further below its IPO price",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-25T16:05:24Z",
-      "link": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html"
-    },
-    {
-      "ticker": "META",
-      "title": "Amazon and Meta are negotiating the future of AI shopping. Consumers aren't quite there yet.",
-      "publisher": "Yahoo Finance",
-      "published": "2026-11-25T14:42:15Z",
-      "link": "https://finance.yahoo.com/technology/article/amazon-and-meta-are-negotiating-the-future-of-ai-shopping-consumers-arent-quite-there-yet-144215428.html"
-    },
-    {
-      "ticker": "AVGO",
-      "title": "Why Retail Investors Are Watching AMD and AI Infrastructure Stocks After SpaceX Satellite News",
-      "publisher": "Simply Wall St.",
-      "published": "2026-11-26T02:12:15Z",
-      "link": "https://finance.yahoo.com/technology/ai/articles/why-retail-investors-watching-amd-021215050.html"
-    },
-    {
-      "ticker": "AVGO",
-      "title": "Broadcom Stock Hasn't Traded This Low Since July 2025. I Think It's a Buy.",
-      "publisher": "Motley Fool",
-      "published": "2026-11-26T01:03:02Z",
-      "link": "https://www.fool.com/investing/2026/11/25/broadcom-stock-hasn-t-traded-this-low-since-july-2025-i-think-it-s-a-buy/"
-    },
-    {
-      "ticker": "AVGO",
-      "title": "5 Best Strong Buy Growth Stocks to Buy for 2027",
+      "title": "5 Best Tech Stocks to Buy for 2027 According to Hedge Funds",
       "publisher": "Insider Monkey",
-      "published": "2026-11-26T00:46:10Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-strong-buy-growth-004610627.html"
+      "published": "2026-11-27T03:08:56Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-tech-stocks-buy-030856400.html"
     },
     {
-      "ticker": "XLI",
-      "title": "J.B. Hunt Transport Stock: Is Wall Street Bullish or Bearish?",
+      "ticker": "META",
+      "title": "Jensen Huang\u2019s Return Doesn\u2019t Make Nvidia Stock (NVDA) a Buy",
+      "publisher": "TipRanks",
+      "published": "2026-11-26T21:22:00Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-return-doesn-t-212200380.html"
+    },
+    {
+      "ticker": "META",
+      "title": "Apple Enters the AI Agent Race as It Takes on OpenAI, Anthropic, and Meta. What That Means for AAPL Stock.",
       "publisher": "Barchart",
-      "published": "2026-11-25T14:06:05Z",
-      "link": "https://www.barchart.com/story/news/9003580/j-b-hunt-transport-stock-is-wall-street-bullish-or-bearish"
+      "published": "2026-11-26T19:30:03Z",
+      "link": "https://www.barchart.com/story/news/9022924/apple-enters-the-ai-agent-race-as-it-takes-on-openai-anthropic-and-meta-what-that-means-for-aapl-stock"
+    },
+    {
+      "ticker": "AVGO",
+      "title": "Broadcom (AVGO) Could Be the Biggest Winner From the Shift to Custom AI Chips",
+      "publisher": "Insider Monkey",
+      "published": "2026-11-27T03:15:33Z",
+      "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-could-biggest-winner-031533044.html"
+    },
+    {
+      "ticker": "AVGO",
+      "title": "These 2 AI Chip Stocks Are Down 36% to 39% From Their Highs. Here\u2019s What History Says Happens Next.",
+      "publisher": "Motley Fool",
+      "published": "2026-11-27T00:20:02Z",
+      "link": "https://www.fool.com/investing/2026/11/26/these-2-ai-chip-stocks-are-down-36-to-39-from-their-highs-here-s-what-history-says-happens-next/"
+    },
+    {
+      "ticker": "AVGO",
+      "title": "5 Most Oversold Semiconductor Stocks to Buy for 2027",
+      "publisher": "Insider Monkey",
+      "published": "2026-11-26T19:47:38Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-most-oversold-semiconductor-stocks-194738573.html"
     },
     {
       "ticker": "XLI",
-      "title": "What State Street Industrial Select SPDR (XLI) Bought: GE Leads on Nov. 23",
+      "title": "Is Wall Street Bullish or Bearish on Huntington Ingalls Stock?",
+      "publisher": "Barchart",
+      "published": "2026-11-26T12:13:51Z",
+      "link": "https://www.barchart.com/story/news/9017649/is-wall-street-bullish-or-bearish-on-huntington-ingalls-stock"
+    },
+    {
+      "ticker": "XLI",
+      "title": "State Street Industrial Select Sector SPDR (XLI) Adds GE and RTX on Nov. 24",
       "publisher": "GuruFocus.com",
-      "published": "2026-11-25T11:05:22Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-spdr-110522615.html"
+      "published": "2026-11-26T11:05:07Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110507358.html"
     },
     {
       "ticker": "XLI",
-      "title": "Illinois Tool Works Stock: Is Wall Street Bullish or Bearish?",
+      "title": "Do Wall Street Analysts Like EMCOR Stock?",
       "publisher": "Barchart",
-      "published": "2026-11-24T15:23:55Z",
-      "link": "https://www.barchart.com/story/news/8986701/illinois-tool-works-stock-is-wall-street-bullish-or-bearish"
+      "published": "2026-11-26T10:26:43Z",
+      "link": "https://www.barchart.com/story/news/9016461/do-wall-street-analysts-like-emcor-stock"
+    },
+    {
+      "ticker": "HYG",
+      "title": "What\u2019s the Tax Bill on $7,125 a Month in Dividend Income? The Taxable Account vs. Roth IRA Math",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-26T17:03:26Z",
+      "link": "https://247wallst.com/personal-finance/2026/11/26/whats-the-tax-bill-on-7125-a-month-in-dividend-income-the-taxable-account-vs-roth-ira-math/"
     },
     {
       "ticker": "HYG",
@@ -373,11 +380,11 @@
       "link": "https://247wallst.com/investing/etf/2026/11/16/junk-bonds-emerging-markets-and-foreign-debt-3-monthly-checks-and-the-risk-behind-them/"
     },
     {
-      "ticker": "HYG",
-      "title": "How Much Does a 60-Year-Old Need Invested to Replace a $125,000 Salary With Dividends and Never Sell a Share?",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-11-10T20:07:07Z",
-      "link": "https://247wallst.com/personal-finance/2026/11/10/how-much-does-a-60-year-old-need-invested-to-replace-a-125000-salary-with-dividends-and-never-sell-a-share/"
+      "ticker": "GLD",
+      "title": "Holding GLD For Stock Falls? Gold Missed This One",
+      "publisher": "Trefis",
+      "published": "2026-11-26T11:02:39Z",
+      "link": "https://www.trefis.com/stock/gld/articles/629222/holding-gld-for-stock-falls-gold-missed-this-one/2026-11-26"
     },
     {
       "ticker": "GLD",
@@ -394,54 +401,46 @@
       "link": "https://finance.yahoo.com/markets/commodities/articles/gold-faces-stunning-november-not-150642189.html"
     },
     {
-      "ticker": "GLD",
-      "title": "Stocks or Gold? GDE Refuses to Choose: Every $100 Buys $90 of Each",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-11-25T13:42:51Z",
-      "link": "https://247wallst.com/investing/etf/2026/11/25/stocks-or-gold-gde-refuses-to-choose-every-100-buys-90-of-each/"
-    },
-    {
       "ticker": "GOOGL",
-      "title": "SpaceX gets approval for 1 million data center satellites",
-      "publisher": "LA Times",
-      "published": "2026-11-26T02:38:47Z",
-      "link": "https://finance.yahoo.com/technology/ai/articles/spacex-gets-approval-1-million-023847485.html"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Apple Stock Defies AI Selloff: Is It the Market's Safe Haven?",
-      "publisher": "BeInCrypto",
-      "published": "2026-11-26T01:00:00Z",
-      "link": "https://beincrypto.com/apple-stock-ai-selloff-safe-haven/"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "5 Best Strong Buy Growth Stocks to Buy for 2027",
+      "title": "5 Best Quantum Computing Stocks To Buy for 2027",
       "publisher": "Insider Monkey",
-      "published": "2026-11-26T00:46:10Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-strong-buy-growth-004610627.html"
+      "published": "2026-11-27T03:21:49Z",
+      "link": "https://finance.yahoo.com/technology/articles/5-best-quantum-computing-stocks-032149616.html"
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "5 Best Tech Stocks to Buy for 2027 According to Hedge Funds",
+      "publisher": "Insider Monkey",
+      "published": "2026-11-27T03:08:56Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-tech-stocks-buy-030856400.html"
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "\u2018How Can TSLA Compete With Waymo?\u2019 Gary Black Questions Tesla\u2019s Robotaxi Strategy, Predicts Waymo Will Lead in Miles and Trips",
+      "publisher": "Benzinga",
+      "published": "2026-11-27T01:30:07Z",
+      "link": "https://finance.yahoo.com/technology/articles/tsla-compete-waymo-gary-black-013007370.html"
     },
     {
       "ticker": "JPM",
-      "title": "Tariffs are back as Anthropic sinks further below its IPO price",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-25T16:05:24Z",
-      "link": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html"
+      "title": "Is Standard Chartered (LSE:STAN) Undervalued Following Its J.P. Morgan Conference Appearance?",
+      "publisher": "Simply Wall St.",
+      "published": "2026-11-26T22:09:08Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/standard-chartered-lse-stan-undervalued-220908677.html"
     },
     {
       "ticker": "JPM",
-      "title": "Washington Calls It a Goldilocks Economy. On a $2,071 Social Security Check, She Calls It the Annoyance Economy: Prices Up 3.7%, and Her Real Raise Is Just 3.3%",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-11-26T02:03:25Z",
-      "link": "https://247wallst.com/personal-finance/social-security/2026/11/25/washington-calls-it-a-goldilocks-economy-on-a-2071-social-security-check-she-calls-it-the-annoyance-economy-prices-up-3-7-and-her-real-raise-is-just-3-3/"
+      "title": "JPMorgan Sees $450 Billion AI Debt Wave as Credit Risks Mount",
+      "publisher": "GuruFocus.com",
+      "published": "2026-11-26T15:47:41Z",
+      "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450-billion-ai-154741192.html"
     },
     {
       "ticker": "JPM",
-      "title": "Market Chatter: JPMorgan Projects $450 Billion in AI High-Grade Debt Issuance for 2027",
-      "publisher": "MT Newswires",
-      "published": "2026-11-25T22:20:27Z",
-      "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-jpmorgan-projects-450-222027435.html"
+      "title": "Will Bank of America's Swiss Expansion Fuel Further Fee Income Growth?",
+      "publisher": "Zacks",
+      "published": "2026-11-26T14:11:00Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bank-americas-swiss-expansion-fuel-141100657.html"
     }
-  ],
-  "intraday_mark": true
+  ]
 }
