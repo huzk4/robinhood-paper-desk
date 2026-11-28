@@ -6,9 +6,9 @@
   "drawdown_from_peak": 0.0042,
   "halted": false,
   "macro": {
-    "score": 0,
+    "score": 1,
     "regime": "Transitional",
-    "composite": 0.0,
+    "composite": 0.375,
     "notes": [
       "No yield_spread: redistributing the 20% weight of the curve among other components."
     ]
@@ -32,241 +32,247 @@
     {
       "side": "buy",
       "ticker": "AAPL",
-      "shares": 22.3912,
-      "reason": "RE-ENTRY (new cycle) (score +2)"
+      "shares": 22.2602,
+      "reason": "RE-ENTRY (new cycle) (score +5)"
+    },
+    {
+      "side": "buy",
+      "ticker": "V",
+      "shares": 18.5799,
+      "reason": "RE-ENTRY (new cycle) (score +3)"
     },
     {
       "side": "buy",
       "ticker": "LLY",
-      "shares": 5.7188,
-      "reason": "RE-ENTRY (new cycle) (score +2)"
+      "shares": 5.732,
+      "reason": "RE-ENTRY (new cycle) (score +3)"
     },
     {
       "side": "buy",
       "ticker": "XLP",
-      "shares": 86.2609,
-      "reason": "RE-ENTRY (new cycle) (score +2)"
+      "shares": 86.1154,
+      "reason": "RE-ENTRY (new cycle) (score +3)"
     },
     {
       "side": "buy",
-      "ticker": "LQD",
-      "shares": 76.3437,
+      "ticker": "XLU",
+      "shares": 182.5102,
       "reason": "RE-ENTRY (new cycle) (score +2)"
     }
   ],
   "scores": {
     "AAPL": {
-      "total": 2,
+      "total": 5,
       "trend": 2,
-      "momentum": 0,
+      "momentum": 2,
       "action": "RE-ENTRY (new cycle)",
       "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "MSFT": {
       "total": -1,
-      "trend": 1,
+      "trend": 0,
       "momentum": -2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "NVDA": {
-      "total": -4,
+      "total": -3,
       "trend": -2,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "AMZN": {
-      "total": -1,
+      "total": 1,
       "trend": 1,
-      "momentum": -2,
+      "momentum": -1,
       "action": "HOLD / OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "GOOGL": {
-      "total": -3,
+      "total": -2,
       "trend": -2,
       "momentum": -1,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "META": {
-      "total": -4,
-      "trend": -2,
-      "momentum": -2,
+      "total": 0,
+      "trend": -1,
+      "momentum": 0,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "TSLA": {
-      "total": -1,
+      "total": 3,
       "trend": 0,
-      "momentum": -1,
+      "momentum": 2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "AVGO": {
-      "total": -4,
+      "total": -3,
       "trend": -2,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "JPM": {
-      "total": -3,
+      "total": -2,
       "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Negative structure and momentum, no signs of turning."
     },
     "V": {
-      "total": 2,
+      "total": 3,
       "trend": 2,
       "momentum": 0,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "UNH": {
-      "total": -3,
+      "total": -2,
       "trend": -1,
       "momentum": -2,
       "action": "RE-ENTRY (new cycle)",
       "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "XOM": {
-      "total": -2,
+      "total": -1,
       "trend": 0,
       "momentum": -2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "LLY": {
-      "total": 2,
+      "total": 3,
       "trend": 2,
       "momentum": 0,
       "action": "RE-ENTRY (new cycle)",
       "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "HD": {
-      "total": 1,
+      "total": 4,
       "trend": 1,
-      "momentum": 0,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+      "momentum": 2,
+      "action": "WAIT (do not chase)",
+      "rationale": "Healthy trend but no fresh entry trigger."
     },
     "COST": {
-      "total": 3,
+      "total": 4,
       "trend": 2,
       "momentum": 1,
       "action": "WAIT (do not chase)",
       "rationale": "Healthy trend but no fresh entry trigger."
     },
     "SPY": {
-      "total": -3,
+      "total": -2,
       "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Negative structure and momentum, no signs of turning."
     },
     "QQQ": {
-      "total": -3,
+      "total": -2,
       "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Negative structure and momentum, no signs of turning."
     },
     "IWM": {
-      "total": -3,
-      "trend": -1,
+      "total": -1,
+      "trend": 0,
       "momentum": -2,
-      "action": "STAY OUT / AVOID",
-      "rationale": "Negative structure and momentum, no signs of turning."
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "RSP": {
-      "total": 0,
-      "trend": 1,
+      "total": 2,
+      "trend": 2,
       "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLK": {
-      "total": -3,
+      "total": -2,
       "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Negative structure and momentum, no signs of turning."
     },
     "XLE": {
-      "total": -2,
+      "total": -1,
       "trend": 0,
       "momentum": -2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLF": {
-      "total": 0,
-      "trend": 1,
+      "total": 2,
+      "trend": 2,
       "momentum": -1,
       "action": "HOLD / OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLV": {
-      "total": 1,
+      "total": 2,
       "trend": 2,
       "momentum": -1,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
     "XLI": {
-      "total": -4,
-      "trend": -2,
+      "total": -2,
+      "trend": -1,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "XLP": {
-      "total": 2,
+      "total": 3,
       "trend": 2,
       "momentum": 0,
       "action": "RE-ENTRY (new cycle)",
       "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
     },
     "XLY": {
-      "total": 1,
+      "total": 3,
       "trend": 2,
-      "momentum": -1,
-      "action": "OBSERVE",
-      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
-    },
-    "XLU": {
-      "total": 1,
-      "trend": 1,
       "momentum": 0,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
+    "XLU": {
+      "total": 2,
+      "trend": 1,
+      "momentum": 0,
+      "action": "RE-ENTRY (new cycle)",
+      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
+    },
     "HYG": {
-      "total": -4,
+      "total": -3,
       "trend": -2,
       "momentum": -2,
       "action": "STAY OUT / AVOID",
       "rationale": "Bearish momentum RELENTLESS, no fresh rebound trigger."
     },
     "LQD": {
-      "total": 2,
-      "trend": 0,
-      "momentum": 2,
-      "action": "RE-ENTRY (new cycle)",
-      "rationale": "Rebound/reversal with healthy EMA structure: likely start of a new bullish cycle."
-    },
-    "TLT": {
-      "total": 2,
+      "total": 3,
       "trend": 0,
       "momentum": 2,
       "action": "OBSERVE",
       "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
     },
+    "TLT": {
+      "total": 2,
+      "trend": 0,
+      "momentum": 1,
+      "action": "OBSERVE",
+      "rationale": "Mixed signals; no clear exhaustion or rebound trigger."
+    },
     "GLD": {
-      "total": -4,
+      "total": -3,
       "trend": -2,
       "momentum": -2,
       "action": "TACTICAL REBOUND (counter-trend)",
@@ -275,173 +281,172 @@
   },
   "headlines": [
     {
-      "ticker": "NVDA",
-      "title": "Will Jensen Huang's second act as Nvidia CEO be different?",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-26T14:00:00Z",
-      "link": "https://finance.yahoo.com/video/jensen-huangs-second-act-nvidia-140000599.html"
+      "ticker": "AAPL",
+      "title": "Apple gains smartphone share as memory crunch squeezes budget Android phones",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-27T13:41:24Z",
+      "link": "https://finance.yahoo.com/technology/article/apple-gains-smartphone-share-as-memory-crunch-squeezes-budget-android-phones-134124966.html"
     },
     {
-      "ticker": "NVDA",
-      "title": "Jensen Huang 'absolutely could be fired again,' legal expert says",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-26T13:00:00Z",
-      "link": "https://finance.yahoo.com/video/jensen-huang-absolutely-could-fired-130000374.html"
-    },
-    {
-      "ticker": "NVDA",
-      "title": "5 things I'm thankful for in AI",
-      "publisher": "Yahoo Finance Video",
-      "published": "2026-11-26T12:00:00Z",
-      "link": "https://finance.yahoo.com/video/5-things-im-thankful-ai-120000522.html"
-    },
-    {
-      "ticker": "META",
-      "title": "5 Best Tech Stocks to Buy for 2027 According to Hedge Funds",
-      "publisher": "Insider Monkey",
-      "published": "2026-11-27T03:08:56Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-tech-stocks-buy-030856400.html"
-    },
-    {
-      "ticker": "META",
-      "title": "Jensen Huang\u2019s Return Doesn\u2019t Make Nvidia Stock (NVDA) a Buy",
-      "publisher": "TipRanks",
-      "published": "2026-11-26T21:22:00Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-return-doesn-t-212200380.html"
-    },
-    {
-      "ticker": "META",
-      "title": "Apple Enters the AI Agent Race as It Takes on OpenAI, Anthropic, and Meta. What That Means for AAPL Stock.",
-      "publisher": "Barchart",
-      "published": "2026-11-26T19:30:03Z",
-      "link": "https://www.barchart.com/story/news/9022924/apple-enters-the-ai-agent-race-as-it-takes-on-openai-anthropic-and-meta-what-that-means-for-aapl-stock"
-    },
-    {
-      "ticker": "AVGO",
-      "title": "Broadcom (AVGO) Could Be the Biggest Winner From the Shift to Custom AI Chips",
-      "publisher": "Insider Monkey",
-      "published": "2026-11-27T03:15:33Z",
-      "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-could-biggest-winner-031533044.html"
-    },
-    {
-      "ticker": "AVGO",
-      "title": "These 2 AI Chip Stocks Are Down 36% to 39% From Their Highs. Here\u2019s What History Says Happens Next.",
+      "ticker": "AAPL",
+      "title": "Apple Is Beating the Rest of the \"Magnificent Seven\" in 2026. Can It Do It Again in 2027?",
       "publisher": "Motley Fool",
-      "published": "2026-11-27T00:20:02Z",
-      "link": "https://www.fool.com/investing/2026/11/26/these-2-ai-chip-stocks-are-down-36-to-39-from-their-highs-here-s-what-history-says-happens-next/"
+      "published": "2026-11-28T01:19:10Z",
+      "link": "https://www.fool.com/investing/2026/11/27/apple-is-beating-the-rest-of-the-magnificent-seven-in-2026-can-it-do-it-again-in-2027/"
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Vanguard's Growth ETF Has 3 Stocks Making Up More Than a Third of It. Only 1 Has Held Up in the Tech Sell-Off.",
+      "publisher": "Motley Fool",
+      "published": "2026-11-28T01:09:02Z",
+      "link": "https://www.fool.com/investing/2026/11/27/vanguard-s-growth-etf-has-3-stocks-making-up-more-than-a-third-of-it-only-1-has-held-up-in-the-tech-sell-off/"
+    },
+    {
+      "ticker": "HD",
+      "title": "The Dividend Portfolio It Takes to Pay $85,000 a Year",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-27T14:47:52Z",
+      "link": "https://247wallst.com/investing/2026/11/27/the-dividend-portfolio-it-takes-to-pay-85000-a-year/"
+    },
+    {
+      "ticker": "HD",
+      "title": "George Soros, Ken Fisher and 3 Other Big Funds Sold KKR Last Quarter, While 8 Bought. Who\u2019s Right?",
+      "publisher": "TIKR",
+      "published": "2026-11-27T12:53:38Z",
+      "link": "https://www.tikr.com/blog/george-soros-ken-fisher-and-3-other-big-funds-sold-kkr-last-quarter-while-8-bought-whos-right?ref=yahoofinance&tlnk=yf-261127-5wccm654"
+    },
+    {
+      "ticker": "HD",
+      "title": "Black Friday Deals, Record Online Sales Put These ETFs in Focus",
+      "publisher": "Zacks",
+      "published": "2026-11-27T12:00:00Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/black-friday-deals-record-online-120000267.html"
+    },
+    {
+      "ticker": "COST",
+      "title": "Black Friday Push Could Be A Big Moment For Costco Stock (COST)",
+      "publisher": "Simply Wall St.",
+      "published": "2026-11-28T00:13:31Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/black-friday-push-could-big-001331089.html"
+    },
+    {
+      "ticker": "COST",
+      "title": "Costco (COST) Rises Yet Lags Behind Market: Some Facts Worth Knowing",
+      "publisher": "Zacks",
+      "published": "2026-11-27T21:45:03Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/costco-cost-rises-yet-lags-214503212.html"
+    },
+    {
+      "ticker": "COST",
+      "title": "Wall Street Gravitates To Reliable Retailer Costco In Rocky Market. But This Test Looms.",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-11-27T18:14:58Z",
+      "link": "https://www.investors.com/research/ibd-stock-analysis/costco-stock-sp-500-retailer-breaks-out-market-breaks-down/?src=A00220&yptr=yahoo"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Stocks snap from a $6 trillion washout to a $3.5 trillion surge as Nvidia, Micron, and SpaceX bounce back",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-27T15:12:18Z",
+      "link": "https://finance.yahoo.com/markets/article/stocks-snap-from-a-6-trillion-washout-to-a-3-trillion-surge-as-nvidia-micron-and-spacex-bounce-back-151218930.html"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Why this portfolio manager says investors should 'avoid the neoclouds'",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-27T16:00:03Z",
+      "link": "https://finance.yahoo.com/video/why-this-portfolio-manager-says-investors-should-avoid-the-neoclouds-160003179.html"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "PacSun CEO talks brand resurgence, holiday shopping season boom",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-27T15:43:16Z",
+      "link": "https://finance.yahoo.com/video/pacsun-ceo-talks-brand-resurgence-holiday-shopping-season-boom-154316985.html"
+    },
+    {
+      "ticker": "TSLA",
+      "title": "SpaceX, Tesla have had a bumpy 2026 thus far: What to know",
+      "publisher": "Yahoo Finance Video",
+      "published": "2026-11-27T14:58:49Z",
+      "link": "https://finance.yahoo.com/video/spacex-tesla-have-had-a-bumpy-2026-thus-far-what-to-know-145849441.html"
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Zero To Sixty: Tesla Cybercab Fleet Tops 1,000 In Texas, Lucid Starts Fully Driverless Tests And Chinese EV Maker Posts Stronger Margins",
+      "publisher": "Stocktwits",
+      "published": "2026-11-28T00:12:27Z",
+      "link": "https://stocktwits.com/news-articles/markets/equity/zero-to-sixty-tesla-cybercab-fleet-tops-1-000-in-texas-lucid-starts-fully-driverless-tests-and-chinese-ev-maker-posts-stronger-margins/cNRRKv9R9Vl"
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Texas Is Racing to Approve SpaceX\u2019s $24 Billion Starbase Data Center Before Its New Governor Can Halt It",
+      "publisher": "TIKR",
+      "published": "2026-11-27T23:20:02Z",
+      "link": "https://www.tikr.com/blog/texas-is-racing-to-approve-spacexs-24-billion-starbase-data-center-before-its-new-governor-can-halt-it?ref=yahoofinance&tlnk=yf-261127-5cjgmqwx"
     },
     {
       "ticker": "AVGO",
-      "title": "5 Most Oversold Semiconductor Stocks to Buy for 2027",
-      "publisher": "Insider Monkey",
-      "published": "2026-11-26T19:47:38Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/5-most-oversold-semiconductor-stocks-194738573.html"
+      "title": "Plot Twist: Nvidia\u2019s Vera Rubin Gets 2-6.5x GB300\u2019s Tokens per Dollar. Amazon\u2019s Trainium Edge Was Against the Old Chip",
+      "publisher": "TIKR",
+      "published": "2026-11-27T23:23:55Z",
+      "link": "https://www.tikr.com/blog/plot-twist-nvidias-vera-rubin-gets-2-6-5x-gb300s-tokens-per-dollar-amazons-trainium-edge-was-against-the-old-chip?ref=yahoofinance&tlnk=yf-261127-2mxwqf36"
     },
     {
-      "ticker": "XLI",
-      "title": "Is Wall Street Bullish or Bearish on Huntington Ingalls Stock?",
-      "publisher": "Barchart",
-      "published": "2026-11-26T12:13:51Z",
-      "link": "https://www.barchart.com/story/news/9017649/is-wall-street-bullish-or-bearish-on-huntington-ingalls-stock"
+      "ticker": "AVGO",
+      "title": "Jensen Huang Is Back. Nvidia\u2019s (NVDA) Bull Case Remains",
+      "publisher": "TipRanks",
+      "published": "2026-11-27T21:06:00Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-back-nvidia-nvda-210600721.html"
     },
     {
-      "ticker": "XLI",
-      "title": "State Street Industrial Select Sector SPDR (XLI) Adds GE and RTX on Nov. 24",
-      "publisher": "GuruFocus.com",
-      "published": "2026-11-26T11:05:07Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110507358.html"
-    },
-    {
-      "ticker": "XLI",
-      "title": "Do Wall Street Analysts Like EMCOR Stock?",
-      "publisher": "Barchart",
-      "published": "2026-11-26T10:26:43Z",
-      "link": "https://www.barchart.com/story/news/9016461/do-wall-street-analysts-like-emcor-stock"
-    },
-    {
-      "ticker": "HYG",
-      "title": "What\u2019s the Tax Bill on $7,125 a Month in Dividend Income? The Taxable Account vs. Roth IRA Math",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-11-26T17:03:26Z",
-      "link": "https://247wallst.com/personal-finance/2026/11/26/whats-the-tax-bill-on-7125-a-month-in-dividend-income-the-taxable-account-vs-roth-ira-math/"
-    },
-    {
-      "ticker": "HYG",
-      "title": "How to Build $9,450 a Month in Dividend Income Without Selling a Single Share",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-11-19T17:51:54Z",
-      "link": "https://247wallst.com/personal-finance/2026/11/19/how-to-build-9450-a-month-in-dividend-income-without-selling-a-single-share/"
-    },
-    {
-      "ticker": "HYG",
-      "title": "Junk Bonds, Emerging Markets and Foreign Debt: 3 Monthly Checks and the Risk Behind Them",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-11-16T21:07:00Z",
-      "link": "https://247wallst.com/investing/etf/2026/11/16/junk-bonds-emerging-markets-and-foreign-debt-3-monthly-checks-and-the-risk-behind-them/"
-    },
-    {
-      "ticker": "GLD",
-      "title": "Holding GLD For Stock Falls? Gold Missed This One",
-      "publisher": "Trefis",
-      "published": "2026-11-26T11:02:39Z",
-      "link": "https://www.trefis.com/stock/gld/articles/629222/holding-gld-for-stock-falls-gold-missed-this-one/2026-11-26"
-    },
-    {
-      "ticker": "GLD",
-      "title": "Gold Is Having Its Worst November Since at Least 2000",
-      "publisher": "24/7 Wall St.",
-      "published": "2026-11-25T17:42:49Z",
-      "link": "https://247wallst.com/investing/2026/11/25/gold-is-having-its-worst-november-since-at-least-2000/"
-    },
-    {
-      "ticker": "GLD",
-      "title": "Gold Faces a Stunning November Not Seen in Nearly 50 Years",
-      "publisher": "GuruFocus.com",
-      "published": "2026-11-25T15:06:42Z",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-faces-stunning-november-not-150642189.html"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "5 Best Quantum Computing Stocks To Buy for 2027",
-      "publisher": "Insider Monkey",
-      "published": "2026-11-27T03:21:49Z",
-      "link": "https://finance.yahoo.com/technology/articles/5-best-quantum-computing-stocks-032149616.html"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "5 Best Tech Stocks to Buy for 2027 According to Hedge Funds",
-      "publisher": "Insider Monkey",
-      "published": "2026-11-27T03:08:56Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-tech-stocks-buy-030856400.html"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "\u2018How Can TSLA Compete With Waymo?\u2019 Gary Black Questions Tesla\u2019s Robotaxi Strategy, Predicts Waymo Will Lead in Miles and Trips",
-      "publisher": "Benzinga",
-      "published": "2026-11-27T01:30:07Z",
-      "link": "https://finance.yahoo.com/technology/articles/tsla-compete-waymo-gary-black-013007370.html"
-    },
-    {
-      "ticker": "JPM",
-      "title": "Is Standard Chartered (LSE:STAN) Undervalued Following Its J.P. Morgan Conference Appearance?",
+      "ticker": "AVGO",
+      "title": "What Broadcom Stock's Google Chip Order Cut Means For Shareholders",
       "publisher": "Simply Wall St.",
-      "published": "2026-11-26T22:09:08Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/standard-chartered-lse-stan-undervalued-220908677.html"
+      "published": "2026-11-27T20:10:47Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-google-chip-order-201047235.html"
     },
     {
-      "ticker": "JPM",
-      "title": "JPMorgan Sees $450 Billion AI Debt Wave as Credit Risks Mount",
-      "publisher": "GuruFocus.com",
-      "published": "2026-11-26T15:47:41Z",
-      "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450-billion-ai-154741192.html"
+      "ticker": "V",
+      "title": "US Fintech Weekly: Payment Networks Rally Into Black Friday As Wedbush Backs Brokerages",
+      "publisher": "Stocktwits",
+      "published": "2026-11-28T00:01:26Z",
+      "link": "https://stocktwits.com/news-articles/markets/equity/us-fintech-weekly-payment-networks-rally-into-black-friday-as-wedbush-backs-brokerages/cNRRKmjR9Vj"
     },
     {
-      "ticker": "JPM",
-      "title": "Will Bank of America's Swiss Expansion Fuel Further Fee Income Growth?",
-      "publisher": "Zacks",
-      "published": "2026-11-26T14:11:00Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bank-americas-swiss-expansion-fuel-141100657.html"
+      "ticker": "V",
+      "title": "Billionaire Andreas Halvorsen\u2019s Viking Opened an $818 Million Mastercard Stake While Cutting Its Visa Shares 32.6%",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-27T21:59:30Z",
+      "link": "https://247wallst.com/investing/2026/11/27/billionaire-andreas-halvorsens-viking-opened-an-818-million-mastercard-stake-while-cutting-its-visa-shares-32-6/"
+    },
+    {
+      "ticker": "V",
+      "title": "Every Holiday Swipe Pays a Toll\u2014And These 2 Buffett Stocks Own It",
+      "publisher": "Investing.com",
+      "published": "2026-11-27T20:39:08Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/every-holiday-swipe-pays-toll-203908999.html"
+    },
+    {
+      "ticker": "LLY",
+      "title": "Novo Nordisk Stock And Other GLP 1 Leaders Worth Watching Now",
+      "publisher": "Simply Wall St.",
+      "published": "2026-11-28T02:09:16Z",
+      "link": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-stock-other-glp-020916247.html"
+    },
+    {
+      "ticker": "LLY",
+      "title": "Biotech Dealmaker: Sanofi\u2019s $41B Insmed Buyout Anchors Holiday Week As Lilly Continues Buying Spree",
+      "publisher": "Stocktwits",
+      "published": "2026-11-28T00:10:23Z",
+      "link": "https://stocktwits.com/news-articles/markets/equity/stocktwits-biotech-dealmaker-sanofi-s-41-b-insmed-buyout-anchors-holiday-week-as-lilly-continues-buying-spree/cNRRKt6R9Vk"
+    },
+    {
+      "ticker": "LLY",
+      "title": "What Is The Biggest Threat To Eli Lilly Stock?",
+      "publisher": "Trefis",
+      "published": "2026-11-27T19:26:03Z",
+      "link": "https://www.trefis.com/stock/lly/articles/629360/what-is-the-biggest-threat-to-eli-lilly-stock/2026-11-27"
     }
-  ],
-  "intraday_mark": true
+  ]
 }

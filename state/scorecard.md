@@ -1,44 +1,45 @@
-# Scorecard — 2026-11-25
+# Scorecard — 2026-11-27
 
-NAV **$99,523.49** · cash $90,001.24 · drawdown 0.7% · macro +0 (Transitional)
+NAV **$99,764.64** · cash $90,001.24 · drawdown 0.4% · macro +1 (Transitional)
 
 | Ticker | Trend | Mom | Macro | Total | Action |
 |---|---:|---:|---:|---:|---|
-| COST | +2 | +1 | +0 | **+3** | WAIT (do not chase) |
-| AAPL | +2 | +0 | +0 | **+2** | RE-ENTRY (new cycle) |
-| V | +2 | +0 | +0 | **+2** | OBSERVE |
-| LLY | +2 | +0 | +0 | **+2** | RE-ENTRY (new cycle) |
-| XLP | +2 | +0 | +0 | **+2** | RE-ENTRY (new cycle) |
-| LQD | +0 | +2 | +0 | **+2** | RE-ENTRY (new cycle) |
-| TLT | +0 | +2 | +0 | **+2** | OBSERVE |
-| HD | +1 | +0 | +0 | **+1** | OBSERVE |
-| XLV | +2 | -1 | +0 | **+1** | OBSERVE |
-| XLY | +2 | -1 | +0 | **+1** | OBSERVE |
-| XLU | +1 | +0 | +0 | **+1** | OBSERVE |
-| RSP | +1 | -1 | +0 | **+0** | OBSERVE |
-| XLF | +1 | -1 | +0 | **+0** | HOLD / OBSERVE |
-| MSFT | +1 | -2 | +0 | **-1** | OBSERVE |
-| AMZN | +1 | -2 | +0 | **-1** | HOLD / OBSERVE |
-| TSLA | +0 | -1 | +0 | **-1** | OBSERVE |
-| XOM | +0 | -2 | +0 | **-2** | OBSERVE |
-| XLE | +0 | -2 | +0 | **-2** | OBSERVE |
-| GOOGL | -2 | -1 | +0 | **-3** | STAY OUT / AVOID |
-| JPM | -1 | -2 | +0 | **-3** | STAY OUT / AVOID |
-| UNH | -1 | -2 | +0 | **-3** | RE-ENTRY (new cycle) |
-| SPY | -1 | -2 | +0 | **-3** | STAY OUT / AVOID |
-| QQQ | -1 | -2 | +0 | **-3** | STAY OUT / AVOID |
-| IWM | -1 | -2 | +0 | **-3** | STAY OUT / AVOID |
-| XLK | -1 | -2 | +0 | **-3** | STAY OUT / AVOID |
-| NVDA | -2 | -2 | +0 | **-4** | STAY OUT / AVOID |
-| META | -2 | -2 | +0 | **-4** | STAY OUT / AVOID |
-| AVGO | -2 | -2 | +0 | **-4** | STAY OUT / AVOID |
-| XLI | -2 | -2 | +0 | **-4** | STAY OUT / AVOID |
-| HYG | -2 | -2 | +0 | **-4** | STAY OUT / AVOID |
-| GLD | -2 | -2 | +0 | **-4** | TACTICAL REBOUND (counter-trend) |
+| AAPL | +2 | +2 | +1 | **+5** | RE-ENTRY (new cycle) |
+| HD | +1 | +2 | +1 | **+4** | WAIT (do not chase) |
+| COST | +2 | +1 | +1 | **+4** | WAIT (do not chase) |
+| TSLA | +0 | +2 | +1 | **+3** | OBSERVE |
+| V | +2 | +0 | +1 | **+3** | RE-ENTRY (new cycle) |
+| LLY | +2 | +0 | +1 | **+3** | RE-ENTRY (new cycle) |
+| XLP | +2 | +0 | +1 | **+3** | RE-ENTRY (new cycle) |
+| XLY | +2 | +0 | +1 | **+3** | OBSERVE |
+| LQD | +0 | +2 | +1 | **+3** | OBSERVE |
+| RSP | +2 | -1 | +1 | **+2** | OBSERVE |
+| XLF | +2 | -1 | +1 | **+2** | HOLD / OBSERVE |
+| XLV | +2 | -1 | +1 | **+2** | OBSERVE |
+| XLU | +1 | +0 | +1 | **+2** | RE-ENTRY (new cycle) |
+| TLT | +0 | +1 | +1 | **+2** | OBSERVE |
+| AMZN | +1 | -1 | +1 | **+1** | HOLD / OBSERVE |
+| META | -1 | +0 | +1 | **+0** | STAY OUT / AVOID |
+| MSFT | +0 | -2 | +1 | **-1** | OBSERVE |
+| XOM | +0 | -2 | +1 | **-1** | OBSERVE |
+| IWM | +0 | -2 | +1 | **-1** | OBSERVE |
+| XLE | +0 | -2 | +1 | **-1** | OBSERVE |
+| GOOGL | -2 | -1 | +1 | **-2** | STAY OUT / AVOID |
+| JPM | -1 | -2 | +1 | **-2** | STAY OUT / AVOID |
+| UNH | -1 | -2 | +1 | **-2** | RE-ENTRY (new cycle) |
+| SPY | -1 | -2 | +1 | **-2** | STAY OUT / AVOID |
+| QQQ | -1 | -2 | +1 | **-2** | STAY OUT / AVOID |
+| XLK | -1 | -2 | +1 | **-2** | STAY OUT / AVOID |
+| XLI | -1 | -2 | +1 | **-2** | STAY OUT / AVOID |
+| NVDA | -2 | -2 | +1 | **-3** | STAY OUT / AVOID |
+| AVGO | -2 | -2 | +1 | **-3** | STAY OUT / AVOID |
+| HYG | -2 | -2 | +1 | **-3** | STAY OUT / AVOID |
+| GLD | -2 | -2 | +1 | **-3** | TACTICAL REBOUND (counter-trend) |
 
 ## Proposed orders (advisory)
 
-- BUY 22.3912 AAPL — RE-ENTRY (new cycle) (score +2)
-- BUY 5.7188 LLY — RE-ENTRY (new cycle) (score +2)
-- BUY 86.2609 XLP — RE-ENTRY (new cycle) (score +2)
-- BUY 76.3437 LQD — RE-ENTRY (new cycle) (score +2)
+- BUY 22.2602 AAPL — RE-ENTRY (new cycle) (score +5)
+- BUY 18.5799 V — RE-ENTRY (new cycle) (score +3)
+- BUY 5.732 LLY — RE-ENTRY (new cycle) (score +3)
+- BUY 86.1154 XLP — RE-ENTRY (new cycle) (score +3)
+- BUY 182.5102 XLU — RE-ENTRY (new cycle) (score +2)

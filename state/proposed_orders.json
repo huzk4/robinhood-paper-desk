@@ -2,25 +2,31 @@
   {
     "side": "buy",
     "ticker": "AAPL",
-    "shares": 22.3912,
-    "reason": "RE-ENTRY (new cycle) (score +2)"
+    "shares": 22.2602,
+    "reason": "RE-ENTRY (new cycle) (score +5)"
+  },
+  {
+    "side": "buy",
+    "ticker": "V",
+    "shares": 18.5799,
+    "reason": "RE-ENTRY (new cycle) (score +3)"
   },
   {
     "side": "buy",
     "ticker": "LLY",
-    "shares": 5.7188,
-    "reason": "RE-ENTRY (new cycle) (score +2)"
+    "shares": 5.732,
+    "reason": "RE-ENTRY (new cycle) (score +3)"
   },
   {
     "side": "buy",
     "ticker": "XLP",
-    "shares": 86.2609,
-    "reason": "RE-ENTRY (new cycle) (score +2)"
+    "shares": 86.1154,
+    "reason": "RE-ENTRY (new cycle) (score +3)"
   },
   {
     "side": "buy",
-    "ticker": "LQD",
-    "shares": 76.3437,
+    "ticker": "XLU",
+    "shares": 182.5102,
     "reason": "RE-ENTRY (new cycle) (score +2)"
   }
 ]
